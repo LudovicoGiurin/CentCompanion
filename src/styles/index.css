@@ -7461,16 +7461,6 @@ a.cc-lb-podium__card--link.cc-lb-podium__card--1:focus-visible {
     text-align: center;
   }
 
-  .cc-home .cc-hero h1,
-  .cc-home .cc-home__title {
-    font-size: 28px;
-    margin: 0 auto 16px;
-  }
-
-  .cc-home__title-brand {
-    font-size: clamp(14px, 5.2vw, 22px);
-  }
-
   .cc-home .cc-hero__actions {
     display: flex;
     flex-direction: column;
@@ -9112,7 +9102,7 @@ a.cc-profile-card__stat:hover strong {
   justify-content: center;
   width: 100%;
   margin: 0 auto 20px;
-  font-size: 40px;
+  font-size: clamp(22px, 7vw, 40px);
   line-height: 1.3;
   text-align: center;
 }
@@ -9128,12 +9118,7 @@ a.cc-profile-card__stat:hover strong {
 .cc-home__title-brand {
   color: var(--sc-primary);
   text-shadow: 0 4px 0 var(--sc-primary-lo);
-  white-space: nowrap;
-  font-size: clamp(18px, 3.6vw, 40px);
-}
-
-.cc-home__title-app {
-  white-space: nowrap;
+  font-size: clamp(13px, 3.6vw, 40px);
 }
 
 .cc-home .cc-hero__actions {
@@ -9408,5 +9393,68 @@ html.cc-intro-playing .cc-nav {
 @media (prefers-reduced-motion: reduce) {
   .cc-intro {
     display: none;
+  }
+}
+
+/* Phone containment.
+   The display font is monospaced, so text width scales with character count,
+   and translated copy runs much longer than the English the layout was sized
+   against ("Have a join code?" is 17 characters, "Hai un codice di ingresso?"
+   is 26). Anything that refuses to wrap therefore reaches past the screen
+   edge. This block stays last in the file: several phone rules elsewhere are
+   written at the same specificity as the desktop rules that follow them and
+   lose on source order. */
+
+html {
+  overflow-x: clip;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --sc-text-headline-lg: clamp(18px, 5.6vw, 26px);
+    --sc-text-headline-md: clamp(16px, 4.6vw, 20px);
+  }
+
+  .sc-btn {
+    white-space: normal;
+    max-width: 100%;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+
+  .cc-home__title-brand,
+  .cc-home__title-app {
+    white-space: normal;
+  }
+
+  /* German compounds ("Datenschutzerklärung") have no space to wrap at. */
+  h1,
+  h2,
+  h3,
+  .sc-headline-lg,
+  .sc-headline-md,
+  .cc-h {
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* The header gives the logo min-width: 0, so a wide set of auth buttons
+     squeezes it. The wordmark can go; the mark itself must not be cropped. */
+  .cc-logo__icon {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .cc-logo__text--short {
+    display: none;
+  }
+
+  .cc-nav__actions {
+    gap: 4px;
+  }
+
+  .cc-nav__cta .sc-btn {
+    padding: 7px 6px;
   }
 }
