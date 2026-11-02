@@ -1,0 +1,11 @@
+RESEND_API_KEY=
+EMAIL_FROM=noreply@centcomp.net
+APP_URL=https://centcomp.net
+JWT_SECRET=cent-companion-dev-secret-change-in-prod
+DATABASE_URL=postgresql://user:password@host/db?sslmode=require
+TURNSTILE_SECRET_KEY=
+COMPANION_ACCESS_TOKEN=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+DISCORD_CLIENT_ID=
+DISCORD_CLIENT_SECRET=

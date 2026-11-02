@@ -1,0 +1,205 @@
+﻿{
+    "nav":  {
+                "home":  "Domů",
+                "events":  "Turnaje",
+                "joinEvent":  "Připojit se",
+                "joinShort":  "Připojit",
+                "rules":  "Pravidla",
+                "banlist":  "Banlist",
+                "leaderboard":  "Žebříček",
+                "admin":  "Admin",
+                "organizer":  "Organizátor",
+                "menu":  "Menu",
+                "closeMenu":  "Zavřít menu",
+                "openMenu":  "Otevřít menu",
+                "mainMenu":  "Hlavní menu",
+                "mobile":  "Mobil",
+                "primary":  "Hlavní",
+                "skipToContent":  "Přeskočit na obsah",
+                "logIn":  "Přihlásit",
+                "logOut":  "Odhlásit",
+                "joinCta":  "Připojit",
+                "profile":  "Profil"
+            },
+    "theme":  {
+                  "lightMode":  "Světlý režim",
+                  "darkMode":  "Tmavý režim",
+                  "light":  "Světlý",
+                  "dark":  "Tmavý",
+                  "switchToLight":  "Přepnout na světlý režim",
+                  "switchToDark":  "Přepnout na tmavý režim"
+              },
+    "language":  {
+                     "label":  "Jazyk"
+                 },
+    "brand":  {
+                  "full":  "CENT//COMP",
+                  "short":  "C//C",
+                  "name":  "Cent Companion"
+              },
+    "footer":  {
+                   "copyright":  "© Cent Companion — Neoficiální fanouškovský companion pro Centurion Commander",
+                   "privacy":  "Soukromí",
+                   "terms":  "Podmínky",
+                   "contact":  "Kontakt",
+                   "officialSite":  "Oficiální web"
+               },
+    "actions":  {
+                    "back":  "Zpět",
+                    "next":  "Další",
+                    "cancel":  "Zrušit",
+                    "confirm":  "Potvrdit",
+                    "save":  "Uložit",
+                    "loading":  "Načítání…",
+                    "dismiss":  "Zavřít",
+                    "browseEvents":  "Procházet turnaje"
+                },
+    "breadcrumb":  {
+                       "aria":  "Drobečková navigace"
+                   },
+    "meta":  {
+                 "defaultTitle":  "Cent Companion — Centurion Commander",
+                 "defaultDescription":  "Neoficiální companion pro turnaje Centurion Commander, žebříček a metagame."
+             },
+    "securityCheck":  {
+                          "label":  "Dokončete bezpečnostní kontrolu",
+                          "aria":  "Bezpečnostní kontrola"
+                      },
+    "errors":  {
+                   "generic":  "Požadavek selhal",
+                   "failedToLoad":  "Nepodařilo se načíst"
+               },
+    "privacy":  {
+                    "banner":  {
+                                   "aria":  "Upozornění na soukromí",
+                                   "body":  "Používáme nezbytné místní úložiště pro přihlášení a volitelnou polohu (s vaším souhlasem) pro blízké turnaje. Podrobnosti o právech GDPR najdete v \u003cprivacyLink\u003eZásadách ochrany osobních údajů\u003c/privacyLink\u003e.",
+                                   "accept":  "Rozumím"
+                               },
+                    "consent":  "Souhlasím s \u003ctermsLink\u003ePodmínkami služby\u003c/termsLink\u003e a \u003cprivacyLink\u003eZásadami ochrany osobních údajů\u003c/privacyLink\u003e."
+                },
+    "location":  {
+                     "placeholder":  "Hledat místo turnaje",
+                     "placeholderVenue":  "Hledat obchod, místo nebo adresu",
+                     "searching":  "Hledám…",
+                     "city":  "Město: {{city}}",
+                     "searchingNear":  "Hledám poblíž vás ({{country}})",
+                     "unknownPlace":  "Neznámé místo",
+                     "noMatches":  "Zatím žádné výsledky — zkuste název obchodu + město (např. Mr Magic Savona)."
+                 },
+    "eventType":  {
+                      "casual":  "Casual",
+                      "localLeague":  "Místní liga",
+                      "lv1":  "LV1",
+                      "lv2":  "LV2"
+                  },
+    "eventStatus":  {
+                        "live":  "Živě",
+                        "completed":  "Dokončeno",
+                        "cancelled":  "Zrušeno",
+                        "upcoming":  "Nadcházející"
+                    },
+    "rules":  {
+                  "title":  "Pravidla",
+                  "lastSynced":  "Naposledy synchronizováno {{date}}",
+                  "footer":  "Obsah se denně synchronizuje z kompletních pravidel. Admini mohou spustit manuální sync v panelu Admin.",
+                  "linkLabel":  "kompletní pravidla"
+              },
+    "banlist":  {
+                    "title":  "Banlist",
+                    "footer":  "Obsah se denně synchronizuje z banlistu. Admini mohou spustit manuální sync v panelu Admin.",
+                    "linkLabel":  "banlist"
+                },
+    "leaderboard":  {
+                        "fallbackTitle":  "Italský žebříček 2026",
+                        "yourRank":  "VAŠE POZICE: #{{rank}} — {{points}} PTS",
+                        "officialSheet":  "Oficiální list",
+                        "comingSoon":  "Již brzy",
+                        "pts":  "{{n}} PTS",
+                        "col":  {
+                                    "rank":  "#",
+                                    "player":  "Hráč",
+                                    "total":  "Celkem",
+                                    "achievements":  "Úspěchy"
+                                },
+                        "empty":  "Žádné pořadí není k dispozici.",
+                        "synced":  "Synchronizováno {{date}} · Data z Google Sheets"
+                    },
+    "metagame":  {
+                     "title":  "Snímek metagame",
+                     "empty":  "Data metagame se naplní, jakmile budou zaznamenány výsledky turnajů.",
+                     "tier":  "TIER {{tier}}",
+                     "winRate":  "{{n}}% WR"
+                 },
+    "home":  {
+                 "eyebrow":  "KOMUNITNÍ FORMÁT",
+                 "headline":  {
+                                  "line1":  "Centurion Commander",
+                                  "line2":  "Companion"
+                              },
+                 "cta":  {
+                             "events":  "Nadcházející turnaje",
+                             "leaderboard":  "Žebříček"
+                         },
+                 "hud":  {
+                             "title":  "PLAYER.HUD",
+                             "rankPts":  "mezinárodní RANK PTS",
+                             "eventsPlayed":  "ODEHRANÉ TURNAJE",
+                             "record":  "W {{w}} / L {{l}}",
+                             "guest":  "Přihlas se a uvidíš mezinárodní i národní rank, registrace na turnaje a odesílání decklistů.",
+                             "profile":  "PROFIL"
+                         },
+                 "phone":  {
+                               "you":  "TY",
+                               "pts":  "pts",
+                               "events":  "turnaje",
+                               "guest":  "Přihlas se pro sledování ranku, registraci a decklisty.",
+                               "openProfile":  "Otevřít profil"
+                           },
+                 "section":  {
+                                 "events":  "TURNAJE",
+                                 "news":  "NOVINKY"
+                             },
+                 "upcoming":  {
+                                  "desktop":  "Nadcházející turnaje",
+                                  "phone":  "Nadcházející"
+                              },
+                 "viewAll":  "Zobrazit vše",
+                 "noEvents":  "Zatím žádné naplánované turnaje. Koordinátoři mohou vytvářet turnaje v panelu Organizátora.",
+                 "noEventsShort":  "Zatím žádné naplánované turnaje.",
+                 "details":  "DETAIL",
+                 "open":  "OTEVŘÍT",
+                 "rail":  {
+                              "aria":  "Nadcházející turnaje"
+                          },
+                 "news":  {
+                              "desktop":  "Nejnovější zprávy",
+                              "phone":  "Novinky",
+                              "empty":  "Novinky se zde objeví, až je admini zveřejní.",
+                              "emptyShort":  "Zatím žádné novinky.",
+                              "staff":  "Staff"
+                          }
+             },
+    "organizerProfile":  {
+                             "notFound":  "Organizátor nenalezen",
+                             "notPublic":  "Tento profil není veřejný.",
+                             "localLeague":  "Místní liga: {{city}}",
+                             "events":  "Turnaje",
+                             "noEvents":  "Zatím žádné veřejné turnaje."
+                         },
+    "calendar":  {
+                     "formatPrefix":  "Formát: {{format}}",
+                     "defaultDescription":  "Turnaj Centurion Commander přes Cent Companion"
+                 },
+    "locale":  {
+                   "label":  "Jazyk",
+                   "en":  "English",
+                   "it":  "Italiano",
+                   "es":  "Español",
+                   "fr":  "Français",
+                   "de":  "Deutsch",
+                   "pt":  "Português",
+                   "cs":  "Čeština",
+                   "ja":  "日本語",
+                   "zh":  "中文"
+               }
+}

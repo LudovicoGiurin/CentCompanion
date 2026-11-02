@@ -1,0 +1,526 @@
+﻿{
+  "list": {
+    "title": "イベント",
+    "calendarTitle": "イベントカレンダー",
+    "haveJoinCode": "参加コードがありますか？",
+    "filter": "絞り込み",
+    "sort": "並び替え",
+    "filterAria": "絞り込みと並び替え",
+    "filterAriaShort": "イベントを絞り込み",
+    "filterAriaPanel": "イベントフィルター",
+    "sortAria": "イベントを並び替え",
+    "locationDenied": "位置情報が拒否されました：別のフィルターを選ぶか位置情報を許可してください。",
+    "showingNearest": "最寄りのローカルリーグを表示：{{city}}。",
+    "findingLeague": "現在地から最寄りのローカルリーグを探しています...",
+    "findingLeagueShort": "最寄りのローカルリーグを検索中...",
+    "nearMeDenied": "近くを使うには位置情報が必要です。ブラウザ設定で有効にしてください。",
+    "findingNear": "近くのイベントを検索中...",
+    "withinKm": "あなたから {{km}} km以内。",
+    "count_one": "{{n}} 件のイベント",
+    "count_other": "{{n}} 件のイベント",
+    "empty": "この条件に合うイベントはありません。",
+    "waitingLocation": "位置情報を待っています...",
+    "registered": "{{n}} 人登録",
+    "registeredOf": "{{n}} / {{max}} 人登録",
+    "prev": "前へ",
+    "next": "次へ",
+    "weekdays": "日,月,火,水,木,金,土",
+    "dayEvents_one": "{{date}} - {{n}} 件",
+    "dayEvents_other": "{{date}} - {{n}} 件",
+    "dayLocked": "（ロック）",
+    "noEventsDay": "この日のイベントはありません。",
+    "detailsSignup": "詳細 / 登録",
+    "comingUp": "今後",
+    "sidebarAria": "今後のイベント",
+    "noUpcoming": "現在、今後のイベントはありません。"
+  },
+  "filter": {
+    "all": "すべて",
+    "allShort": "全て",
+    "competitive": "LV1とLV2のみ",
+    "competitiveShort": "LV1/LV2",
+    "league": "マイローカルリーグ",
+    "leagueShort": "リーグ",
+    "casual": "カジュアル",
+    "nearMe": "近く"
+  },
+  "sort": {
+    "soonest": "近い順",
+    "latest": "遠い順",
+    "type": "種別（LV2優先）",
+    "name": "名前 A–Z",
+    "nearest": "距離順"
+  },
+  "join": {
+    "metaTitle": "イベント参加 — Cent Companion",
+    "metaDesc": "イベントコードを入力して大会へ直行。",
+    "eyebrow": "会場で",
+    "title": "イベント参加",
+    "codeLabel": "イベントコード",
+    "codePlaceholder": "ABC123",
+    "submit": "参加する",
+    "lookingUp": "検索中…",
+    "browse": "今後のイベントを見る",
+    "footer": "今後のイベントを見るか、主催者にコードを聞いてください。",
+    "invalidCode": "主催者からの6文字のイベントコードを入力してください。",
+    "notFound": "イベントが見つかりません"
+  },
+  "detail": {
+    "tabs": {
+      "overview": "概要",
+      "info": "情報",
+      "registration": "登録",
+      "yourSpot": "あなたの枠",
+      "signUp": "申し込み",
+      "register": "登録",
+      "tournament": "トーナメント",
+      "live": "ライブ",
+      "manage": "管理",
+      "aria": "イベントセクション"
+    },
+    "loadFailed": "イベントの読み込みに失敗しました",
+    "notFound": {
+      "title": "イベントが見つかりません",
+      "body": "このイベントは削除されたか、リンクが正しくない可能性があります。",
+      "hint": "今後のイベントを見るか、イベントページで店舗名を検索してください。"
+    }
+  },
+  "hero": {
+    "pendingApproval": "承認待ち",
+    "players_one": "{{n}} 人",
+    "players_other": "{{n}} 人",
+    "playersOf": "{{n}} / {{max}} 人",
+    "directions": "行き方",
+    "googleCalendar": "Google Calendar",
+    "downloadIcs": ".icsをダウンロード",
+    "register": "登録",
+    "yourRegistration": "あなたの登録",
+    "livePairings": "ライブペアリング",
+    "results": "結果",
+    "manage": "管理",
+    "share": "共有",
+    "stat": {
+      "players": "プレイヤー",
+      "confirmed": "確定",
+      "format": "フォーマット"
+    },
+    "capacity": "定員"
+  },
+  "overview": {
+    "youreRegistered": "登録済みです",
+    "youreWaitlisted": "待機リストにいます",
+    "guestClaim": "ゲスト予約 — ログインして優先権を取得",
+    "noDeck": "まだデッキ未提出",
+    "editDecklist": "デッキリストを編集",
+    "viewReservation": "予約を見る",
+    "leave": "イベントを退出",
+    "companion": {
+      "title": "Magic Companion で参加",
+      "body": "このイベントは Wizards Companion / EventLink を使用します。Magic Companion アプリにこのコードを入力：",
+      "tease": "このイベントは Wizards Companion / EventLink を使用します。Cent Companion で登録すると Magic Companion 用のイベントコードが表示されます。",
+      "register": "登録してコードを見る"
+    },
+    "about": "このイベントについて",
+    "noDescription": "主催者はまだ説明を追加していません。",
+    "details": "イベント詳細",
+    "moreDetails": "詳細をもっと",
+    "tile": {
+      "date": "日付",
+      "store": "店舗",
+      "location": "場所",
+      "organizer": "主催者",
+      "format": "フォーマット",
+      "closes": "登録締切",
+      "guest": "ゲスト登録",
+      "allowed": "可",
+      "guestHint": "満員時はアカウント保有者が優先"
+    },
+    "reg": {
+      "title": "登録",
+      "confirmed": "確定",
+      "members": "アカウント",
+      "guests": "ゲスト",
+      "waitlisted": "待機",
+      "signUp": "申し込み"
+    },
+    "players": "プレイヤー（{{n}}）",
+    "guestChip": "ゲスト",
+    "viewDeck": "デッキを見る",
+    "more": "+ 他 {{n}} 人",
+    "closed": "このイベントの登録は締め切られました。"
+  },
+  "signup": {
+    "eyebrow": "申し込み中：",
+    "spots_one": "{{n}} 枠",
+    "spots_other": "{{n}} 枠",
+    "spotsOf": "{{n}} / {{max}} 枠",
+    "claimFound": "このイベントで {{name}} のゲスト予約が見つかりました。",
+    "claim": "予約を引き継ぐ",
+    "registerAs": "{{name}} として登録",
+    "registerNow": "今すぐ登録",
+    "registering": "登録中…",
+    "holdRegister": "長押しで登録",
+    "holdContinue": "長押しで続行",
+    "holdDecklistNext": "長押しでアタックをチャージ — 次に必須のデッキリストを追加します。",
+    "holdOptional": "長押しでアタックをチャージして参加。登録後のデッキリストは任意です。",
+    "continueGuest": "ゲストで続行",
+    "createAccount": "アカウント作成",
+    "holdCreate": "長押しでアカウント作成",
+    "holdHint": "ボタンを長押ししてアタックをチャージ。",
+    "priorityHint": "満員時はログイン済みプレイヤーが優先。",
+    "accountRequired": "このイベントにはアカウントが必要です。",
+    "or": "または",
+    "choice": {
+      "priority": "イベントが満員になるとログイン済みプレイヤーが優先されます。"
+    }
+  },
+  "sticky": {
+    "aria": "クイック操作",
+    "pairings": "ペアリング"
+  },
+  "reg": {
+    "decklist": {
+      "title": "デッキリストを追加",
+      "lede": "{{name}} として登録を完了するにはデッキリストが必要です。",
+      "required": "このイベントでは登録にデッキリストが必要です。"
+    },
+    "moxfield": "Moxfield デッキURL",
+    "moxfieldHint": "Moxfield の共有リンクを貼り付け（moxfield.com/decks/…）",
+    "moxfieldPlaceholder": "https://www.moxfield.com/decks/...",
+    "deckName": "デッキ名",
+    "paste": "またはデッキリストを貼付",
+    "pasteShort": "デッキリスト貼付",
+    "pasteHint": "Commanders / Deck セクション、または数量＋カード名の行",
+    "complete": "登録を完了",
+    "guest": {
+      "title": "ゲスト予約",
+      "ledeRequired": "名前とデッキリスト必須。満員時はログイン済みが優先。",
+      "ledeOptional": "名前のみ — デッキリスト任意。満員時はログイン済みが優先。",
+      "optionalDeck": "デッキリストを追加（任意）",
+      "reserve": "枠を予約",
+      "saving": "保存中…"
+    },
+    "details": "イベント詳細",
+    "hideDetails": "詳細を隠す",
+    "viewMoxfield": "Moxfield でデッキを見る",
+    "logInToClaim": "ログインして引き継ぐ",
+    "updateDeckOptional": "デッキリストを追加・更新（任意）",
+    "saveDecklist": "デッキリストを保存",
+    "deckClosed": "登録済みです。イベント開始後はデッキリスト変更不可。",
+    "oneTap": "ワンタップ — デッキリストは任意。",
+    "addDeckFirst": "先にデッキリストを追加（任意）",
+    "withDeck": "デッキ付きで登録",
+    "phoneHint": "ログインまたはゲストで続行してこのイベントに申し込む。",
+    "backToSignup": "申し込みに戻る",
+    "signUpTitle": "申し込み"
+  },
+  "waitlist": {
+    "position": "待機リストで #{{pos}} です。",
+    "emailNote": "待機リストにいます。枠が空いたらメールします（アカウントのメール確認後）。"
+  },
+  "errors": {
+    "deckRequired": "デッキリストが必要です — Moxfield リンクを追加するかリストを貼り付けてください",
+    "moxfieldInvalid": "有効な Moxfield デッキURLである必要があります（moxfield.com）"
+  },
+  "toasts": {
+    "left": "イベントを退出しました。",
+    "leaveFailed": "イベントを退出できませんでした",
+    "deckUpdated": "デッキリストを更新しました！",
+    "registered": "登録完了！",
+    "guestSaved": "ゲスト予約を保存しました！",
+    "claimed": "予約を引き継ぎました！",
+    "claimFailed": "予約を引き継げませんでした",
+    "updated": "イベントを更新しました。",
+    "updateFailed": "イベントの更新に失敗しました",
+    "linkCopied": "イベント埋め込みリンクをコピーしました！",
+    "codeCopied": "イベントコードをコピーしました！",
+    "resultRecorded": "結果を記録しました。",
+    "resultFailed": "結果の更新に失敗しました",
+    "playerDropped": "プレイヤーをドロップしました。",
+    "pairingsSaved": "ペアリングを保存しました。",
+    "pairingsFailed": "ペアリングの保存に失敗しました",
+    "timerFailed": "タイマーの更新に失敗しました",
+    "cancelled": "イベントを中止しました。",
+    "started": "大会開始 — ラウンド1のペアリング準備完了。",
+    "swissTopCut": "Swiss 完了 — top cut 開始！",
+    "completedBang": "大会終了！",
+    "completed": "大会終了。",
+    "actionFailed": "操作に失敗しました",
+    "moxfieldUpdated": "Moxfield リンクを更新しました",
+    "linkedPlayers_one": "{{n}} 人のプレイヤーをリンク",
+    "linkedPlayers_other": "{{n}} 人のプレイヤーをリンク",
+    "regenerated": "ペアリングを再生成しました。",
+    "regenFailed": "再生成に失敗しました",
+    "staffAdded": "スタッフを追加しました",
+    "exportFailed": "エクスポートに失敗しました",
+    "registrationFailed": "登録に失敗しました",
+    "failed": "失敗"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "イベントを中止しますか？",
+      "body": "取り消せません。登録済みプレイヤーはこのイベントを見えなくなります。",
+      "label": "イベント中止"
+    },
+    "start": {
+      "title": "大会を開始しますか？",
+      "body": "登録を締め切り、ラウンド1のペアリングを生成します。",
+      "label": "大会開始"
+    },
+    "endRound": {
+      "title": "ラウンド {{n}} を終了しますか？",
+      "body": "ラウンド {{next}} のペアリングが自動生成されます。",
+      "label": "ラウンド終了"
+    },
+    "complete": {
+      "title": "大会を完了しますか？",
+      "body": "最終順位が確定します。イベントを終了としてマークします。",
+      "label": "完了"
+    },
+    "leave": {
+      "title": "このイベントを退出しますか？",
+      "label": "イベント退出",
+      "body": "登録はキャンセルされます。",
+      "bodyWaitlist": "登録はキャンセルされます。満員の場合、次の待機者が枠を取る場合があります。"
+    }
+  },
+  "live": {
+    "banner": "開催中",
+    "table": "卓 {{n}}",
+    "vs": "vs {{name}}",
+    "viewPairings": "ペアリングを見る",
+    "yourTableRound": "あなたの卓 · ラウンド {{n}}",
+    "roundN": "ラウンド {{n}}"
+  },
+  "manage": {
+    "joinCode": {
+      "title": "Cent Companion コード",
+      "body": "プレイヤーは centcomp.net/join を開き、会場でこのコードを入力できます。",
+      "copy": "コードをコピー",
+      "aria": "イベント参加コード"
+    },
+    "start": {
+      "title": "大会開始",
+      "ready_one": "ペアリング可能なアカウント保有者 {{n}} 人",
+      "ready_other": "ペアリング可能なアカウント保有者 {{n}} 人",
+      "guests_one": "· ゲスト予約 {{n}}（ペアリングにはアカウント引き継ぎが必要）",
+      "guests_other": "· ゲスト予約 {{n}}（ペアリングにはアカウント引き継ぎが必要）",
+      "needOne": "登録済みアカウント保有者が少なくとも1人必要です。"
+    },
+    "edit": {
+      "title": "イベント編集",
+      "eventTitle": "タイトル",
+      "store": "店舗名",
+      "location": "大会会場",
+      "starts": "開始日時",
+      "description": "説明",
+      "allowGuest": "ゲスト予約を許可（アカウント不要）",
+      "opsMode": "運営モード",
+      "native": "ネイティブペアリング",
+      "companion": "Companion 連携",
+      "companionCode": "WotC Companion イベントコード",
+      "structure": "構成",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "シングルエリミネーション",
+      "swissRounds": "Swiss ラウンド数（空欄＝自動）",
+      "topCut": "Top cut",
+      "lateEnroll": "Swiss 中の途中参加を許可",
+      "requireDeck": "デッキリスト必須",
+      "save": "変更を保存"
+    },
+    "staff": {
+      "title": "スタッフ",
+      "login": "ユーザー名またはメール",
+      "role": "役割",
+      "coOrganizer": "共同主催",
+      "judge": "ジャッジ",
+      "scorekeeper": "スコアキーパー",
+      "add": "スタッフ追加",
+      "remove": "削除"
+    },
+    "exportDecklists": "CSVエクスポート",
+    "danger": "危険ゾーン"
+  },
+  "companion": {
+    "pull": {
+      "title": "MTG Companion の結果を取得",
+      "body": "この Companion イベントを見られる Wizards アカウントでサインイン。認証情報は順位取得に一度だけ使い、保存しません。",
+      "code": "Companion イベントコード",
+      "codePh": "例：EZJE84",
+      "email": "Wizards メール",
+      "password": "Wizards パスワード",
+      "markDone": "インポート後にイベントを完了にする",
+      "submit": "結果を取得",
+      "repull": "結果を再取得",
+      "pulling": "取得中…",
+      "failed": "取得に失敗しました",
+      "summary": "{{n}} 人取得 · {{m}} マッチ · {{u}} 未マッチ"
+    },
+    "results": {
+      "title": "Companion 結果",
+      "emptyOrg": "まだ順位を取得していません。Companion 大会終了後、管理 → MTG Companion の結果を取得を使ってください。",
+      "emptyPlayer": "まだ順位がありません。大会終了後に主催者が公開します。",
+      "final": "最終順位",
+      "imported": "MTG Companion からインポート",
+      "export": "CSVエクスポート",
+      "remap": "プレイヤーを再マップ",
+      "unmatched": "未マッチの登録",
+      "edit": "編集",
+      "remapTitle": "Companion プレイヤーを再マップ",
+      "remapBody": "各 Companion 順位を Cent Companion 登録にリンク。Companion チーム id で保存され、今後の取得でもマッピングを維持します。",
+      "unmatchedOpt": "— 未マッチ —",
+      "saveLinks": "リンクを保存",
+      "dupLink": "各登録は1回しかリンクできません。",
+      "saveFailed": "リンクの保存に失敗しました",
+      "saveGenericFailed": "保存に失敗しました",
+      "guestSuffix": "ゲスト",
+      "linkedSuffix": "リンク済み",
+      "team": "チーム {{id}}",
+      "moxfieldFallback": "Moxfield"
+    }
+  },
+  "organizer": {
+    "denied": "コーディネーター権限が必要です。",
+    "apply": "設定で申請",
+    "chip": "主催",
+    "hub": {
+      "title": "イベント主催ハブ"
+    },
+    "stats": {
+      "total": "イベント合計",
+      "upcoming": "今後",
+      "live": "開催中"
+    },
+    "statsShort": {
+      "total": "合計",
+      "upcoming": "今後",
+      "live": "ライブ"
+    },
+    "statsAria": "イベント件数",
+    "totalChip": "合計 {{n}}",
+    "tabs": {
+      "events": "自分のイベント",
+      "eventsShort": "イベント",
+      "create": "イベント作成",
+      "createShort": "作成",
+      "help": "ヘルプ",
+      "aria": "主催セクション"
+    },
+    "empty": "最初のイベントを作成して始めましょう。",
+    "openEvent": "イベントを開く",
+    "liveTournament": "ライブ大会",
+    "pending": "承認待ち",
+    "pendingBadge": "承認待ち",
+    "loadFailed": "イベントの読み込みに失敗しました",
+    "wizard": {
+      "builder": "イベントビルダー",
+      "step": "ステップ {{n}} / 4",
+      "steps": {
+        "type": "種別",
+        "schedule": "日程",
+        "details": "詳細",
+        "done": "完了"
+      }
+    },
+    "type": {
+      "question": "どんなイベントですか？",
+      "casual": {
+        "label": "カジュアル",
+        "desc": "店舗の気軽なイベント。即公開。"
+      },
+      "league": {
+        "label": "ローカルリーグ",
+        "desc": "週次または複数日のリーグ。都市は会場から設定。"
+      },
+      "lv1": {
+        "label": "Lv 1",
+        "desc": "競技リージョンイベント。管理者承認が必要。"
+      },
+      "lv2": {
+        "label": "Lv 2",
+        "desc": "大規模競技イベント。管理者承認が必要。"
+      }
+    },
+    "form": {
+      "title": "イベントタイトル",
+      "store": "店舗名",
+      "location": "大会会場",
+      "cityHint": "ローカルリーグの都市はこの場所から自動設定されます。",
+      "scheduleMode": "日程モード",
+      "single": "単一日",
+      "weekly": "毎週繰り返し",
+      "manual": "複数日を選択",
+      "addDates": "日付を追加",
+      "add": "追加",
+      "weeklyPlanner": "週間プランナー",
+      "startingFrom": "開始日",
+      "weekday": "曜日",
+      "weekdays": {
+        "0": "日曜日",
+        "1": "月曜日",
+        "2": "火曜日",
+        "3": "水曜日",
+        "4": "木曜日",
+        "5": "金曜日",
+        "6": "土曜日"
+      },
+      "time": "時刻",
+      "occurrences": "回数",
+      "preview": "プレビュー：",
+      "applyDates": "日付を適用",
+      "planned": "予定日",
+      "description": "説明",
+      "descPh": "賞品、参加費、特別ルール…",
+      "opsMode": "運営モード",
+      "opsNative": "ネイティブ（Cent Companion ペアリング）",
+      "opsCompanion": "Companion 連携（WotC Companion / EventLink）",
+      "companionCode": "WotC Companion イベントコード",
+      "structure": "大会構成",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "シングルエリミネーション",
+      "swissRounds": "Swiss ラウンド数（空欄＝自動）",
+      "swissAuto": "自動",
+      "topCutSize": "Top cut サイズ",
+      "top8": "Top 8",
+      "top4": "Top 4",
+      "top2": "Top 2",
+      "lateEnroll": "Swiss 中の途中参加を許可",
+      "requireDeck": "デッキリスト必須（Moxfield または貼付）",
+      "starts": "開始日時",
+      "review": "確認",
+      "noLocation": "場所なし",
+      "datesCount_one": "{{n}} 日",
+      "datesCount_other": "{{n}} 日",
+      "creating": "作成中…",
+      "create": "イベント作成"
+    },
+    "success": {
+      "title": "イベントを作成しました！",
+      "pending": "イベントは管理者承認待ちです。承認後に「自分のイベント」に表示されます。",
+      "live": "イベントが公開されました。プレイヤーにリンクを共有するか、準備ができたら大会を開始してください。",
+      "view": "イベントを見る",
+      "another": "もう一つ作成"
+    },
+    "help": {
+      "1": "カジュアルイベントは即公開。アカウントの有無にかかわらず登録できます。",
+      "2": "ローカルリーグは週次または複数日に対応。会場を選ぶと都市が自動検出されます。",
+      "3": "Lv1 / Lv2 は公開カレンダー表示前に管理者承認が必要です。",
+      "4": "当日はイベントを開き、「大会開始」で Swiss ペアリングを生成します。",
+      "5": "対戦結果を入力し、全卓終了後に「ラウンド終了」。未完了の結果は次ラウンドをブロックします。",
+      "title": "主催者ガイド",
+      "1Strong": "カジュアルイベント",
+      "2Strong": "ローカルリーグ",
+      "3Strong": "Lv1 / Lv2",
+      "4Strong": "大会開始",
+      "5Strong": "ラウンド終了"
+    },
+    "toasts": {
+      "cityRequired": "都市を判定するため大会会場を選んでください。",
+      "submitted": "イベントを管理者承認に提出しました",
+      "created": "イベントを作成しました！",
+      "createFailed": "イベントの作成に失敗しました"
+    }
+  }
+}

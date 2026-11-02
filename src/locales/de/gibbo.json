@@ -1,0 +1,27 @@
+﻿{
+    "kicker":  "Gibbo sagt",
+    "skip":  "Tour überspringen",
+    "back":  "Zurück",
+    "next":  "Weiter",
+    "done":  "Alles klar!",
+    "welcome":  {
+                    "title":  "Hey, ich bin Gibbo!",
+                    "body":  "Dein Taschennarr für Cent Companion. Ich zeige dir kurz dein Profil — dauert etwa dreißig Sekunden."
+                },
+    "standings":  {
+                      "title":  "Nationale Platzierung",
+                      "body":  "Deine Punkte, Siege, Niederlagen und wie viele Events du auf der nationalen Rangliste gespielt hast."
+                  },
+    "myEvents":  {
+                     "title":  "Deine Events",
+                     "body":  "Turniere, für die du angemeldet bist, leben hier. Wenn eine Runde startet, bekommst du einen Shortcut zu den Pairings."
+                 },
+    "settings":  {
+                     "title":  "Profil \u0026 Stadt",
+                     "body":  "Öffne Einstellungen, um deine lokale Ligastadt festzulegen — wir zeigen nahe Liga-Events im Kalender."
+                 },
+    "finish":  {
+                   "title":  "Du bist startklar!",
+                   "body":  "Durchsuche Events, tritt vor Ort mit einem Code bei und prüfe am Event-Tag den Turnier-Tab. Während der Runden bleibe ich dir aus dem Weg."
+               }
+}

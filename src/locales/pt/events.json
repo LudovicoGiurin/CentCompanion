@@ -1,0 +1,526 @@
+﻿{
+  "list": {
+    "title": "Eventos",
+    "calendarTitle": "Calendário de eventos",
+    "haveJoinCode": "Tem um código de entrada?",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "filterAria": "Filtrar e ordenar",
+    "filterAriaShort": "Filtrar eventos",
+    "filterAriaPanel": "Filtros de eventos",
+    "sortAria": "Ordenar eventos",
+    "locationDenied": "Localização negada: escolha outro filtro ou permita o acesso à localização.",
+    "showingNearest": "Mostrando a liga local mais próxima: {{city}}.",
+    "findingLeague": "Tentando encontrar a liga local mais próxima a partir da sua localização...",
+    "findingLeagueShort": "Procurando a liga local mais próxima...",
+    "nearMeDenied": "É necessário acesso à localização para Perto de mim. Ative nas configurações do navegador.",
+    "findingNear": "Procurando eventos perto de você...",
+    "withinKm": "Dentro de {{km}} km de você.",
+    "count_one": "{{n}} evento",
+    "count_other": "{{n}} eventos",
+    "empty": "Nenhum evento corresponde a este filtro no momento.",
+    "waitingLocation": "Aguardando sua localização...",
+    "registered": "{{n}} inscritos",
+    "registeredOf": "{{n}} / {{max}} inscritos",
+    "prev": "Ant",
+    "next": "Próx",
+    "weekdays": "Dom,Seg,Ter,Qua,Qui,Sex,Sáb",
+    "dayEvents_one": "{{date}} - {{n}} evento",
+    "dayEvents_other": "{{date}} - {{n}} eventos",
+    "dayLocked": "(bloqueado)",
+    "noEventsDay": "Nenhum evento neste dia.",
+    "detailsSignup": "Detalhes / Inscrição",
+    "comingUp": "Em breve",
+    "sidebarAria": "Próximos eventos",
+    "noUpcoming": "Nenhum evento próximo no momento."
+  },
+  "filter": {
+    "all": "Tudo",
+    "allShort": "Todos",
+    "competitive": "Somente LV1 e LV2",
+    "competitiveShort": "LV1/LV2",
+    "league": "Minha liga local",
+    "leagueShort": "Liga",
+    "casual": "Casual",
+    "nearMe": "Perto de mim"
+  },
+  "sort": {
+    "soonest": "Mais próximos",
+    "latest": "Mais distantes",
+    "type": "Tipo (LV2 primeiro)",
+    "name": "Nome A–Z",
+    "nearest": "Mais perto"
+  },
+  "join": {
+    "metaTitle": "Entrar no evento — Cent Companion",
+    "metaDesc": "Digite um código de evento para ir direto ao torneio.",
+    "eyebrow": "No local",
+    "title": "Entrar no evento",
+    "codeLabel": "Código do evento",
+    "codePlaceholder": "ABC123",
+    "submit": "Entrar no evento",
+    "lookingUp": "Buscando…",
+    "browse": "Explorar próximos eventos",
+    "footer": "Explore próximos eventos ou peça o código ao organizador.",
+    "invalidCode": "Digite o código de evento de 6 caracteres do seu organizador.",
+    "notFound": "Evento não encontrado"
+  },
+  "detail": {
+    "tabs": {
+      "overview": "Visão geral",
+      "info": "Info",
+      "registration": "Inscrição",
+      "yourSpot": "Sua vaga",
+      "signUp": "Inscrever-se",
+      "register": "Registrar",
+      "tournament": "Torneio",
+      "live": "Ao vivo",
+      "manage": "Gerenciar",
+      "aria": "Seções do evento"
+    },
+    "loadFailed": "Falha ao carregar evento",
+    "notFound": {
+      "title": "Evento não encontrado",
+      "body": "Este evento pode ter sido removido, ou o link pode estar incorreto.",
+      "hint": "Explore todos os próximos eventos ou busque pelo nome da loja na página de eventos."
+    }
+  },
+  "hero": {
+    "pendingApproval": "Aguardando aprovação",
+    "players_one": "{{n}} jogador",
+    "players_other": "{{n}} jogadores",
+    "playersOf": "{{n}} / {{max}} jogadores",
+    "directions": "Como chegar",
+    "googleCalendar": "Google Calendar",
+    "downloadIcs": "Baixar .ics",
+    "register": "Inscrever-se",
+    "yourRegistration": "Sua inscrição",
+    "livePairings": "Emparelhamentos ao vivo",
+    "results": "Resultados",
+    "manage": "Gerenciar",
+    "share": "Compartilhar",
+    "stat": {
+      "players": "Jogadores",
+      "confirmed": "confirmados",
+      "format": "Formato"
+    },
+    "capacity": "Capacidade"
+  },
+  "overview": {
+    "youreRegistered": "Você está inscrito",
+    "youreWaitlisted": "Você está na lista de espera",
+    "guestClaim": "Reserva de convidado — entre para reivindicar prioridade",
+    "noDeck": "Nenhum deck enviado ainda",
+    "editDecklist": "Editar decklist",
+    "viewReservation": "Ver reserva",
+    "leave": "Sair do evento",
+    "companion": {
+      "title": "Entrar no Magic Companion",
+      "body": "Este evento usa Wizards Companion / EventLink. Digite este código no app Magic Companion:",
+      "tease": "Este evento usa Wizards Companion / EventLink. Cadastre-se no Cent Companion para ver o código do evento no app Magic Companion.",
+      "register": "Inscrever-se para ver o código"
+    },
+    "about": "Sobre este evento",
+    "noDescription": "O organizador ainda não adicionou uma descrição.",
+    "details": "Detalhes do evento",
+    "moreDetails": "Mais detalhes",
+    "tile": {
+      "date": "Data",
+      "store": "Loja",
+      "location": "Local",
+      "organizer": "Organizador",
+      "format": "Formato",
+      "closes": "Inscrições encerram",
+      "guest": "Inscrição de convidado",
+      "allowed": "Permitido",
+      "guestHint": "Titulares de conta têm prioridade quando lotado"
+    },
+    "reg": {
+      "title": "Inscrição",
+      "confirmed": "Confirmados",
+      "members": "Com conta",
+      "guests": "Convidados",
+      "waitlisted": "Lista de espera",
+      "signUp": "Inscrever-se"
+    },
+    "players": "Jogadores ({{n}})",
+    "guestChip": "Convidado",
+    "viewDeck": "Ver deck",
+    "more": "+ {{n}} mais",
+    "closed": "As inscrições estão encerradas para este evento."
+  },
+  "signup": {
+    "eyebrow": "Você está se inscrevendo em",
+    "spots_one": "{{n}} vaga",
+    "spots_other": "{{n}} vagas",
+    "spotsOf": "{{n}} / {{max}} vagas",
+    "claimFound": "Encontramos uma reserva de convidado para {{name}} neste evento.",
+    "claim": "Reivindicar reserva",
+    "registerAs": "Inscrever-se como {{name}}",
+    "registerNow": "Inscrever-se agora",
+    "registering": "Inscrevendo…",
+    "holdRegister": "Segure para se inscrever",
+    "holdContinue": "Segure para continuar",
+    "holdDecklistNext": "Segure para carregar o ataque — em seguida você adicionará a decklist obrigatória.",
+    "holdOptional": "Segure para carregar o ataque e entrar. A decklist é opcional após a inscrição.",
+    "continueGuest": "Continuar como convidado",
+    "createAccount": "Criar uma conta",
+    "holdCreate": "Segure para criar conta",
+    "holdHint": "Segure um botão para carregar o ataque.",
+    "priorityHint": "Jogadores logados têm prioridade quando lotado.",
+    "accountRequired": "É necessária uma conta para este evento.",
+    "or": "ou",
+    "choice": {
+      "priority": "Jogadores logados têm prioridade quando o evento enche."
+    }
+  },
+  "sticky": {
+    "aria": "Ações rápidas",
+    "pairings": "Emparelhamentos"
+  },
+  "reg": {
+    "decklist": {
+      "title": "Adicione sua decklist",
+      "lede": "Este evento exige uma decklist para concluir a inscrição como {{name}}.",
+      "required": "Este evento exige uma decklist para se inscrever."
+    },
+    "moxfield": "URL do deck no Moxfield",
+    "moxfieldHint": "Cole o link de compartilhamento do Moxfield (moxfield.com/decks/…)",
+    "moxfieldPlaceholder": "https://www.moxfield.com/decks/...",
+    "deckName": "Nome do deck",
+    "paste": "Ou cole a decklist",
+    "pasteShort": "Colar decklist",
+    "pasteHint": "Seções Commanders / Deck, ou linhas qtd + nome da carta",
+    "complete": "Concluir inscrição",
+    "guest": {
+      "title": "Reserva de convidado",
+      "ledeRequired": "Nome e decklist obrigatórios. Jogadores logados têm prioridade se lotado.",
+      "ledeOptional": "Somente nome — decklist opcional. Jogadores logados têm prioridade se lotado.",
+      "optionalDeck": "Adicionar decklist (opcional)",
+      "reserve": "Reservar vaga",
+      "saving": "Salvando…"
+    },
+    "details": "Detalhes do evento",
+    "hideDetails": "Ocultar detalhes",
+    "viewMoxfield": "Ver deck no Moxfield",
+    "logInToClaim": "Entrar para reivindicar",
+    "updateDeckOptional": "Adicionar ou atualizar decklist (opcional)",
+    "saveDecklist": "Salvar decklist",
+    "deckClosed": "Você está inscrito. Alterações de decklist estão fechadas — o evento começou.",
+    "oneTap": "Um toque — a decklist é opcional.",
+    "addDeckFirst": "Adicionar decklist primeiro (opcional)",
+    "withDeck": "Inscrever-se com deck",
+    "phoneHint": "Use Entrar ou Continuar como convidado para se inscrever neste evento.",
+    "backToSignup": "Voltar à inscrição",
+    "signUpTitle": "Inscrever-se"
+  },
+  "waitlist": {
+    "position": "Você é o #{{pos}} na lista de espera.",
+    "emailNote": "Você está na lista de espera. Enviaremos um e-mail se abrir uma vaga (quando o e-mail da conta estiver verificado)."
+  },
+  "errors": {
+    "deckRequired": "É necessária uma decklist — adicione um link do Moxfield ou cole sua lista",
+    "moxfieldInvalid": "Deve ser uma URL válida de deck do Moxfield (moxfield.com)"
+  },
+  "toasts": {
+    "left": "Você saiu do evento.",
+    "leaveFailed": "Não foi possível sair do evento",
+    "deckUpdated": "Decklist atualizada!",
+    "registered": "Inscrito com sucesso!",
+    "guestSaved": "Reserva de convidado salva!",
+    "claimed": "Reserva reivindicada!",
+    "claimFailed": "Não foi possível reivindicar a reserva",
+    "updated": "Evento atualizado.",
+    "updateFailed": "Falha ao atualizar o evento",
+    "linkCopied": "Link de embed do evento copiado!",
+    "codeCopied": "Código do evento copiado!",
+    "resultRecorded": "Resultado registrado.",
+    "resultFailed": "Falha ao atualizar o resultado",
+    "playerDropped": "Jogador removido.",
+    "pairingsSaved": "Emparelhamentos salvos.",
+    "pairingsFailed": "Falha ao salvar emparelhamentos",
+    "timerFailed": "Falha ao atualizar o cronômetro",
+    "cancelled": "Evento cancelado.",
+    "started": "Torneio iniciado — emparelhamentos da rodada 1 prontos.",
+    "swissTopCut": "Swiss concluído — top cut iniciado!",
+    "completedBang": "Torneio concluído!",
+    "completed": "Torneio concluído.",
+    "actionFailed": "Ação falhou",
+    "moxfieldUpdated": "Link do Moxfield atualizado",
+    "linkedPlayers_one": "{{n}} jogador vinculado",
+    "linkedPlayers_other": "{{n}} jogadores vinculados",
+    "regenerated": "Emparelhamentos regenerados.",
+    "regenFailed": "Falha ao regenerar",
+    "staffAdded": "Staff adicionado",
+    "exportFailed": "Falha na exportação",
+    "registrationFailed": "Falha na inscrição",
+    "failed": "Falhou"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Cancelar evento?",
+      "body": "Isso não pode ser desfeito. Jogadores inscritos não verão mais este evento.",
+      "label": "Cancelar evento"
+    },
+    "start": {
+      "title": "Iniciar torneio?",
+      "body": "As inscrições serão encerradas e os emparelhamentos da rodada 1 serão gerados.",
+      "label": "Iniciar torneio"
+    },
+    "endRound": {
+      "title": "Encerrar rodada {{n}}?",
+      "body": "Os emparelhamentos da rodada {{next}} serão gerados automaticamente.",
+      "label": "Encerrar rodada"
+    },
+    "complete": {
+      "title": "Concluir torneio?",
+      "body": "A classificação final será bloqueada. Isso marca o evento como finalizado.",
+      "label": "Concluir"
+    },
+    "leave": {
+      "title": "Sair deste evento?",
+      "label": "Sair do evento",
+      "body": "Sua inscrição será cancelada.",
+      "bodyWaitlist": "Sua inscrição será cancelada. Se o evento estiver lotado, o próximo da lista de espera pode ocupar sua vaga."
+    }
+  },
+  "live": {
+    "banner": "Ao vivo agora",
+    "table": "Mesa {{n}}",
+    "vs": "vs {{name}}",
+    "viewPairings": "Ver emparelhamentos",
+    "yourTableRound": "Sua mesa · Rodada {{n}}",
+    "roundN": "Rodada {{n}}"
+  },
+  "manage": {
+    "joinCode": {
+      "title": "Código Cent Companion",
+      "body": "Jogadores podem abrir centcomp.net/join e digitar este código no local.",
+      "copy": "Copiar código",
+      "aria": "Código de entrada do evento"
+    },
+    "start": {
+      "title": "Iniciar torneio",
+      "ready_one": "{{n}} titular de conta pronto para emparelhar",
+      "ready_other": "{{n}} titulares de conta prontos para emparelhar",
+      "guests_one": "· {{n}} reserva de convidado (precisa reivindicar conta para emparelhar)",
+      "guests_other": "· {{n}} reservas de convidado (precisam reivindicar conta para emparelhar)",
+      "needOne": "É necessário pelo menos 1 titular de conta inscrito."
+    },
+    "edit": {
+      "title": "Editar evento",
+      "eventTitle": "Título",
+      "store": "Nome da loja",
+      "location": "Local do torneio",
+      "starts": "Data e hora de início",
+      "description": "Descrição",
+      "allowGuest": "Permitir reservas de convidado (sem conta)",
+      "opsMode": "Modo de operação",
+      "native": "Emparelhamentos nativos",
+      "companion": "Vinculado ao Companion",
+      "companionCode": "Código do evento WotC Companion",
+      "structure": "Estrutura",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "Eliminação simples",
+      "swissRounds": "Rodadas Swiss (em branco = auto)",
+      "topCut": "Top cut",
+      "lateEnroll": "Permitir inscrição tardia durante o Swiss",
+      "requireDeck": "Exigir decklist",
+      "save": "Salvar alterações"
+    },
+    "staff": {
+      "title": "Staff",
+      "login": "Nome de usuário ou e-mail",
+      "role": "Função",
+      "coOrganizer": "Coorganizador",
+      "judge": "Juiz",
+      "scorekeeper": "Anotador",
+      "add": "Adicionar staff",
+      "remove": "Remover"
+    },
+    "exportDecklists": "Exportar CSV",
+    "danger": "Zona de perigo"
+  },
+  "companion": {
+    "pull": {
+      "title": "Puxar resultados do MTG Companion",
+      "body": "Entre com a conta Wizards que pode ver este evento Companion. As credenciais são usadas uma vez para buscar a classificação e nunca são armazenadas.",
+      "code": "Código do evento Companion",
+      "codePh": "ex.: EZJE84",
+      "email": "E-mail Wizards",
+      "password": "Senha Wizards",
+      "markDone": "Marcar evento como concluído após importar",
+      "submit": "Puxar resultados",
+      "repull": "Puxar resultados novamente",
+      "pulling": "Puxando…",
+      "failed": "Falha ao puxar",
+      "summary": "Puxados {{n}} jogadores · {{m}} correspondidos · {{u}} sem correspondência"
+    },
+    "results": {
+      "title": "Resultados do Companion",
+      "emptyOrg": "Nenhuma classificação puxada ainda. Use Gerenciar → Puxar resultados do MTG Companion quando o torneio Companion terminar.",
+      "emptyPlayer": "Nenhuma classificação puxada ainda. O organizador publicará quando o torneio terminar.",
+      "final": "Classificação final",
+      "imported": "Importado do MTG Companion",
+      "export": "Exportar CSV",
+      "remap": "Remapear jogadores",
+      "unmatched": "Inscrição sem correspondência",
+      "edit": "Editar",
+      "remapTitle": "Remapear jogadores do Companion",
+      "remapBody": "Vincule cada classificação do Companion a uma inscrição do Cent Companion. Os vínculos são salvos pelo id de equipe do Companion para que puxadas futuras mantenham o mapeamento.",
+      "unmatchedOpt": "— Sem correspondência —",
+      "saveLinks": "Salvar vínculos",
+      "dupLink": "Cada inscrição só pode ser vinculada uma vez.",
+      "saveFailed": "Falha ao salvar vínculos",
+      "saveGenericFailed": "Falha ao salvar",
+      "guestSuffix": "convidado",
+      "linkedSuffix": "vinculado",
+      "team": "equipe {{id}}",
+      "moxfieldFallback": "Moxfield"
+    }
+  },
+  "organizer": {
+    "denied": "Acesso de coordenador necessário.",
+    "apply": "Candidatar-se nas configurações",
+    "chip": "Organizador",
+    "hub": {
+      "title": "Hub do organizador de eventos"
+    },
+    "stats": {
+      "total": "Total de eventos",
+      "upcoming": "Em breve",
+      "live": "Ao vivo agora"
+    },
+    "statsShort": {
+      "total": "Total",
+      "upcoming": "Em breve",
+      "live": "Ao vivo"
+    },
+    "statsAria": "Contagens de eventos",
+    "totalChip": "{{n}} no total",
+    "tabs": {
+      "events": "Meus eventos",
+      "eventsShort": "Eventos",
+      "create": "Criar evento",
+      "createShort": "Criar",
+      "help": "Ajuda",
+      "aria": "Seções do organizador"
+    },
+    "empty": "Crie seu primeiro evento para começar.",
+    "openEvent": "Abrir evento",
+    "liveTournament": "Torneio ao vivo",
+    "pending": "Pendente",
+    "pendingBadge": "PENDENTE",
+    "loadFailed": "Falha ao carregar seus eventos",
+    "wizard": {
+      "builder": "CONSTRUTOR DE EVENTO",
+      "step": "Passo {{n}} / 4",
+      "steps": {
+        "type": "Tipo",
+        "schedule": "Agenda",
+        "details": "Detalhes",
+        "done": "Pronto"
+      }
+    },
+    "type": {
+      "question": "Que tipo de evento?",
+      "casual": {
+        "label": "Casual",
+        "desc": "Evento amigável na loja. Publicado imediatamente."
+      },
+      "league": {
+        "label": "Liga local",
+        "desc": "Liga semanal ou com várias datas. A cidade vem do local."
+      },
+      "lv1": {
+        "label": "Lv 1",
+        "desc": "Evento competitivo regional. Requer aprovação do admin."
+      },
+      "lv2": {
+        "label": "Lv 2",
+        "desc": "Grande evento competitivo. Requer aprovação do admin."
+      }
+    },
+    "form": {
+      "title": "Título do evento",
+      "store": "Nome da loja",
+      "location": "Local do torneio",
+      "cityHint": "A cidade da liga local é definida automaticamente a partir deste local.",
+      "scheduleMode": "Modo de agendamento",
+      "single": "Data única",
+      "weekly": "Semanal recorrente",
+      "manual": "Escolher várias datas",
+      "addDates": "Adicionar datas",
+      "add": "Adicionar",
+      "weeklyPlanner": "Planejador semanal",
+      "startingFrom": "A partir de",
+      "weekday": "Dia da semana",
+      "weekdays": {
+        "0": "Domingo",
+        "1": "Segunda-feira",
+        "2": "Terça-feira",
+        "3": "Quarta-feira",
+        "4": "Quinta-feira",
+        "5": "Sexta-feira",
+        "6": "Sábado"
+      },
+      "time": "Horário",
+      "occurrences": "Ocorrências",
+      "preview": "Prévia:",
+      "applyDates": "Aplicar datas",
+      "planned": "Datas planejadas",
+      "description": "Descrição",
+      "descPh": "Premiação, taxa de inscrição, regras especiais…",
+      "opsMode": "Modo de operação",
+      "opsNative": "Nativo (emparelhamentos Cent Companion)",
+      "opsCompanion": "Vinculado ao Companion (WotC Companion / EventLink)",
+      "companionCode": "Código do evento WotC Companion",
+      "structure": "Estrutura do torneio",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "Eliminação simples",
+      "swissRounds": "Rodadas Swiss (em branco = auto)",
+      "swissAuto": "Auto",
+      "topCutSize": "Tamanho do top cut",
+      "top8": "Top 8",
+      "top4": "Top 4",
+      "top2": "Top 2",
+      "lateEnroll": "Permitir inscrição tardia durante o Swiss",
+      "requireDeck": "Exigir decklist (Moxfield ou colar)",
+      "starts": "Data e hora de início",
+      "review": "Revisar",
+      "noLocation": "Sem local",
+      "datesCount_one": "{{n}} data",
+      "datesCount_other": "{{n}} datas",
+      "creating": "Criando…",
+      "create": "Criar evento"
+    },
+    "success": {
+      "title": "Evento criado!",
+      "pending": "Seu evento aguarda aprovação do admin. Você o verá em Meus eventos quando for aprovado.",
+      "live": "Seu evento está no ar. Compartilhe o link com os jogadores ou inicie o torneio quando estiver pronto.",
+      "view": "Ver evento",
+      "another": "Criar outro"
+    },
+    "help": {
+      "1": "Eventos casuais são publicados imediatamente. Jogadores podem se inscrever com ou sem conta.",
+      "2": "A liga local admite agendas semanais ou com várias datas. Escolha um local para detectar a cidade automaticamente.",
+      "3": "Lv1 / Lv2 exigem aprovação do admin antes de aparecer no calendário público.",
+      "4": "No dia do evento, abra o evento e use Iniciar torneio para gerar emparelhamentos Swiss.",
+      "5": "Insira os resultados das partidas e depois Encerrar rodada quando todas as mesas terminarem. Resultados pendentes bloqueiam a próxima rodada.",
+      "title": "Guia do organizador",
+      "1Strong": "Eventos casuais",
+      "2Strong": "Liga local",
+      "3Strong": "Lv1 / Lv2",
+      "4Strong": "Iniciar torneio",
+      "5Strong": "Encerrar rodada"
+    },
+    "toasts": {
+      "cityRequired": "Escolha um local do torneio para determinarmos a cidade.",
+      "submitted": "Evento enviado para aprovação do admin",
+      "created": "Evento criado!",
+      "createFailed": "Falha ao criar evento"
+    }
+  }
+}

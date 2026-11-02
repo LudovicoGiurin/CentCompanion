@@ -1,0 +1,23 @@
+{
+  "name": "Cent Companion",
+  "short_name": "CentComp",
+  "description": "Unofficial companion for Centurion Commander tournaments, pairings, and leaderboard.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4e9c8",
+  "theme_color": "#1c1c1c",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

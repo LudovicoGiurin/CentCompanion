@@ -1,0 +1,27 @@
+﻿{
+    "kicker":  "Gibbo dice",
+    "skip":  "Saltar tour",
+    "back":  "Atrás",
+    "next":  "Siguiente",
+    "done":  "¡Entendido!",
+    "welcome":  {
+                    "title":  "¡Hola, soy Gibbo!",
+                    "body":  "Tu bufón de bolsillo para Cent Companion. Te enseño tu perfil — unos treinta segundos."
+                },
+    "standings":  {
+                      "title":  "Clasificación nacional",
+                      "body":  "Tus puntos, victorias, derrotas y cuántos eventos has jugado en la clasificación nacional."
+                  },
+    "myEvents":  {
+                     "title":  "Tus eventos",
+                     "body":  "Aquí están los torneos en los que te has inscrito. Cuando empiece una ronda, tendrás un acceso directo a los pairings."
+                 },
+    "settings":  {
+                     "title":  "Perfil y ciudad",
+                     "body":  "Abre Ajustes para definir tu ciudad de liga local — mostraremos eventos de liga cercanos en el calendario."
+                 },
+    "finish":  {
+                   "title":  "¡Listo!",
+                   "body":  "Explora eventos, únete con un código en la sede y mira la pestaña Torneo el día del evento. Durante las rondas no te molestaré."
+               }
+}

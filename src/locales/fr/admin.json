@@ -1,0 +1,59 @@
+{
+  "denied": "Accès admin requis.",
+  "chip": "Admin",
+  "title": "Centre de commandement",  "stats": {
+    "coordQueue": "File coordinateurs",
+    "eventApprovals": "Approbations d'événements",    "coords": "Coords",
+    "events": "Événements",
+    "aria": "Compteurs de file admin"
+  },
+  "tabs": {
+    "coords": "Coordinateurs",
+    "coordsShort": "Coords",
+    "events": "Approbations d'événements",
+    "eventsShort": "Événements",
+    "sync": "Sync des règles",
+    "syncShort": "Sync",
+    "news": "Actus",
+    "aria": "Sections admin"
+  },
+  "coord": {
+    "requests": "Demandes de coordinateur",
+    "pending_one": "{{n}} en attente",
+    "pending_other": "{{n}} en attente",
+    "pendingZero": "0 en attente",
+    "empty": "Aucune demande en attente.",
+    "contact": "Contact : {{info}}",
+    "approve": "Approuver",
+    "reject": "Refuser",
+    "modalTitle": "Approuver le coordinateur",
+    "storeLabel": "Nom du magasin pour le coordinateur (optionnel)"
+  },
+  "events": {
+    "title": "Approbations d'événements LV1 / LV2",
+    "empty": "Aucune demande d'événement en attente.",
+    "noDesc": "Pas de description",
+    "noDescLong": "Aucune description fournie."
+  },
+  "sync": {
+    "title": "Sync règles et banlist",
+    "titleShort": "Règles et banlist",
+    "lede": "Récupérez les dernières règles officielles et banlist de centurioncommander.eu dans l'app.",
+    "now": "Synchroniser maintenant"
+  },
+  "news": {
+    "title": "Publier une actu",
+    "fieldTitle": "Titre",
+    "fieldContent": "Contenu",
+    "publish": "Publier"
+  },
+  "toasts": {
+    "loadFailed": "Échec du chargement des données admin",
+    "rejected": "Demande refusée",
+    "approved": "Coordinateur approuvé",
+    "synced": "Règles synchronisées",
+    "published": "Publication publiée !",
+    "eventApproved": "Événement approuvé",
+    "eventRejected": "Événement refusé"
+  }
+}

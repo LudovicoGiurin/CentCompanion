@@ -1,0 +1,59 @@
+{
+  "denied": "管理者権限が必要です。",
+  "chip": "管理",
+  "title": "コマンドセンター",  "stats": {
+    "coordQueue": "コーディネーター待ち",
+    "eventApprovals": "イベント承認",    "coords": "調整",
+    "events": "イベント",
+    "aria": "管理キュー件数"
+  },
+  "tabs": {
+    "coords": "コーディネーター",
+    "coordsShort": "調整",
+    "events": "イベント承認",
+    "eventsShort": "イベント",
+    "sync": "ルール同期",
+    "syncShort": "同期",
+    "news": "ニュース",
+    "aria": "管理セクション"
+  },
+  "coord": {
+    "requests": "コーディネーター申請",
+    "pending_one": "保留 {{n}}",
+    "pending_other": "保留 {{n}}",
+    "pendingZero": "保留 0",
+    "empty": "保留中の申請はありません。",
+    "contact": "連絡先: {{info}}",
+    "approve": "承認",
+    "reject": "却下",
+    "modalTitle": "コーディネーターを承認",
+    "storeLabel": "コーディネーターの店舗名（任意）"
+  },
+  "events": {
+    "title": "LV1 / LV2 イベント承認",
+    "empty": "保留中のイベント申請はありません。",
+    "noDesc": "説明なし",
+    "noDescLong": "説明がありません。"
+  },
+  "sync": {
+    "title": "ルール＆禁止リスト同期",
+    "titleShort": "ルール＆禁止",
+    "lede": "centurioncommander.eu から最新の公式ルールと禁止リストを取得します。",
+    "now": "今すぐ同期"
+  },
+  "news": {
+    "title": "ニュース公開",
+    "fieldTitle": "タイトル",
+    "fieldContent": "本文",
+    "publish": "公開"
+  },
+  "toasts": {
+    "loadFailed": "管理データの読み込みに失敗しました",
+    "rejected": "申請を却下しました",
+    "approved": "コーディネーターを承認しました",
+    "synced": "ルールを同期しました",
+    "published": "投稿を公開しました！",
+    "eventApproved": "イベントを承認しました",
+    "eventRejected": "イベントを却下しました"
+  }
+}

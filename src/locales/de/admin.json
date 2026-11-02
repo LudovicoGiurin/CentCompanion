@@ -1,0 +1,59 @@
+{
+  "denied": "Admin-Zugang erforderlich.",
+  "chip": "Admin",
+  "title": "Kommandozentrale",  "stats": {
+    "coordQueue": "Koordinator-Warteschlange",
+    "eventApprovals": "Event-Freigaben",    "coords": "Koords",
+    "events": "Events",
+    "aria": "Admin-Warteschlangen-Zähler"
+  },
+  "tabs": {
+    "coords": "Koordinatoren",
+    "coordsShort": "Koords",
+    "events": "Event-Freigaben",
+    "eventsShort": "Events",
+    "sync": "Regel-Sync",
+    "syncShort": "Sync",
+    "news": "News",
+    "aria": "Admin-Bereiche"
+  },
+  "coord": {
+    "requests": "Koordinator-Anfragen",
+    "pending_one": "{{n}} ausstehend",
+    "pending_other": "{{n}} ausstehend",
+    "pendingZero": "0 ausstehend",
+    "empty": "Keine ausstehenden Anfragen.",
+    "contact": "Kontakt: {{info}}",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "modalTitle": "Koordinator genehmigen",
+    "storeLabel": "Ladenname für den Koordinator (optional)"
+  },
+  "events": {
+    "title": "LV1-/LV2-Event-Freigaben",
+    "empty": "Keine ausstehenden Event-Anfragen.",
+    "noDesc": "Keine Beschreibung",
+    "noDescLong": "Keine Beschreibung angegeben."
+  },
+  "sync": {
+    "title": "Regeln- & Banlist-Sync",
+    "titleShort": "Regeln & Banlist",
+    "lede": "Die neuesten offiziellen Regeln und die Banlist von centurioncommander.eu in die App holen.",
+    "now": "Jetzt synchronisieren"
+  },
+  "news": {
+    "title": "News veröffentlichen",
+    "fieldTitle": "Titel",
+    "fieldContent": "Inhalt",
+    "publish": "Veröffentlichen"
+  },
+  "toasts": {
+    "loadFailed": "Admin-Daten konnten nicht geladen werden",
+    "rejected": "Anfrage abgelehnt",
+    "approved": "Koordinator genehmigt",
+    "synced": "Regeln synchronisiert",
+    "published": "Beitrag veröffentlicht!",
+    "eventApproved": "Event genehmigt",
+    "eventRejected": "Event abgelehnt"
+  }
+}

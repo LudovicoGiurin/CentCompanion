@@ -1,0 +1,205 @@
+﻿{
+    "nav":  {
+                "home":  "首页",
+                "events":  "赛事",
+                "joinEvent":  "加入赛事",
+                "joinShort":  "加入",
+                "rules":  "规则",
+                "banlist":  "禁用表",
+                "leaderboard":  "排行榜",
+                "admin":  "管理",
+                "organizer":  "主办",
+                "menu":  "菜单",
+                "closeMenu":  "关闭菜单",
+                "openMenu":  "打开菜单",
+                "mainMenu":  "主菜单",
+                "mobile":  "移动端",
+                "primary":  "主要",
+                "skipToContent":  "跳到内容",
+                "logIn":  "登录",
+                "logOut":  "退出",
+                "joinCta":  "加入",
+                "profile":  "个人资料"
+            },
+    "theme":  {
+                  "lightMode":  "浅色模式",
+                  "darkMode":  "深色模式",
+                  "light":  "浅色",
+                  "dark":  "深色",
+                  "switchToLight":  "切换到浅色模式",
+                  "switchToDark":  "切换到深色模式"
+              },
+    "language":  {
+                     "label":  "语言"
+                 },
+    "brand":  {
+                  "full":  "CENT//COMP",
+                  "short":  "C//C",
+                  "name":  "Cent Companion"
+              },
+    "footer":  {
+                   "copyright":  "© Cent Companion — Centurion Commander 非官方粉丝 Companion",
+                   "privacy":  "隐私",
+                   "terms":  "条款",
+                   "contact":  "联系",
+                   "officialSite":  "官方网站"
+               },
+    "actions":  {
+                    "back":  "返回",
+                    "next":  "下一步",
+                    "cancel":  "取消",
+                    "confirm":  "确认",
+                    "save":  "保存",
+                    "loading":  "加载中…",
+                    "dismiss":  "关闭",
+                    "browseEvents":  "浏览赛事"
+                },
+    "breadcrumb":  {
+                       "aria":  "面包屑"
+                   },
+    "meta":  {
+                 "defaultTitle":  "Cent Companion — Centurion Commander",
+                 "defaultDescription":  "面向 Centurion Commander 锦标赛、排行榜与元游戏的非官方 Companion。"
+             },
+    "securityCheck":  {
+                          "label":  "请完成安全验证",
+                          "aria":  "安全验证"
+                      },
+    "errors":  {
+                   "generic":  "请求失败",
+                   "failedToLoad":  "加载失败"
+               },
+    "privacy":  {
+                    "banner":  {
+                                   "aria":  "隐私提示",
+                                   "body":  "我们使用必要的本地存储用于登录，以及（经你许可的）可选位置信息用于附近赛事。有关 GDPR 权利，请参阅我们的\u003cprivacyLink\u003e隐私政策\u003c/privacyLink\u003e。",
+                                   "accept":  "知道了"
+                               },
+                    "consent":  "我同意\u003ctermsLink\u003e服务条款\u003c/termsLink\u003e和\u003cprivacyLink\u003e隐私政策\u003c/privacyLink\u003e。"
+                },
+    "location":  {
+                     "placeholder":  "搜索锦标赛地点",
+                     "placeholderVenue":  "搜索店铺、场馆或地址",
+                     "searching":  "搜索中…",
+                     "city":  "城市：{{city}}",
+                     "searchingNear":  "正在搜索你附近（{{country}}）",
+                     "unknownPlace":  "未知地点",
+                     "noMatches":  "暂无匹配 — 试试店铺名 + 城市（例如 Mr Magic Savona）。"
+                 },
+    "eventType":  {
+                      "casual":  "休闲",
+                      "localLeague":  "本地联赛",
+                      "lv1":  "LV1",
+                      "lv2":  "LV2"
+                  },
+    "eventStatus":  {
+                        "live":  "进行中",
+                        "completed":  "已结束",
+                        "cancelled":  "已取消",
+                        "upcoming":  "即将开始"
+                    },
+    "rules":  {
+                  "title":  "规则",
+                  "lastSynced":  "上次同步 {{date}}",
+                  "footer":  "内容每天从综合规则同步。管理员可在管理面板手动同步。",
+                  "linkLabel":  "综合规则"
+              },
+    "banlist":  {
+                    "title":  "禁用表",
+                    "footer":  "内容每天从禁用列表同步。管理员可在管理面板手动同步。",
+                    "linkLabel":  "禁用列表"
+                },
+    "leaderboard":  {
+                        "fallbackTitle":  "意大利排行榜 2026",
+                        "yourRank":  "你的排名：#{{rank}} — {{points}} PTS",
+                        "officialSheet":  "官方表格",
+                        "comingSoon":  "即将推出",
+                        "pts":  "{{n}} PTS",
+                        "col":  {
+                                    "rank":  "#",
+                                    "player":  "选手",
+                                    "total":  "总计",
+                                    "achievements":  "成就"
+                                },
+                        "empty":  "暂无积分榜。",
+                        "synced":  "同步于 {{date}} · 数据来自 Google Sheets"
+                    },
+    "metagame":  {
+                     "title":  "元游戏快照",
+                     "empty":  "随着锦标赛结果录入，元游戏数据将逐步填充。",
+                     "tier":  "TIER {{tier}}",
+                     "winRate":  "{{n}}% WR"
+                 },
+    "home":  {
+                 "eyebrow":  "社区赛制",
+                 "headline":  {
+                                  "line1":  "Centurion Commander",
+                                  "line2":  "Companion"
+                              },
+                 "cta":  {
+                             "events":  "即将开始的赛事",
+                             "leaderboard":  "排行榜"
+                         },
+                 "hud":  {
+                             "title":  "PLAYER.HUD",
+                             "rankPts":  "国际 RANK PTS",
+                             "eventsPlayed":  "已参加赛事",
+                             "record":  "W {{w}} / L {{l}}",
+                             "guest":  "登录以查看国际与国内排名、报名赛事并提交牌表。",
+                             "profile":  "个人资料"
+                         },
+                 "phone":  {
+                               "you":  "你",
+                               "pts":  "pts",
+                               "events":  "赛事",
+                               "guest":  "登录以追踪排名、报名并提交牌表。",
+                               "openProfile":  "打开个人资料"
+                           },
+                 "section":  {
+                                 "events":  "赛事",
+                                 "news":  "新闻"
+                             },
+                 "upcoming":  {
+                                  "desktop":  "即将开始的锦标赛",
+                                  "phone":  "即将"
+                              },
+                 "viewAll":  "查看全部",
+                 "noEvents":  "尚无已安排的赛事。协调员可在主办面板创建。",
+                 "noEventsShort":  "尚无已安排的赛事。",
+                 "details":  "详情",
+                 "open":  "打开",
+                 "rail":  {
+                              "aria":  "即将开始的赛事"
+                          },
+                 "news":  {
+                              "desktop":  "最新动态",
+                              "phone":  "新闻",
+                              "empty":  "管理员发布更新后，新闻将显示在此。",
+                              "emptyShort":  "暂无新闻。",
+                              "staff":  "工作人员"
+                          }
+             },
+    "organizerProfile":  {
+                             "notFound":  "未找到主办方",
+                             "notPublic":  "此资料不公开。",
+                             "localLeague":  "本地联赛：{{city}}",
+                             "events":  "赛事",
+                             "noEvents":  "尚无公开赛事。"
+                         },
+    "calendar":  {
+                     "formatPrefix":  "赛制：{{format}}",
+                     "defaultDescription":  "通过 Cent Companion 的 Centurion Commander 赛事"
+                 },
+    "locale":  {
+                   "label":  "语言",
+                   "en":  "English",
+                   "it":  "Italiano",
+                   "es":  "Español",
+                   "fr":  "Français",
+                   "de":  "Deutsch",
+                   "pt":  "Português",
+                   "cs":  "Čeština",
+                   "ja":  "日本語",
+                   "zh":  "中文"
+               }
+}

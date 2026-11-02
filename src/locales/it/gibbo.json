@@ -1,0 +1,27 @@
+﻿{
+    "kicker":  "Gibbo dice",
+    "skip":  "Salta tour",
+    "back":  "Indietro",
+    "next":  "Avanti",
+    "done":  "Capito!",
+    "welcome":  {
+                    "title":  "Ehi, sono Gibbo!",
+                    "body":  "Il tuo jester tascabile per Cent Companion. Ti faccio fare un giro del profilo — ci vogliono circa trenta secondi."
+                },
+    "standings":  {
+                      "title":  "Classifica nazionale",
+                      "body":  "I tuoi punti, vittorie, sconfitte e quanti eventi hai giocato nella classifica nazionale."
+                  },
+    "myEvents":  {
+                     "title":  "I tuoi eventi",
+                     "body":  "Qui trovi i tornei a cui ti sei iscritto. Quando inizia un round, avrai una scorciatoia ai pairing."
+                 },
+    "settings":  {
+                     "title":  "Profilo e città",
+                     "body":  "Apri Impostazioni per impostare la città della lega locale — mostreremo gli eventi di lega vicini sul calendario."
+                 },
+    "finish":  {
+                   "title":  "Sei a posto!",
+                   "body":  "Sfoglia gli eventi, unisciti con un codice in sede e controlla la tab Torneo il giorno dell\u0027evento. Durante i round resto fuori dai piedi."
+               }
+}

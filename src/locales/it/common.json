@@ -1,0 +1,205 @@
+﻿{
+    "nav":  {
+                "home":  "Home",
+                "events":  "Eventi",
+                "joinEvent":  "Unisciti all\u0027evento",
+                "joinShort":  "Unisciti",
+                "rules":  "Regolamento",
+                "banlist":  "Banlist",
+                "leaderboard":  "Classifica",
+                "admin":  "Admin",
+                "organizer":  "Organizzatore",
+                "menu":  "Menu",
+                "closeMenu":  "Chiudi menu",
+                "openMenu":  "Apri menu",
+                "mainMenu":  "Menu principale",
+                "mobile":  "Mobile",
+                "primary":  "Principale",
+                "skipToContent":  "Vai al contenuto",
+                "logIn":  "Accedi",
+                "logOut":  "Esci",
+                "joinCta":  "Unisciti",
+                "profile":  "Profilo"
+            },
+    "theme":  {
+                  "lightMode":  "Modalità chiara",
+                  "darkMode":  "Modalità scura",
+                  "light":  "Chiaro",
+                  "dark":  "Scuro",
+                  "switchToLight":  "Passa alla modalità chiara",
+                  "switchToDark":  "Passa alla modalità scura"
+              },
+    "language":  {
+                     "label":  "Lingua"
+                 },
+    "brand":  {
+                  "full":  "CENT//COMP",
+                  "short":  "C//C",
+                  "name":  "Cent Companion"
+              },
+    "footer":  {
+                   "copyright":  "© Cent Companion — Companion non ufficiale per Centurion Commander",
+                   "privacy":  "Privacy",
+                   "terms":  "Termini",
+                   "contact":  "Contatti",
+                   "officialSite":  "Sito ufficiale"
+               },
+    "actions":  {
+                    "back":  "Indietro",
+                    "next":  "Avanti",
+                    "cancel":  "Annulla",
+                    "confirm":  "Conferma",
+                    "save":  "Salva",
+                    "loading":  "Caricamento…",
+                    "dismiss":  "Chiudi",
+                    "browseEvents":  "Sfoglia eventi"
+                },
+    "breadcrumb":  {
+                       "aria":  "Breadcrumb"
+                   },
+    "meta":  {
+                 "defaultTitle":  "Cent Companion — Centurion Commander",
+                 "defaultDescription":  "Companion non ufficiale per tornei, classifica e metagame di Centurion Commander."
+             },
+    "securityCheck":  {
+                          "label":  "Completa il controllo di sicurezza",
+                          "aria":  "Controllo di sicurezza"
+                      },
+    "errors":  {
+                   "generic":  "Richiesta non riuscita",
+                   "failedToLoad":  "Caricamento non riuscito"
+               },
+    "privacy":  {
+                    "banner":  {
+                                   "aria":  "Avviso privacy",
+                                   "body":  "Usiamo lo storage locale essenziale per l\u0027accesso e la posizione opzionale (con il tuo permesso) per gli eventi vicini. Consulta la nostra \u003cprivacyLink\u003eInformativa sulla privacy\u003c/privacyLink\u003e per i tuoi diritti GDPR.",
+                                   "accept":  "Ho capito"
+                               },
+                    "consent":  "Accetto i \u003ctermsLink\u003eTermini di servizio\u003c/termsLink\u003e e l\u0027\u003cprivacyLink\u003eInformativa sulla privacy\u003c/privacyLink\u003e."
+                },
+    "location":  {
+                     "placeholder":  "Cerca luogo del torneo",
+                     "placeholderVenue":  "Cerca negozio, sede o indirizzo",
+                     "searching":  "Ricerca…",
+                     "city":  "Città: {{city}}",
+                     "searchingNear":  "Ricerca vicino a te ({{country}})",
+                     "unknownPlace":  "Luogo sconosciuto",
+                     "noMatches":  "Nessun risultato — prova nome negozio + città (es. Mr Magic Savona)."
+                 },
+    "eventType":  {
+                      "casual":  "Casual",
+                      "localLeague":  "Lega locale",
+                      "lv1":  "LV1",
+                      "lv2":  "LV2"
+                  },
+    "eventStatus":  {
+                        "live":  "In corso",
+                        "completed":  "Completato",
+                        "cancelled":  "Annullato",
+                        "upcoming":  "In arrivo"
+                    },
+    "rules":  {
+                  "title":  "Regolamento",
+                  "lastSynced":  "Ultimo sync {{date}}",
+                  "footer":  "Il contenuto si sincronizza ogni giorno dal regolamento completo. Gli admin possono avviare un sync manuale dal pannello Admin.",
+                  "linkLabel":  "regolamento completo"
+              },
+    "banlist":  {
+                    "title":  "Banlist",
+                    "footer":  "Il contenuto si sincronizza ogni giorno dalla ban list. Gli admin possono avviare un sync manuale dal pannello Admin.",
+                    "linkLabel":  "ban list"
+                },
+    "leaderboard":  {
+                        "fallbackTitle":  "Classifica italiana 2026",
+                        "yourRank":  "LA TUA POSIZIONE: #{{rank}} — {{points}} PTS",
+                        "officialSheet":  "Foglio ufficiale",
+                        "comingSoon":  "Prossimamente",
+                        "pts":  "{{n}} PTS",
+                        "col":  {
+                                    "rank":  "#",
+                                    "player":  "Giocatore",
+                                    "total":  "Totale",
+                                    "achievements":  "Achievement"
+                                },
+                        "empty":  "Nessuna classifica disponibile.",
+                        "synced":  "Sync {{date}} · Dati da Google Sheets"
+                    },
+    "metagame":  {
+                     "title":  "Snapshot del metagame",
+                     "empty":  "I dati del metagame si popoleranno man mano che vengono registrati i risultati dei tornei.",
+                     "tier":  "TIER {{tier}}",
+                     "winRate":  "{{n}}% WR"
+                 },
+    "home":  {
+                 "eyebrow":  "FORMATO COMMUNITY",
+                 "headline":  {
+                                  "line1":  "Centurion Commander",
+                                  "line2":  "Companion"
+                              },
+                 "cta":  {
+                             "events":  "Prossimi eventi",
+                             "leaderboard":  "Classifica"
+                         },
+                 "hud":  {
+                             "title":  "PLAYER.HUD",
+                             "rankPts":  "RANK PTS internazionali",
+                             "eventsPlayed":  "EVENTI GIOCATI",
+                             "record":  "W {{w}} / L {{l}}",
+                             "guest":  "Accedi per vedere il tuo rank internazionale e nazionale, iscriverti agli eventi e inviare le decklist.",
+                             "profile":  "PROFILO"
+                         },
+                 "phone":  {
+                               "you":  "TU",
+                               "pts":  "pts",
+                               "events":  "eventi",
+                               "guest":  "Accedi per seguire il rank, iscriverti e inviare le decklist.",
+                               "openProfile":  "Apri profilo"
+                           },
+                 "section":  {
+                                 "events":  "EVENTI",
+                                 "news":  "NEWS"
+                             },
+                 "upcoming":  {
+                                  "desktop":  "Prossimi tornei",
+                                  "phone":  "In arrivo"
+                              },
+                 "viewAll":  "Vedi tutti",
+                 "noEvents":  "Nessun evento in programma. I coordinatori possono creare eventi dal pannello Organizzatore.",
+                 "noEventsShort":  "Nessun evento in programma.",
+                 "details":  "DETTAGLI",
+                 "open":  "APRI",
+                 "rail":  {
+                              "aria":  "Prossimi eventi"
+                          },
+                 "news":  {
+                              "desktop":  "Ultime missive",
+                              "phone":  "News",
+                              "empty":  "I post di news appariranno qui quando gli admin pubblicheranno aggiornamenti.",
+                              "emptyShort":  "Nessuna news per ora.",
+                              "staff":  "Staff"
+                          }
+             },
+    "organizerProfile":  {
+                             "notFound":  "Organizzatore non trovato",
+                             "notPublic":  "Questo profilo non è pubblico.",
+                             "localLeague":  "Lega locale: {{city}}",
+                             "events":  "Eventi",
+                             "noEvents":  "Nessun evento pubblico per ora."
+                         },
+    "calendar":  {
+                     "formatPrefix":  "Formato: {{format}}",
+                     "defaultDescription":  "Evento Centurion Commander tramite Cent Companion"
+                 },
+    "locale":  {
+                   "label":  "Lingua",
+                   "en":  "English",
+                   "it":  "Italiano",
+                   "es":  "Español",
+                   "fr":  "Français",
+                   "de":  "Deutsch",
+                   "pt":  "Português",
+                   "cs":  "Čeština",
+                   "ja":  "日本語",
+                   "zh":  "中文"
+               }
+}

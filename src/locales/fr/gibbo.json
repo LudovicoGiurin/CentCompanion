@@ -1,0 +1,27 @@
+﻿{
+    "kicker":  "Gibbo dit",
+    "skip":  "Passer le tour",
+    "back":  "Retour",
+    "next":  "Suivant",
+    "done":  "Compris !",
+    "welcome":  {
+                    "title":  "Salut, je suis Gibbo !",
+                    "body":  "Votre bouffon de poche pour Cent Companion. Je vous fais faire le tour du profil — environ trente secondes."
+                },
+    "standings":  {
+                      "title":  "Classement national",
+                      "body":  "Vos points, victoires, défaites et le nombre d\u0027événements joués sur le classement national."
+                  },
+    "myEvents":  {
+                     "title":  "Vos événements",
+                     "body":  "Les tournois auxquels vous êtes inscrits vivent ici. Quand une ronde commence, vous aurez un raccourci vers les pairings."
+                 },
+    "settings":  {
+                     "title":  "Profil et ville",
+                     "body":  "Ouvrez Paramètres pour définir votre ville de ligue locale — nous afficherons les événements de ligue proches sur le calendrier."
+                 },
+    "finish":  {
+                   "title":  "Vous êtes prêt !",
+                   "body":  "Parcourez les événements, rejoignez avec un code sur place et consultez l\u0027onglet Tournoi le jour J. Je resterai hors de votre chemin pendant les rondes."
+               }
+}

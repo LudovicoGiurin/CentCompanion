@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Cloudflare
+.wrangler/
+.dev.vars
+!.dev.vars.example
+
+# Env
+.env
+.env.local
+!.env.example
+
+# Editor
+.vscode/
+
+# Spritecraft source pack — the purchased kit. Unused by the build; only the
+# stylesheet it provides (css/system.css) is part of the app.
+plastic-mule-*/
+
+# Internal notes, kept local
+DESIGN.md
+DEPLOY.md
+
+# Stray duplicates of public/ assets
+/favicon-32.png
+/favicon-192.png
+
+# OS
+.DS_Store
+Thumbs.db

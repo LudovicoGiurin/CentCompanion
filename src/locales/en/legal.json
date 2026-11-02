@@ -1,0 +1,118 @@
+{
+  "updated": "Last updated: 4 July 2026",
+  "home": "Home",
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "{{siteName}} ({{siteUrl}}) is an unofficial fan companion for Centurion Commander tournaments. This policy explains how we handle personal data under the EU General Data Protection Regulation (GDPR) and similar laws.",
+    "h": {
+      "controller": "Data controller",
+      "collect": "What we collect",
+      "bases": "Why we use it (legal bases)",
+      "processors": "Processors & transfers",
+      "retention": "Retention",
+      "rights": "Your rights",
+      "children": "Children",
+      "cookies": "Cookies & local storage",
+      "changes": "Changes"
+    },
+    "controller": {
+      "body": "The operator of {{siteName}} is the data controller. For privacy requests contact: {{email}}."
+    },
+    "collect": {
+      "accountLabel": "Account data:",
+      "account": "email, username, password (stored hashed), first and last name, optional store name and local league city.",
+      "eventLabel": "Event data:",
+      "event": "registrations, optional Moxfield deck URLs, tournament pairings and results linked to your account.",
+      "guestLabel": "Guest reservations:",
+      "guest": "first and last name (and optional deck info) without an account.",
+      "coordinatorLabel": "Coordinator applications:",
+      "coordinator": "message and contact details you submit.",
+      "technicalLabel": "Technical data:",
+      "technical": "session token in browser storage; optional approximate location if you allow it (for \"near me\" events); Cloudflare Turnstile anti-abuse signals."
+    },
+    "bases": {
+      "contractLabel": "Contract:",
+      "contract": "to create and manage your account, register you for events, and run tournaments.",
+      "legitimateLabel": "Legitimate interests:",
+      "legitimate": "security (Turnstile), fraud prevention, displaying player lists for events you join, and improving the service.",
+      "consentLabel": "Consent:",
+      "consent": "optional browser location for nearby events; you can decline and still use the site.",
+      "legalLabel": "Legal obligation:",
+      "legal": "where required to comply with law."
+    },
+    "processors": {
+      "intro": "We use trusted providers who process data on our behalf:",
+      "cloudflare": "Cloudflare (hosting, Turnstile) — may process data in the US under appropriate safeguards.",
+      "neon": "Neon (database) — EU/US depending on your project region.",
+      "resend": "Resend (transactional email).",
+      "osm": "OpenStreetMap Nominatim (location search, only when you search or use location features).",
+      "noSell": "We do not sell your personal data. We do not use advertising trackers."
+    },
+    "retention": {
+      "account": "Account data: until you delete your account or ask us to erase it.",
+      "guest": "Guest reservations: until the event completes, then removed or anonymized within 12 months.",
+      "tournament": "Tournament records: after account deletion, names may appear as \"Former Player\" / \"Deleted User\" so past results stay intact.",
+      "verify": "Email verification tokens: 24 hours.",
+      "reset": "Password reset tokens: 1 hour."
+    },
+    "rights": {
+      "intro": "If you are in the EEA/UK, you have the right to:",
+      "access": "Access your data (Settings → Download my data).",
+      "rectify": "Rectify inaccurate data (Settings → Profile).",
+      "erase": "Erase your data (Settings → Delete account).",
+      "restrict": "Restrict or object to certain processing — contact us.",
+      "portability": "Data portability — use the export feature.",
+      "withdraw": "Withdraw consent for optional location — deny browser permission or clear site data.",
+      "complaint": "Lodge a complaint with your local supervisory authority."
+    },
+    "children": {
+      "body": "The service is not directed at children under 16. If you believe a child has provided data, contact us and we will delete it."
+    },
+    "cookies": {
+      "body": "We use browser local storage for login sessions and preferences, and session storage for optional location bias and guest reservation hints. These are described when you first visit. See also our Terms of Service.",
+      "termsLink": "Terms of Service"
+    },
+    "changes": {
+      "body": "We may update this policy. Material changes will be noted on this page with a new \"Last updated\" date."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "By using {{siteName}} at {{siteUrl}}, you agree to these terms. The site is an unofficial fan project and is not affiliated with or endorsed by Centurion Commander or its publishers.",
+    "h": {
+      "accounts": "Accounts",
+      "events": "Events & registrations",
+      "acceptable": "Acceptable use",
+      "disclaimer": "Disclaimer",
+      "privacy": "Privacy",
+      "contact": "Contact"
+    },
+    "accounts": {
+      "accurate": "You must provide accurate information and keep your password secure.",
+      "verify": "You must verify your email before using account features.",
+      "onePerson": "One person per account. Do not impersonate others.",
+      "suspend": "We may suspend accounts that abuse the service or break event rules."
+    },
+    "events": {
+      "organizers": "Organizers are responsible for their events; we provide tooling only.",
+      "names": "Player names may appear on public event pages and pairings.",
+      "guests": "Guest reservations may be waitlisted; account holders receive priority when spots are limited."
+    },
+    "acceptable": {
+      "intro": "You agree not to:",
+      "attack": "Attack, scrape, or overload the service.",
+      "upload": "Upload unlawful, harassing, or misleading content.",
+      "circumvent": "Circumvent security measures (including Turnstile)."
+    },
+    "disclaimer": {
+      "body": "The service is provided \"as is\" without warranties. We are not liable for tournament disputes, lost data beyond reasonable care, or third-party services (Moxfield, stores, etc.)."
+    },
+    "privacy": {
+      "body": "Our Privacy Policy explains how we process personal data and forms part of these terms.",
+      "link": "Privacy Policy"
+    },
+    "contact": {
+      "body": "Questions: {{email}}"
+    }
+  }
+}

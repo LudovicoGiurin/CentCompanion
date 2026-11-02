@@ -1,0 +1,526 @@
+﻿{
+  "list": {
+    "title": "Turnaje",
+    "calendarTitle": "Kalendář turnajů",
+    "haveJoinCode": "Máte vstupní kód?",
+    "filter": "Filtr",
+    "sort": "Řazení",
+    "filterAria": "Filtrovat a řadit",
+    "filterAriaShort": "Filtrovat turnaje",
+    "filterAriaPanel": "Filtry turnajů",
+    "sortAria": "Řadit turnaje",
+    "locationDenied": "Poloha odepřena: zvolte jiný filtr nebo povolte přístup k poloze.",
+    "showingNearest": "Zobrazuji nejbližší místní ligu: {{city}}.",
+    "findingLeague": "Hledám nejbližší místní ligu podle vaší polohy...",
+    "findingLeagueShort": "Hledám nejbližší místní ligu...",
+    "nearMeDenied": "Pro Blízko mě je nutný přístup k poloze. Povolte jej v nastavení prohlížeče.",
+    "findingNear": "Hledám turnaje poblíž vás...",
+    "withinKm": "Do {{km}} km od vás.",
+    "count_one": "{{n}} turnaj",
+    "count_other": "{{n}} turnajů",
+    "empty": "Tento filtr teď neodpovídá žádnému turnaji.",
+    "waitingLocation": "Čekám na vaši polohu...",
+    "registered": "{{n}} přihlášených",
+    "registeredOf": "{{n}} / {{max}} přihlášených",
+    "prev": "Předchozí",
+    "next": "Další",
+    "weekdays": "Ne,Po,Út,St,Čt,Pá,So",
+    "dayEvents_one": "{{date}} - {{n}} turnaj",
+    "dayEvents_other": "{{date}} - {{n}} turnajů",
+    "dayLocked": "(uzamčeno)",
+    "noEventsDay": "Tento den žádné turnaje.",
+    "detailsSignup": "Detail / Přihláška",
+    "comingUp": "Nadcházející",
+    "sidebarAria": "Nadcházející turnaje",
+    "noUpcoming": "Momentálně žádné nadcházející turnaje."
+  },
+  "filter": {
+    "all": "Vše",
+    "allShort": "Vše",
+    "competitive": "Jen LV1 a LV2",
+    "competitiveShort": "LV1/LV2",
+    "league": "Moje místní liga",
+    "leagueShort": "Liga",
+    "casual": "Casual",
+    "nearMe": "Blízko mě"
+  },
+  "sort": {
+    "soonest": "Nejdříve",
+    "latest": "Nejpozději",
+    "type": "Typ (LV2 první)",
+    "name": "Název A–Z",
+    "nearest": "Nejbližší"
+  },
+  "join": {
+    "metaTitle": "Připojit se k turnaji — Cent Companion",
+    "metaDesc": "Zadejte kód turnaje a přejděte rovnou k párování.",
+    "eyebrow": "Na místě",
+    "title": "Připojit se k turnaji",
+    "codeLabel": "Kód turnaje",
+    "codePlaceholder": "ABC123",
+    "submit": "Připojit se",
+    "lookingUp": "Hledám…",
+    "browse": "Procházet nadcházející turnaje",
+    "footer": "Procházejte nadcházející turnaje nebo požádejte organizátora o kód.",
+    "invalidCode": "Zadejte 6místný kód turnaje od organizátora.",
+    "notFound": "Turnaj nenalezen"
+  },
+  "detail": {
+    "tabs": {
+      "overview": "Přehled",
+      "info": "Info",
+      "registration": "Registrace",
+      "yourSpot": "Vaše místo",
+      "signUp": "Přihlásit se",
+      "register": "Registrovat",
+      "tournament": "Turnaj",
+      "live": "Živě",
+      "manage": "Správa",
+      "aria": "Sekce turnaje"
+    },
+    "loadFailed": "Nepodařilo se načíst turnaj",
+    "notFound": {
+      "title": "Turnaj nenalezen",
+      "body": "Tento turnaj mohl být odstraněn, nebo je odkaz nesprávný.",
+      "hint": "Procházejte nadcházející turnaje nebo hledejte podle názvu obchodu na stránce turnajů."
+    }
+  },
+  "hero": {
+    "pendingApproval": "Čeká na schválení",
+    "players_one": "{{n}} hráč",
+    "players_other": "{{n}} hráčů",
+    "playersOf": "{{n}} / {{max}} hráčů",
+    "directions": "Navigace",
+    "googleCalendar": "Google Calendar",
+    "downloadIcs": "Stáhnout .ics",
+    "register": "Registrovat",
+    "yourRegistration": "Vaše registrace",
+    "livePairings": "Živá párování",
+    "results": "Výsledky",
+    "manage": "Správa",
+    "share": "Sdílet",
+    "stat": {
+      "players": "Hráči",
+      "confirmed": "potvrzeno",
+      "format": "Formát"
+    },
+    "capacity": "Kapacita"
+  },
+  "overview": {
+    "youreRegistered": "Jste přihlášeni",
+    "youreWaitlisted": "Jste na čekací listině",
+    "guestClaim": "Hostovská rezervace — přihlaste se a získejte prioritu",
+    "noDeck": "Zatím žádný odeslaný balíček",
+    "editDecklist": "Upravit decklist",
+    "viewReservation": "Zobrazit rezervaci",
+    "leave": "Opustit turnaj",
+    "companion": {
+      "title": "Připojit se v Magic Companion",
+      "body": "Tento turnaj používá Wizards Companion / EventLink. Zadejte tento kód v aplikaci Magic Companion:",
+      "tease": "Tento turnaj používá Wizards Companion / EventLink. Zaregistrujte se na Cent Companion, abyste viděli kód pro Magic Companion.",
+      "register": "Registrovat pro zobrazení kódu"
+    },
+    "about": "O tomto turnaji",
+    "noDescription": "Organizátor zatím nepřidal popis.",
+    "details": "Detaily turnaje",
+    "moreDetails": "Další detaily",
+    "tile": {
+      "date": "Datum",
+      "store": "Obchod",
+      "location": "Místo",
+      "organizer": "Organizátor",
+      "format": "Formát",
+      "closes": "Uzávěrka registrace",
+      "guest": "Hostovská přihláška",
+      "allowed": "Povoleno",
+      "guestHint": "Držitelé účtu mají prioritu při naplnění"
+    },
+    "reg": {
+      "title": "Registrace",
+      "confirmed": "Potvrzeno",
+      "members": "S účtem",
+      "guests": "Hosté",
+      "waitlisted": "Čekací listina",
+      "signUp": "Přihlásit se"
+    },
+    "players": "Hráči ({{n}})",
+    "guestChip": "Host",
+    "viewDeck": "Zobrazit balíček",
+    "more": "+ {{n}} dalších",
+    "closed": "Registrace na tento turnaj je uzavřena."
+  },
+  "signup": {
+    "eyebrow": "Přihlašujete se na",
+    "spots_one": "{{n}} místo",
+    "spots_other": "{{n}} míst",
+    "spotsOf": "{{n}} / {{max}} míst",
+    "claimFound": "Našli jsme hostovskou rezervaci pro {{name}} na tomto turnaji.",
+    "claim": "Převzít rezervaci",
+    "registerAs": "Registrovat jako {{name}}",
+    "registerNow": "Registrovat teď",
+    "registering": "Registruji…",
+    "holdRegister": "Podržte pro registraci",
+    "holdContinue": "Podržte pro pokračování",
+    "holdDecklistNext": "Podržte pro nabití útoku — poté přidáte povinný decklist.",
+    "holdOptional": "Podržte pro nabití útoku a vstup. Decklist je po registraci volitelný.",
+    "continueGuest": "Pokračovat jako host",
+    "createAccount": "Vytvořit účet",
+    "holdCreate": "Podržte pro vytvoření účtu",
+    "holdHint": "Podržte tlačítko pro nabití útoku.",
+    "priorityHint": "Přihlášení hráči mají prioritu při naplnění.",
+    "accountRequired": "Pro tento turnaj je vyžadován účet.",
+    "or": "nebo",
+    "choice": {
+      "priority": "Přihlášení hráči mají prioritu, když se turnaj naplní."
+    }
+  },
+  "sticky": {
+    "aria": "Rychlé akce",
+    "pairings": "Párování"
+  },
+  "reg": {
+    "decklist": {
+      "title": "Přidejte decklist",
+      "lede": "Tento turnaj vyžaduje decklist k dokončení registrace jako {{name}}.",
+      "required": "Tento turnaj vyžaduje decklist k registraci."
+    },
+    "moxfield": "URL balíčku Moxfield",
+    "moxfieldHint": "Vložte sdílený odkaz Moxfield (moxfield.com/decks/…)",
+    "moxfieldPlaceholder": "https://www.moxfield.com/decks/...",
+    "deckName": "Název balíčku",
+    "paste": "Nebo vložte decklist",
+    "pasteShort": "Vložit decklist",
+    "pasteHint": "Sekce Commanders / Deck, nebo řádky počet + název karty",
+    "complete": "Dokončit registraci",
+    "guest": {
+      "title": "Hostovská rezervace",
+      "ledeRequired": "Jméno a decklist povinné. Přihlášení hráči mají prioritu při naplnění.",
+      "ledeOptional": "Jen jméno — decklist volitelný. Přihlášení hráči mají prioritu při naplnění.",
+      "optionalDeck": "Přidat decklist (volitelné)",
+      "reserve": "Rezervovat místo",
+      "saving": "Ukládání…"
+    },
+    "details": "Detaily turnaje",
+    "hideDetails": "Skrýt detaily",
+    "viewMoxfield": "Zobrazit balíček na Moxfield",
+    "logInToClaim": "Přihlásit se a převzít",
+    "updateDeckOptional": "Přidat nebo aktualizovat decklist (volitelné)",
+    "saveDecklist": "Uložit decklist",
+    "deckClosed": "Jste přihlášeni. Změny decklistu jsou uzavřeny — turnaj začal.",
+    "oneTap": "Jedno klepnutí — decklist je volitelný.",
+    "addDeckFirst": "Nejdřív přidat decklist (volitelné)",
+    "withDeck": "Registrovat s balíčkem",
+    "phoneHint": "Pro přihlášení použijte Přihlásit nebo Pokračovat jako host.",
+    "backToSignup": "Zpět k přihlášce",
+    "signUpTitle": "Přihlásit se"
+  },
+  "waitlist": {
+    "position": "Jste #{{pos}} na čekací listině.",
+    "emailNote": "Jste na čekací listině. Pošleme e-mail, až se uvolní místo (po ověření e-mailu účtu)."
+  },
+  "errors": {
+    "deckRequired": "Decklist je povinný — přidejte odkaz Moxfield nebo vložte seznam",
+    "moxfieldInvalid": "Musí být platná URL balíčku Moxfield (moxfield.com)"
+  },
+  "toasts": {
+    "left": "Opustili jste turnaj.",
+    "leaveFailed": "Turnaj se nepodařilo opustit",
+    "deckUpdated": "Decklist aktualizován!",
+    "registered": "Úspěšně registrováno!",
+    "guestSaved": "Hostovská rezervace uložena!",
+    "claimed": "Rezervace převzata!",
+    "claimFailed": "Rezervaci se nepodařilo převzít",
+    "updated": "Turnaj aktualizován.",
+    "updateFailed": "Nepodařilo se aktualizovat turnaj",
+    "linkCopied": "Odkaz pro embed turnaje zkopírován!",
+    "codeCopied": "Kód turnaje zkopírován!",
+    "resultRecorded": "Výsledek zaznamenán.",
+    "resultFailed": "Nepodařilo se aktualizovat výsledek",
+    "playerDropped": "Hráč vyřazen.",
+    "pairingsSaved": "Párování uloženo.",
+    "pairingsFailed": "Nepodařilo se uložit párování",
+    "timerFailed": "Nepodařilo se aktualizovat časovač",
+    "cancelled": "Turnaj zrušen.",
+    "started": "Turnaj zahájen — párování 1. kola je připraveno.",
+    "swissTopCut": "Swiss dokončen — top cut zahájen!",
+    "completedBang": "Turnaj dokončen!",
+    "completed": "Turnaj dokončen.",
+    "actionFailed": "Akce selhala",
+    "moxfieldUpdated": "Odkaz Moxfield aktualizován",
+    "linkedPlayers_one": "Propojeno {{n}} hráčů",
+    "linkedPlayers_other": "Propojeno {{n}} hráčů",
+    "regenerated": "Párování přegenerováno.",
+    "regenFailed": "Nepodařilo se přegenerovat",
+    "staffAdded": "Staff přidán",
+    "exportFailed": "Export selhal",
+    "registrationFailed": "Registrace selhala",
+    "failed": "Selhalo"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Zrušit turnaj?",
+      "body": "Toto nelze vrátit. Přihlášení hráči turnaj už neuvidí.",
+      "label": "Zrušit turnaj"
+    },
+    "start": {
+      "title": "Zahájit turnaj?",
+      "body": "Registrace se uzavře a vygeneruje se párování 1. kola.",
+      "label": "Zahájit turnaj"
+    },
+    "endRound": {
+      "title": "Ukončit kolo {{n}}?",
+      "body": "Párování kola {{next}} se vygeneruje automaticky.",
+      "label": "Ukončit kolo"
+    },
+    "complete": {
+      "title": "Dokončit turnaj?",
+      "body": "Finální pořadí se uzamkne. Turnaj bude označen jako dokončený.",
+      "label": "Dokončit"
+    },
+    "leave": {
+      "title": "Opustit tento turnaj?",
+      "label": "Opustit turnaj",
+      "body": "Vaše registrace bude zrušena.",
+      "bodyWaitlist": "Vaše registrace bude zrušena. Pokud je turnaj plný, další hráč z čekací listiny může převzít místo."
+    }
+  },
+  "live": {
+    "banner": "Právě živě",
+    "table": "Stůl {{n}}",
+    "vs": "vs {{name}}",
+    "viewPairings": "Zobrazit párování",
+    "yourTableRound": "Váš stůl · Kolo {{n}}",
+    "roundN": "Kolo {{n}}"
+  },
+  "manage": {
+    "joinCode": {
+      "title": "Kód Cent Companion",
+      "body": "Hráči mohou otevřít centcomp.net/join a na místě zadat tento kód.",
+      "copy": "Kopírovat kód",
+      "aria": "Vstupní kód turnaje"
+    },
+    "start": {
+      "title": "Zahájit turnaj",
+      "ready_one": "{{n}} držitel účtu připraven k párování",
+      "ready_other": "{{n}} držitelů účtu připraveno k párování",
+      "guests_one": "· {{n}} hostovská rezervace (pro párování musí převzít účet)",
+      "guests_other": "· {{n}} hostovských rezervací (pro párování musí převzít účet)",
+      "needOne": "Je potřeba alespoň 1 registrovaný držitel účtu."
+    },
+    "edit": {
+      "title": "Upravit turnaj",
+      "eventTitle": "Název",
+      "store": "Název obchodu",
+      "location": "Místo turnaje",
+      "starts": "Datum a čas začátku",
+      "description": "Popis",
+      "allowGuest": "Povolit hostovské rezervace (bez účtu)",
+      "opsMode": "Režim provozu",
+      "native": "Nativní párování",
+      "companion": "Propojeno s Companion",
+      "companionCode": "Kód turnaje WotC Companion",
+      "structure": "Struktura",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "Single Elim",
+      "swissRounds": "Swiss kola (prázdné = auto)",
+      "topCut": "Top cut",
+      "lateEnroll": "Povolit pozdní přihlášky během Swiss",
+      "requireDeck": "Vyžadovat decklist",
+      "save": "Uložit změny"
+    },
+    "staff": {
+      "title": "Staff",
+      "login": "Uživatelské jméno nebo e-mail",
+      "role": "Role",
+      "coOrganizer": "Spoluorganizátor",
+      "judge": "Rozhodčí",
+      "scorekeeper": "Zapisovatel",
+      "add": "Přidat staff",
+      "remove": "Odebrat"
+    },
+    "exportDecklists": "Exportovat CSV",
+    "danger": "Nebezpečná zóna"
+  },
+  "companion": {
+    "pull": {
+      "title": "Stáhnout výsledky MTG Companion",
+      "body": "Přihlaste se účtem Wizards, který vidí tento Companion turnaj. Přihlašovací údaje se použijí jednou ke stažení pořadí a nikdy se neukládají.",
+      "code": "Kód turnaje Companion",
+      "codePh": "např. EZJE84",
+      "email": "E-mail Wizards",
+      "password": "Heslo Wizards",
+      "markDone": "Po importu označit turnaj jako dokončený",
+      "submit": "Stáhnout výsledky",
+      "repull": "Stáhnout znovu",
+      "pulling": "Stahuji…",
+      "failed": "Stažení selhalo",
+      "summary": "Staženo {{n}} hráčů · {{m}} spárováno · {{u}} nespárováno"
+    },
+    "results": {
+      "title": "Výsledky Companion",
+      "emptyOrg": "Zatím žádné stažené pořadí. Použijte Správa → Stáhnout výsledky MTG Companion, až Companion turnaj skončí.",
+      "emptyPlayer": "Zatím žádné stažené pořadí. Organizátor je zveřejní po skončení turnaje.",
+      "final": "Finální pořadí",
+      "imported": "Importováno z MTG Companion",
+      "export": "Export CSV",
+      "remap": "Přemapovat hráče",
+      "unmatched": "Nespárovaná registrace",
+      "edit": "Upravit",
+      "remapTitle": "Přemapovat hráče Companion",
+      "remapBody": "Propojte každé pořadí Companion s registrací Cent Companion. Propojení se ukládá podle id týmu Companion, aby budoucí stažení mapování zachovala.",
+      "unmatchedOpt": "— Nespárováno —",
+      "saveLinks": "Uložit propojení",
+      "dupLink": "Každou registraci lze propojit jen jednou.",
+      "saveFailed": "Nepodařilo se uložit propojení",
+      "saveGenericFailed": "Uložení selhalo",
+      "guestSuffix": "host",
+      "linkedSuffix": "propojeno",
+      "team": "tým {{id}}",
+      "moxfieldFallback": "Moxfield"
+    }
+  },
+  "organizer": {
+    "denied": "Vyžadován přístup koordinátora.",
+    "apply": "Žádat v nastavení",
+    "chip": "Organizátor",
+    "hub": {
+      "title": "Hub organizátora turnajů"
+    },
+    "stats": {
+      "total": "Celkem turnajů",
+      "upcoming": "Nadcházející",
+      "live": "Právě živě"
+    },
+    "statsShort": {
+      "total": "Celkem",
+      "upcoming": "Brzy",
+      "live": "Živě"
+    },
+    "statsAria": "Počty turnajů",
+    "totalChip": "{{n}} celkem",
+    "tabs": {
+      "events": "Mé turnaje",
+      "eventsShort": "Turnaje",
+      "create": "Vytvořit turnaj",
+      "createShort": "Vytvořit",
+      "help": "Nápověda",
+      "aria": "Sekce organizátora"
+    },
+    "empty": "Vytvořte první turnaj a začněte.",
+    "openEvent": "Otevřít turnaj",
+    "liveTournament": "Živý turnaj",
+    "pending": "Čeká",
+    "pendingBadge": "ČEKÁ",
+    "loadFailed": "Nepodařilo se načíst vaše turnaje",
+    "wizard": {
+      "builder": "TVŮRCE TURNAJE",
+      "step": "Krok {{n}} / 4",
+      "steps": {
+        "type": "Typ",
+        "schedule": "Termín",
+        "details": "Detaily",
+        "done": "Hotovo"
+      }
+    },
+    "type": {
+      "question": "Jaký typ turnaje?",
+      "casual": {
+        "label": "Casual",
+        "desc": "Přátelský turnaj v obchodě. Publikováno ihned."
+      },
+      "league": {
+        "label": "Místní liga",
+        "desc": "Týdenní nebo vícedatumová liga. Město se nastaví z místa."
+      },
+      "lv1": {
+        "label": "Lv 1",
+        "desc": "Soutěžní regionální turnaj. Vyžaduje schválení adminem."
+      },
+      "lv2": {
+        "label": "Lv 2",
+        "desc": "Velký soutěžní turnaj. Vyžaduje schválení adminem."
+      }
+    },
+    "form": {
+      "title": "Název turnaje",
+      "store": "Název obchodu",
+      "location": "Místo turnaje",
+      "cityHint": "Město místní ligy se nastaví automaticky z tohoto místa.",
+      "scheduleMode": "Režim plánování",
+      "single": "Jedno datum",
+      "weekly": "Opakovaně týdně",
+      "manual": "Vybrat více dat",
+      "addDates": "Přidat data",
+      "add": "Přidat",
+      "weeklyPlanner": "Týdenní plánovač",
+      "startingFrom": "Od",
+      "weekday": "Den v týdnu",
+      "weekdays": {
+        "0": "Neděle",
+        "1": "Pondělí",
+        "2": "Úterý",
+        "3": "Středa",
+        "4": "Čtvrtek",
+        "5": "Pátek",
+        "6": "Sobota"
+      },
+      "time": "Čas",
+      "occurrences": "Výskyty",
+      "preview": "Náhled:",
+      "applyDates": "Použít data",
+      "planned": "Naplánovaná data",
+      "description": "Popis",
+      "descPh": "Ceny, startovné, speciální pravidla…",
+      "opsMode": "Režim provozu",
+      "opsNative": "Nativní (párování Cent Companion)",
+      "opsCompanion": "Propojeno s Companion (WotC Companion / EventLink)",
+      "companionCode": "Kód turnaje WotC Companion",
+      "structure": "Struktura turnaje",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "Single Elimination",
+      "swissRounds": "Swiss kola (prázdné = auto)",
+      "swissAuto": "Auto",
+      "topCutSize": "Velikost top cut",
+      "top8": "Top 8",
+      "top4": "Top 4",
+      "top2": "Top 2",
+      "lateEnroll": "Povolit pozdní přihlášky během Swiss",
+      "requireDeck": "Vyžadovat decklist (Moxfield nebo vložit)",
+      "starts": "Datum a čas začátku",
+      "review": "Kontrola",
+      "noLocation": "Bez místa",
+      "datesCount_one": "{{n}} datum",
+      "datesCount_other": "{{n}} dat",
+      "creating": "Vytvářím…",
+      "create": "Vytvořit turnaj"
+    },
+    "success": {
+      "title": "Turnaj vytvořen!",
+      "pending": "Váš turnaj čeká na schválení adminem. Po schválení ho uvidíte v Mé turnaje.",
+      "live": "Váš turnaj je živý. Sdílejte odkaz s hráči nebo zahajte turnaj, až budete připraveni.",
+      "view": "Zobrazit turnaj",
+      "another": "Vytvořit další"
+    },
+    "help": {
+      "1": "Casual turnaje se publikují ihned. Hráči se mohou registrovat s účtem i bez něj.",
+      "2": "Místní liga podporuje týdenní nebo vícedatumové termíny. Zvolte místo, aby se město detekovalo automaticky.",
+      "3": "Lv1 / Lv2 vyžadují schválení adminem, než se objeví ve veřejném kalendáři.",
+      "4": "V den turnaje otevřete turnaj a použijte Zahájit turnaj pro generování Swiss párování.",
+      "5": "Zadejte výsledky zápasů a pak Ukončit kolo, až jsou všechny stoly hotové. Čekající výsledky blokují další kolo.",
+      "title": "Průvodce organizátora",
+      "1Strong": "Casual turnaje",
+      "2Strong": "Místní liga",
+      "3Strong": "Lv1 / Lv2",
+      "4Strong": "Zahájit turnaj",
+      "5Strong": "Ukončit kolo"
+    },
+    "toasts": {
+      "cityRequired": "Vyberte místo turnaje, abychom určili město.",
+      "submitted": "Turnaj odeslán ke schválení adminem",
+      "created": "Turnaj vytvořen!",
+      "createFailed": "Nepodařilo se vytvořit turnaj"
+    }
+  }
+}

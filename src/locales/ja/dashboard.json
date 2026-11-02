@@ -1,0 +1,155 @@
+﻿{
+    "guest":  {
+                  "title":  "プロフィール",
+                  "create":  "アカウント作成"
+              },
+    "phone":  {
+                  "eyebrow":  "あなたの拠点"
+              },
+    "settings":  {
+                     "link":  "設定",
+                     "title":  "アカウント設定",
+                     "email":  "メール：",
+                     "username":  "ユーザー名：",
+                     "role":  "役割：",
+                     "cityLabel":  "デフォルトのローカルリーグ都市",
+                     "cityNotSet":  "未設定",
+                     "cityPh":  "例：東京",
+                     "profile":  "プロフィール",
+                     "saveProfile":  "プロフィールを保存",
+                     "profileUpdated":  "プロフィールを更新しました。",
+                     "profileFailed":  "設定の更新に失敗しました",
+                     "changePassword":  "パスワード変更",
+                     "currentPassword":  "現在のパスワード",
+                     "newPassword":  "新しいパスワード",
+                     "confirmNew":  "新しいパスワード（確認）",
+                     "updatePassword":  "パスワードを更新",
+                     "saving":  "保存中…",
+                     "passwordMismatch":  "新しいパスワードが一致しません",
+                     "passwordFailed":  "パスワードの更新に失敗しました",
+                     "resetViaEmail":  "パスワードを忘れましたか？メールでリセット",
+                     "help":  "ヘルプ",
+                     "gibboHelp":  "Gibboはプロフィールガイド——順位、イベント、設定を説明する小さな道化師です。",
+                     "meetGibbo":  "Gibboにもう一度会う",
+                     "privacy":  "プライバシーとデータ",
+                     "privacyBody":  "GDPRに基づき、個人データの閲覧・エクスポート・削除ができます。プライバシーポリシーを見るか {{email}} に連絡してください。",
+                     "download":  "自分のデータをダウンロード",
+                     "preparing":  "準備中…",
+                     "exportDone":  "データエクスポートをダウンロードしました。",
+                     "exportFailed":  "エクスポートに失敗しました",
+                     "delete":  {
+                                    "title":  "アカウントを削除",
+                                    "body":  "ログイン、メール、プロフィールを完全に削除します。今後のイベント登録はキャンセルされ、過去の大会記録は \"Former Player\" と表示される場合があります。取り消しできません。",
+                                    "confirmTitle":  "アカウントを削除しますか？",
+                                    "confirmLabel":  "アカウント削除",
+                                    "confirmBody":  "メール、プロフィール、ログイン権限を削除します。大会履歴は汎用の \"Former Player\" 表示になる場合があります。取り消しできません。",
+                                    "password":  "パスワードで確認",
+                                    "failed":  "アカウントを削除できませんでした"
+                                },
+                     "coordinator":  {
+                                         "title":  "コーディネーター申請",
+                                         "lede":  "管理者承認後、コーディネーターは店舗のイベントを作成できます。",
+                                         "why":  "コーディネーターになりたい理由は？",
+                                         "contact":  "連絡先（店舗、電話など）",
+                                         "submit":  "申請を送信",
+                                         "success":  "申請を送信しました！管理者が確認します。",
+                                         "failed":  "送信に失敗しました"
+                                     }
+                 },
+    "liveNow":  "開催中",
+    "pairings":  "ペアリング",
+    "nudge":  {
+                  "city":  "リーグ都市を設定して近くのイベントを表示",
+                  "cityDesktop":  "設定でローカルリーグ都市を指定すると、カレンダーに近くのリーグ大会が表示されます。"
+              },
+    "standing":  {
+                     "title":  "順位",
+                     "national":  "国内順位",
+                     "points":  "ポイント",
+                     "pointsUpper":  "POINTS",
+                     "events":  "イベント",
+                     "fullLb":  "リーダーボード全体"
+                 },
+    "myEvents":  "自分のイベント",
+    "myEventsDesktop":  "登録済みイベント",
+    "browse":  "閲覧",
+    "noRegs":  "まだ登録がありません。イベントを探す",
+    "noRegsDesktop":  "今後の登録はありません。イベントを見る",
+    "running":  "運営中",
+    "runningDesktop":  "運営中のイベント",
+    "hub":  "ハブ",
+    "hubDesktop":  "主催者ハブ",
+    "createOne":  "作成",
+    "noEventsYet":  "まだイベントがありません。",
+    "upcoming":  "今後",
+    "upcomingDesktop":  "今後のイベント",
+    "all":  "すべて",
+    "allDesktop":  "すべてのイベント",
+    "welcome":  "ようこそ、{{name}}",
+    "liveTournament":  "ライブ大会",
+    "manage":  "管理",
+    "profile":  {
+                    "changePhoto":  "プロフィール画像を変更",
+                    "removePhoto":  "デフォルトのアートに戻す",
+                    "avatarUpdated":  "プロフィール画像を更新しました。",
+                    "avatarRemoved":  "デフォルトのアートに戻しました。",
+                    "avatarFailed":  "画像を更新できませんでした",
+                    "frameFailed":  "フレームを変更できませんでした",
+                    "medals":  "メダル",
+                    "medalHint":  "実績を達成してメダルを獲得 — タップするとフレームを装備できます。",
+                    "locked":  "未解除",
+                    "achievements":  {
+                                         "welcome":  {
+                                                         "name":  "ようこそ",
+                                                         "desc":  "Cent Companion に参加する"
+                                                     },
+                                         "contender":  {
+                                                           "name":  "挑戦者",
+                                                           "desc":  "初めてのイベントに登録する"
+                                                       },
+                                         "first_blood":  {
+                                                             "name":  "初勝利",
+                                                             "desc":  "初めてのマッチに勝つ"
+                                                         },
+                                         "veteran":  {
+                                                         "name":  "ベテラン",
+                                                         "desc":  "5つのイベントに登録する"
+                                                     },
+                                         "slayer":  {
+                                                        "name":  "スレイヤー",
+                                                        "desc":  "10マッチに勝利する"
+                                                    }
+                                     },
+                    "memberSince":  "{{date}}から Cent Companion を利用",
+                    "organizerBadge":  "主催者",
+                    "stats":  {
+                                  "points":  "ポイント",
+                                  "wins":  "勝利",
+                                  "losses":  "敗北",
+                                  "draws":  "引き分け",
+                                  "events":  "イベント"
+                              },
+                    "nextEvents":  "今後のイベント",
+                    "noEvents":  "予定されているイベントはまだありません。",
+                    "discover":  "イベントを探す",
+                    "organizing_other":  "{{count}}件のイベントを主催中",
+                    "changeCover":  "カバーを変更",
+                    "removeCover":  "デフォルトのカバーに戻す",
+                    "coverUpdated":  "カバーを更新しました。",
+                    "coverRemoved":  "デフォルトのカバーに戻しました。",
+                    "coverFailed":  "カバーを更新できませんでした",
+                    "crop":  {
+                                 "avatarTitle":  "プロフィール画像を調整",
+                                 "coverTitle":  "カバー写真を調整",
+                                 "zoom":  "ズーム",
+                                 "apply":  "適用",
+                                 "hintAvatar":  "ドラッグで位置を変え、スライダーで拡大。フレームはアバターの見え方を示します。",
+                                 "hintCover":  "ドラッグで位置を変え、スライダーでカバーを拡大します。"
+                             },
+                    "achievementsTitle":  "実績",
+    "publicNotFound": "プロフィールが見つかりません。",
+                    "achievementsEquipHint":  "解除済みのメダルをタップするとアバターにフレームを装備できます。",
+    "achievementsViewHint": "このプロフィールの解除済みメダル。",
+                    "frameEquipped":  "装備中"
+                }
+}

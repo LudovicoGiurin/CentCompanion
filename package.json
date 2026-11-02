@@ -1,0 +1,51 @@
+{
+  "name": "cent-companion",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n vite,wrangler -c blue,green \"npm run dev:vite\" \"npm run dev:wrangler\"",
+    "dev:vite": "vite --strictPort",
+    "dev:wrangler": "wrangler pages dev --compatibility-date=2024-09-23 --compatibility-flags=nodejs_compat --port 8788 --proxy 5173",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler pages deploy dist",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250715.0",
+    "@emnapi/core": "^1.11.2",
+    "@emnapi/runtime": "^1.11.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "concurrently": "^10.0.3",
+    "drizzle-kit": "^1.0.0-beta.22",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1",
+    "wrangler": "^4.26.0"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "@resvg/resvg-wasm": "^2.6.2",
+    "bcryptjs": "^3.0.3",
+    "drizzle-orm": "^1.0.0-beta.22",
+    "framer-motion": "^12.42.2",
+    "hono": "^4.9.0",
+    "i18next": "^26.3.6",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "postgres": "^3.4.7",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-i18next": "^17.0.11",
+    "react-router-dom": "^7.18.1",
+    "resend": "^6.16.0",
+    "satori": "^0.26.0",
+    "zod": "^4.4.3"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "denied": "Admin access required.",
+  "chip": "Admin",
+  "title": "Command center",  "stats": {
+    "coordQueue": "Coordinator queue",
+    "eventApprovals": "Event approvals",    "coords": "Coords",
+    "events": "Events",
+    "aria": "Admin queue counts"
+  },
+  "tabs": {
+    "coords": "Coordinators",
+    "coordsShort": "Coords",
+    "events": "Event approvals",
+    "eventsShort": "Events",
+    "sync": "Rules sync",
+    "syncShort": "Sync",
+    "news": "News",
+    "aria": "Admin sections"
+  },
+  "coord": {
+    "requests": "Coordinator requests",
+    "pending_one": "{{n}} pending",
+    "pending_other": "{{n}} pending",
+    "pendingZero": "0 pending",
+    "empty": "No pending requests.",
+    "contact": "Contact: {{info}}",
+    "approve": "Approve",
+    "reject": "Reject",
+    "modalTitle": "Approve coordinator",
+    "storeLabel": "Store name for coordinator (optional)"
+  },
+  "events": {
+    "title": "LV1 / LV2 event approvals",
+    "empty": "No pending event requests.",
+    "noDesc": "No description",
+    "noDescLong": "No description provided."
+  },
+  "sync": {
+    "title": "Rules & banlist sync",
+    "titleShort": "Rules & banlist",
+    "lede": "Pull the latest official rules and banlist from centurioncommander.eu into the app.",
+    "now": "Sync now"
+  },
+  "news": {
+    "title": "Publish news",
+    "fieldTitle": "Title",
+    "fieldContent": "Content",
+    "publish": "Publish"
+  },
+  "toasts": {
+    "loadFailed": "Failed to load admin data",
+    "rejected": "Request rejected",
+    "approved": "Coordinator approved",
+    "synced": "Rules synced",
+    "published": "Post published!",
+    "eventApproved": "Event approved",
+    "eventRejected": "Event rejected"
+  }
+}

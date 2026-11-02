@@ -1,0 +1,11 @@
+name = "cent-companion"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "dist"
+
+# [[hyperdrive]]
+# binding = "HYPERDRIVE"
+# id = "<your-hyperdrive-id>"
+
+# Cron: configure in Cloudflare dashboard → Pages → cent-companion → Settings → Functions → Cron triggers
+# Schedule: 0 6 * * *  (daily rules/banlist sync via functions/_scheduled.ts)

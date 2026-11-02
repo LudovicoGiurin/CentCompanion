@@ -1,0 +1,156 @@
+﻿{
+    "guest":  {
+                  "title":  "Profil",
+                  "create":  "Créer un compte"
+              },
+    "phone":  {
+                  "eyebrow":  "Votre hub"
+              },
+    "settings":  {
+                     "link":  "Paramètres",
+                     "title":  "Paramètres du compte",
+                     "email":  "Email :",
+                     "username":  "Nom d\u0027utilisateur :",
+                     "role":  "Rôle :",
+                     "cityLabel":  "Ville de ligue locale par défaut",
+                     "cityNotSet":  "Non définie",
+                     "cityPh":  "ex. Paris",
+                     "profile":  "Profil",
+                     "saveProfile":  "Enregistrer le profil",
+                     "profileUpdated":  "Profil mis à jour.",
+                     "profileFailed":  "Échec de la mise à jour des préférences",
+                     "changePassword":  "Changer le mot de passe",
+                     "currentPassword":  "Mot de passe actuel",
+                     "newPassword":  "Nouveau mot de passe",
+                     "confirmNew":  "Confirmer le nouveau mot de passe",
+                     "updatePassword":  "Mettre à jour le mot de passe",
+                     "saving":  "Enregistrement…",
+                     "passwordMismatch":  "Les nouveaux mots de passe ne correspondent pas",
+                     "passwordFailed":  "Échec de la mise à jour du mot de passe",
+                     "resetViaEmail":  "Mot de passe oublié ? Réinitialiser par email",
+                     "help":  "Aide",
+                     "gibboHelp":  "Gibbo est votre guide du profil — un petit bouffon qui explique classements, événements et paramètres.",
+                     "meetGibbo":  "Revoir Gibbo",
+                     "privacy":  "Confidentialité et données",
+                     "privacyBody":  "Sous le GDPR, vous pouvez accéder, exporter ou supprimer vos données personnelles. Consultez notre Politique de confidentialité ou contactez {{email}}.",
+                     "download":  "Télécharger mes données",
+                     "preparing":  "Préparation…",
+                     "exportDone":  "L\u0027export de vos données a été téléchargé.",
+                     "exportFailed":  "Échec de l\u0027export",
+                     "delete":  {
+                                    "title":  "Supprimer mon compte",
+                                    "body":  "Supprime définitivement votre connexion, email et profil. Les inscriptions aux événements à venir sont annulées ; les historiques de tournoi peuvent apparaître comme \"Former Player\". Irréversible.",
+                                    "confirmTitle":  "Supprimer votre compte ?",
+                                    "confirmLabel":  "Supprimer le compte",
+                                    "confirmBody":  "Cela supprime votre email, profil et accès. L\u0027historique des tournois peut afficher le libellé générique \"Former Player\". Irréversible.",
+                                    "password":  "Confirmer avec votre mot de passe",
+                                    "failed":  "Impossible de supprimer le compte"
+                                },
+                     "coordinator":  {
+                                         "title":  "Postuler comme coordinateur",
+                                         "lede":  "Les coordinateurs peuvent créer des événements pour leur magasin après approbation admin.",
+                                         "why":  "Pourquoi voulez-vous devenir coordinateur ?",
+                                         "contact":  "Coordonnées (magasin, téléphone, etc.)",
+                                         "submit":  "Envoyer la candidature",
+                                         "success":  "Candidature envoyée ! Un admin examinera votre demande.",
+                                         "failed":  "Échec de l\u0027envoi"
+                                     }
+                 },
+    "liveNow":  "En direct maintenant",
+    "pairings":  "Pairings",
+    "nudge":  {
+                  "city":  "Définissez votre ville de ligue pour voir les événements proches",
+                  "cityDesktop":  "Définissez votre ville de ligue locale dans les paramètres pour voir les événements de ligue proches sur le calendrier."
+              },
+    "standing":  {
+                     "title":  "Classement",
+                     "national":  "Classement national",
+                     "points":  "points",
+                     "pointsUpper":  "POINTS",
+                     "events":  "événements",
+                     "fullLb":  "Classement complet"
+                 },
+    "myEvents":  "Mes événements",
+    "myEventsDesktop":  "Mes événements inscrits",
+    "browse":  "Parcourir",
+    "noRegs":  "Pas encore d\u0027inscriptions. Trouver un événement",
+    "noRegsDesktop":  "Pas d\u0027inscriptions à venir. Parcourir les événements",
+    "running":  "En gestion",
+    "runningDesktop":  "Événements que je gère",
+    "hub":  "Hub",
+    "hubDesktop":  "Hub organisateur",
+    "createOne":  "En créer un",
+    "noEventsYet":  "Pas encore d\u0027événements.",
+    "upcoming":  "À venir",
+    "upcomingDesktop":  "Événements à venir",
+    "all":  "Tous",
+    "allDesktop":  "Tous les événements",
+    "welcome":  "Bienvenue, {{name}}",
+    "liveTournament":  "Tournoi en direct",
+    "manage":  "Gérer",
+    "profile":  {
+                    "changePhoto":  "Changer la photo de profil",
+                    "removePhoto":  "Restaurer l\u0027illustration par défaut",
+                    "avatarUpdated":  "Photo de profil mise à jour.",
+                    "avatarRemoved":  "Illustration par défaut restaurée.",
+                    "avatarFailed":  "Impossible de mettre à jour l\u0027image",
+                    "frameFailed":  "Impossible de changer le cadre",
+                    "medals":  "Médailles",
+                    "medalHint":  "Débloquez des succès pour gagner des médailles — touchez-en une pour équiper son cadre.",
+                    "locked":  "Verrouillée",
+                    "achievements":  {
+                                         "welcome":  {
+                                                         "name":  "Bienvenue",
+                                                         "desc":  "Rejoignez Cent Companion"
+                                                     },
+                                         "contender":  {
+                                                           "name":  "Prétendant",
+                                                           "desc":  "Inscrivez-vous à votre premier événement"
+                                                       },
+                                         "first_blood":  {
+                                                             "name":  "Premier Sang",
+                                                             "desc":  "Gagnez votre premier match"
+                                                         },
+                                         "veteran":  {
+                                                         "name":  "Vétéran",
+                                                         "desc":  "Inscrivez-vous à 5 événements"
+                                                     },
+                                         "slayer":  {
+                                                        "name":  "Pourfendeur",
+                                                        "desc":  "Gagnez 10 matchs"
+                                                    }
+                                     },
+                    "memberSince":  "Sur Cent Companion depuis {{date}}",
+                    "organizerBadge":  "Organisateur",
+                    "stats":  {
+                                  "points":  "Points",
+                                  "wins":  "Victoires",
+                                  "losses":  "Défaites",
+                                  "draws":  "Nuls",
+                                  "events":  "Événements"
+                              },
+                    "nextEvents":  "Vos prochains événements",
+                    "noEvents":  "Aucun événement au programme.",
+                    "discover":  "Découvrir les événements",
+                    "organizing_one":  "Vous organisez {{count}} événement",
+                    "organizing_other":  "Vous organisez {{count}} événements",
+                    "changeCover":  "Changer la couverture",
+                    "removeCover":  "Restaurer la couverture par défaut",
+                    "coverUpdated":  "Couverture mise à jour.",
+                    "coverRemoved":  "Couverture par défaut restaurée.",
+                    "coverFailed":  "Impossible de mettre à jour la couverture",
+                    "crop":  {
+                                 "avatarTitle":  "Ajuster la photo de profil",
+                                 "coverTitle":  "Ajuster la photo de couverture",
+                                 "zoom":  "Zoom",
+                                 "apply":  "Appliquer",
+                                 "hintAvatar":  "Faites glisser pour repositionner, utilisez le curseur pour zoomer. Le cadre montre le rendu de l\u0027avatar.",
+                                 "hintCover":  "Faites glisser pour repositionner, utilisez le curseur pour zoomer la couverture."
+                             },
+                    "achievementsTitle":  "Succès",
+    "publicNotFound": "Profil introuvable.",
+                    "achievementsEquipHint":  "Touchez une médaille débloquée pour équiper son cadre sur l\u0027avatar.",
+    "achievementsViewHint": "Médailles débloquées sur ce profil.",
+                    "frameEquipped":  "Équipé"
+                }
+}

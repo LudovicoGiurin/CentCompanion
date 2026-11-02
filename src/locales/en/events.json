@@ -1,0 +1,533 @@
+﻿{
+  "list": {
+    "title": "Events",
+    "calendarTitle": "Events calendar",
+    "haveJoinCode": "Have a join code?",
+    "filter": "Filter",
+    "sort": "Sort",
+    "filterAria": "Filter and sort",
+    "filterAriaShort": "Filter events",
+    "filterAriaPanel": "Event filters",
+    "sortAria": "Sort events",
+    "locationDenied": "Location denied: pick another filter or allow location access.",
+    "showingNearest": "Showing nearest local league: {{city}}.",
+    "findingLeague": "Trying to find the nearest local league from your location...",
+    "findingLeagueShort": "Finding the nearest local league...",
+    "nearMeDenied": "Location access is required for Near me. Enable it in your browser settings.",
+    "findingNear": "Finding events near you...",
+    "withinKm": "Within {{km}} km of you.",
+    "count_one": "{{n}} event",
+    "count_other": "{{n}} events",
+    "empty": "No events match this filter right now.",
+    "waitingLocation": "Waiting for your location...",
+    "registered": "{{n}} registered",
+    "registeredOf": "{{n}} / {{max}} registered",
+    "prev": "Prev",
+    "next": "Next",
+    "weekdays": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+    "dayEvents_one": "{{date}} - {{n}} event",
+    "dayEvents_other": "{{date}} - {{n}} events",
+    "dayLocked": "(locked)",
+    "noEventsDay": "No events this day.",
+    "detailsSignup": "Details / Signup",
+    "comingUp": "Coming up",
+    "sidebarAria": "Upcoming events",
+    "noUpcoming": "No upcoming events right now."
+  },
+  "filter": {
+    "all": "Everything",
+    "allShort": "All",
+    "competitive": "Only LV1 and LV2",
+    "competitiveShort": "LV1/LV2",
+    "league": "My local league",
+    "leagueShort": "League",
+    "casual": "Casual",
+    "nearMe": "Near me"
+  },
+  "sort": {
+    "soonest": "Soonest",
+    "latest": "Latest",
+    "type": "Type (LV2 first)",
+    "name": "Name A–Z",
+    "nearest": "Nearest"
+  },
+  "join": {
+    "metaTitle": "Join event — Cent Companion",
+    "metaDesc": "Enter an event code to jump straight to your tournament.",
+    "eyebrow": "At the venue",
+    "title": "Join event",
+    "codeLabel": "Event code",
+    "codePlaceholder": "ABC123",
+    "submit": "Join event",
+    "lookingUp": "Looking up…",
+    "browse": "Browse upcoming events",
+    "footer": "Browse upcoming events or ask your organizer for the code.",
+    "invalidCode": "Enter the 6-character event code from your organizer.",
+    "notFound": "Event not found"
+  },
+  "detail": {
+    "tabs": {
+      "overview": "Overview",
+      "info": "Info",
+      "registration": "Registration",
+      "yourSpot": "Your spot",
+      "signUp": "Sign up",
+      "register": "Register",
+      "tournament": "Tournament",
+      "live": "Live",
+      "manage": "Manage",
+      "aria": "Event sections"
+    },
+    "loadFailed": "Failed to load event",
+    "notFound": {
+      "title": "Event not found",
+      "body": "This event may have been removed, or the link might be incorrect.",
+      "hint": "Browse all upcoming events or search by store name on the events page."
+    }
+  },
+  "hero": {
+    "pendingApproval": "Pending approval",
+    "players_one": "{{n}} players",
+    "players_other": "{{n}} players",
+    "playersOf": "{{n}} / {{max}} players",
+    "directions": "Directions",
+    "googleCalendar": "Google Calendar",
+    "downloadIcs": "Download .ics",
+    "register": "Register",
+    "yourRegistration": "Your registration",
+    "livePairings": "Live pairings",
+    "results": "Results",
+    "manage": "Manage",
+    "share": "Share",
+    "stat": {
+      "players": "Players",
+      "confirmed": "confirmed",
+      "format": "Format"
+    },
+    "capacity": "Capacity"
+  },
+  "overview": {
+    "youreRegistered": "You're registered",
+    "youreWaitlisted": "You're waitlisted",
+    "guestClaim": "Guest reservation — log in to claim priority",
+    "noDeck": "No deck submitted yet",
+    "editDecklist": "Edit decklist",
+    "viewReservation": "View reservation",
+    "leave": "Leave event",
+    "companion": {
+      "title": "Join in Magic Companion",
+      "body": "This event uses Wizards Companion / EventLink. Enter this code in the Magic Companion app:",
+      "tease": "This event uses Wizards Companion / EventLink. Register on Cent Companion to see the event code for the Magic Companion app.",
+      "register": "Register to see code"
+    },
+    "about": "About this event",
+    "noDescription": "The organizer hasn't added a description yet.",
+    "details": "Event details",
+    "moreDetails": "More details",
+    "tile": {
+      "date": "Date",
+      "store": "Store",
+      "location": "Location",
+      "organizer": "Organizer",
+      "format": "Format",
+      "closes": "Registration closes",
+      "guest": "Guest sign-up",
+      "allowed": "Allowed",
+      "guestHint": "Account holders get priority when full"
+    },
+    "reg": {
+      "title": "Registration",
+      "confirmed": "Confirmed",
+      "members": "Account holders",
+      "guests": "Guests",
+      "waitlisted": "Waitlisted",
+      "signUp": "Sign up"
+    },
+    "players": "Players ({{n}})",
+    "guestChip": "Guest",
+    "viewDeck": "View deck",
+    "more": "+ {{n}} more",
+    "closed": "Registration is closed for this event."
+  },
+  "signup": {
+    "eyebrow": "You're signing up for",
+    "spots_one": "{{n}} spots",
+    "spots_other": "{{n}} spots",
+    "spotsOf": "{{n}} / {{max}} spots",
+    "claimFound": "We found a guest reservation for {{name}} on this event.",
+    "claim": "Claim reservation",
+    "registerAs": "Register as {{name}}",
+    "registerNow": "Register now",
+    "registering": "Registering…",
+    "holdRegister": "Hold to register",
+    "holdContinue": "Hold to continue",
+    "holdDecklistNext": "Hold to charge your attack — next you'll add your required decklist.",
+    "holdOptional": "Hold to charge your attack and join. Decklist is optional after you register.",
+    "continueGuest": "Continue as guest",
+    "createAccount": "Create an account",
+    "holdCreate": "Hold to create account",
+    "holdHint": "Hold a button to charge your attack.",
+    "priorityHint": "Logged-in players get priority when full.",
+    "accountRequired": "An account is required for this event.",
+    "or": "or",
+    "choice": {
+      "priority": "Logged-in players get priority when the event fills up."
+    }
+  },
+  "sticky": {
+    "aria": "Quick actions",
+    "pairings": "Pairings"
+  },
+  "reg": {
+    "decklist": {
+      "title": "Add your decklist",
+      "lede": "This event requires a decklist to finish registering as {{name}}.",
+      "required": "This event requires a decklist to register."
+    },
+    "moxfield": "Moxfield deck URL",
+    "moxfieldHint": "Paste your Moxfield share link (moxfield.com/decks/…)",
+    "moxfieldPlaceholder": "https://www.moxfield.com/decks/...",
+    "deckName": "Deck name",
+    "paste": "Or paste decklist",
+    "pasteShort": "Paste decklist",
+    "pasteHint": "Commanders / Deck sections, or qty + card name lines",
+    "complete": "Complete registration",
+    "guest": {
+      "title": "Guest reservation",
+      "ledeRequired": "Name and decklist required. Logged-in players get priority if full.",
+      "ledeOptional": "Name only — decklist optional. Logged-in players get priority if full.",
+      "optionalDeck": "Add decklist (optional)",
+      "reserve": "Reserve spot",
+      "saving": "Saving…"
+    },
+    "details": "Event details",
+    "hideDetails": "Hide details",
+    "viewMoxfield": "View deck on Moxfield",
+    "logInToClaim": "Log in to claim",
+    "updateDeckOptional": "Add or update decklist (optional)",
+    "saveDecklist": "Save decklist",
+    "deckClosed": "You're registered. Decklist changes are closed — the event has started.",
+    "oneTap": "One tap — decklist is optional.",
+    "addDeckFirst": "Add decklist first (optional)",
+    "withDeck": "Register with deck",
+    "phoneHint": "Use Log in or Continue as guest to sign up for this event.",
+    "backToSignup": "Back to signup",
+    "signUpTitle": "Sign up"
+  },
+  "waitlist": {
+    "position": "You are #{{pos}} on the waitlist.",
+    "emailNote": "You're on the waitlist. We'll email you if a spot opens (once your account email is verified)."
+  },
+  "errors": {
+    "deckRequired": "A decklist is required — add a Moxfield link or paste your list",
+    "moxfieldInvalid": "Must be a valid Moxfield deck URL (moxfield.com)"
+  },
+  "toasts": {
+    "left": "You left the event.",
+    "leaveFailed": "Could not leave event",
+    "deckUpdated": "Decklist updated!",
+    "registered": "Registered successfully!",
+    "guestSaved": "Guest reservation saved!",
+    "claimed": "Reservation claimed!",
+    "claimFailed": "Could not claim reservation",
+    "updated": "Event updated.",
+    "updateFailed": "Failed to update event",
+    "linkCopied": "Event embed link copied!",
+    "codeCopied": "Event code copied!",
+    "resultRecorded": "Result recorded.",
+    "resultUpdated": "Result updated.",
+    "resultFailed": "Failed to update result",
+    "playerDropped": "Player dropped.",
+    "pairingsSaved": "Pairings saved.",
+    "pairingsFailed": "Failed to save pairings",
+    "timerFailed": "Failed to update timer",
+    "cancelled": "Event cancelled.",
+    "started": "Tournament started — round 1 pairings are ready.",
+    "swissTopCut": "Swiss complete — top cut started!",
+    "resumedSwiss": "Swiss resumed — continuing from the next round.",
+    "completedBang": "Tournament completed!",
+    "completed": "Tournament completed.",
+    "actionFailed": "Action failed",
+    "moxfieldUpdated": "Moxfield link updated",
+    "linkedPlayers_one": "Linked {{n}} player",
+    "linkedPlayers_other": "Linked {{n}} players",
+    "regenerated": "Pairings regenerated.",
+    "regenFailed": "Failed to regenerate",
+    "staffAdded": "Staff added",
+    "exportFailed": "Export failed",
+    "registrationFailed": "Registration failed",
+    "failed": "Failed"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Cancel event?",
+      "body": "This cannot be undone. Registered players will no longer see this event.",
+      "label": "Cancel event"
+    },
+    "start": {
+      "title": "Start tournament?",
+      "body": "Registration will close and round 1 pairings will be generated.",
+      "label": "Start tournament"
+    },
+    "endRound": {
+      "title": "End round {{n}}?",
+      "body": "Round {{next}} pairings will be generated automatically.",
+      "label": "End round"
+    },
+    "resumeSwiss": {
+      "title": "Resume Swiss?",
+      "body": "This deletes the premature top cut and generates the next Swiss round from current standings.",
+      "label": "Resume Swiss"
+    },
+    "complete": {
+      "title": "Complete tournament?",
+      "body": "Final standings will be locked. This marks the event as finished.",
+      "label": "Complete"
+    },
+    "leave": {
+      "title": "Leave this event?",
+      "label": "Leave event",
+      "body": "Your registration will be cancelled.",
+      "bodyWaitlist": "Your registration will be cancelled. If the event is full, the next waitlisted player may take your spot."
+    }
+  },
+  "live": {
+    "banner": "Live now",
+    "table": "Table {{n}}",
+    "vs": "vs {{name}}",
+    "viewPairings": "View pairings",
+    "yourTableRound": "Your table · Round {{n}}",
+    "roundN": "Round {{n}}"
+  },
+  "manage": {
+    "joinCode": {
+      "title": "Cent Companion code",
+      "body": "Players can open centcomp.net/join and enter this code at the venue.",
+      "copy": "Copy code",
+      "aria": "Event join code"
+    },
+    "start": {
+      "title": "Start tournament",
+      "ready_one": "{{n}} account holder ready to pair",
+      "ready_other": "{{n}} account holders ready to pair",
+      "guests_one": "· {{n}} guest reservation (must claim account to pair)",
+      "guests_other": "· {{n}} guest reservations (must claim account to pair)",
+      "needOne": "Need at least 1 registered account holder."
+    },
+    "edit": {
+      "title": "Edit event",
+      "eventTitle": "Title",
+      "store": "Store name",
+      "location": "Tournament location",
+      "starts": "Start date & time",
+      "description": "Description",
+      "allowGuest": "Allow guest reservations (no account required)",
+      "opsMode": "Ops mode",
+      "native": "Native pairings",
+      "companion": "Companion-linked",
+      "companionCode": "WotC Companion event code",
+      "structure": "Structure",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "Single Elim",
+      "swissRounds": "Swiss rounds (blank = auto)",
+      "topCut": "Top cut",
+      "lateEnroll": "Allow late enrollment during Swiss",
+      "requireDeck": "Require decklist",
+      "save": "Save changes"
+    },
+    "staff": {
+      "title": "Staff",
+      "login": "Username or email",
+      "role": "Role",
+      "coOrganizer": "Co-organizer",
+      "judge": "Judge",
+      "scorekeeper": "Scorekeeper",
+      "add": "Add staff",
+      "remove": "Remove"
+    },
+    "exportDecklists": "Export CSV",
+    "danger": "Danger zone"
+  },
+  "companion": {
+    "pull": {
+      "title": "Pull MTG Companion results",
+      "body": "Sign in with the Wizards account that can see this Companion event. Credentials are used once to fetch standings and are never stored.",
+      "code": "Companion event code",
+      "codePh": "e.g. EZJE84",
+      "email": "Wizards email",
+      "password": "Wizards password",
+      "markDone": "Mark event as completed after import",
+      "submit": "Pull results",
+      "repull": "Re-pull results",
+      "pulling": "Pulling…",
+      "failed": "Pull failed",
+      "summary": "Pulled {{n}} players · {{m}} matched · {{u}} unmatched"
+    },
+    "results": {
+      "title": "Companion results",
+      "emptyOrg": "No standings pulled yet. Use Manage → Pull MTG Companion results when the Companion tournament is finished.",
+      "emptyPlayer": "No standings pulled yet. The organizer will publish standings when the tournament ends.",
+      "final": "Final standings",
+      "imported": "Imported from MTG Companion",
+      "export": "Export CSV",
+      "remap": "Remap players",
+      "unmatched": "Unmatched registration",
+      "edit": "Edit",
+      "remapTitle": "Remap Companion players",
+      "remapBody": "Link each Companion standing to a Cent Companion registration. Links are saved by Companion team id so future pulls keep your mapping.",
+      "unmatchedOpt": "— Unmatched —",
+      "saveLinks": "Save links",
+      "dupLink": "Each registration can only be linked once.",
+      "saveFailed": "Failed to save links",
+      "saveGenericFailed": "Failed to save",
+      "guestSuffix": "guest",
+      "linkedSuffix": "linked",
+      "team": "team {{id}}",
+      "moxfieldFallback": "Moxfield"
+    }
+  },
+  "organizer": {
+    "denied": "Coordinator access required.",
+    "apply": "Apply in settings",
+    "chip": "Organizer",
+    "hub": {
+      "title": "Event organizer hub"
+    },
+    "stats": {
+      "total": "Total events",
+      "upcoming": "Upcoming",
+      "live": "Live now"
+    },
+    "statsShort": {
+      "total": "Total",
+      "upcoming": "Soon",
+      "live": "Live"
+    },
+    "statsAria": "Event counts",
+    "totalChip": "{{n}} total",
+    "tabs": {
+      "events": "My events",
+      "eventsShort": "Events",
+      "create": "Create event",
+      "createShort": "Create",
+      "help": "Help",
+      "aria": "Organizer sections"
+    },
+    "empty": "Create your first event to get started.",
+    "openEvent": "Open event",
+    "liveTournament": "Live tournament",
+    "pending": "Pending",
+    "pendingBadge": "PENDING",
+    "loadFailed": "Failed to load your events",
+    "wizard": {
+      "builder": "EVENT BUILDER",
+      "step": "Step {{n}} / 4",
+      "steps": {
+        "type": "Type",
+        "schedule": "Schedule",
+        "details": "Details",
+        "done": "Done"
+      }
+    },
+    "type": {
+      "question": "What kind of event?",
+      "casual": {
+        "label": "Casual",
+        "desc": "Friendly store event. Published immediately."
+      },
+      "league": {
+        "label": "Local League",
+        "desc": "Weekly or multi-date league. City is set from venue."
+      },
+      "lv1": {
+        "label": "Lv 1",
+        "desc": "Competitive regional event. Requires admin approval."
+      },
+      "lv2": {
+        "label": "Lv 2",
+        "desc": "Major competitive event. Requires admin approval."
+      }
+    },
+    "form": {
+      "title": "Event title",
+      "store": "Store name",
+      "location": "Tournament location",
+      "cityHint": "Local league city is set automatically from this location.",
+      "scheduleMode": "Scheduling mode",
+      "single": "Single date",
+      "weekly": "Rolling weekly",
+      "manual": "Pick multiple dates",
+      "addDates": "Add dates",
+      "add": "Add",
+      "weeklyPlanner": "Weekly planner",
+      "startingFrom": "Starting from",
+      "weekday": "Weekday",
+      "weekdays": {
+        "0": "Sunday",
+        "1": "Monday",
+        "2": "Tuesday",
+        "3": "Wednesday",
+        "4": "Thursday",
+        "5": "Friday",
+        "6": "Saturday"
+      },
+      "time": "Time",
+      "occurrences": "Occurrences",
+      "preview": "Preview:",
+      "applyDates": "Apply dates",
+      "planned": "Planned dates",
+      "description": "Description",
+      "descPh": "Prize support, entry fee, special rules…",
+      "opsMode": "Ops mode",
+      "opsNative": "Native (Cent Companion pairings)",
+      "opsCompanion": "Companion-linked (WotC Companion / EventLink)",
+      "companionCode": "WotC Companion event code",
+      "structure": "Tournament structure",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "Single Elimination",
+      "swissRounds": "Swiss rounds (blank = auto)",
+      "swissAuto": "Auto",
+      "topCutSize": "Top cut size",
+      "top8": "Top 8",
+      "top4": "Top 4",
+      "top2": "Top 2",
+      "lateEnroll": "Allow late enrollment during Swiss",
+      "requireDeck": "Require decklist (Moxfield or paste)",
+      "starts": "Start date & time",
+      "review": "Review",
+      "noLocation": "No location",
+      "datesCount_one": "{{n}} date",
+      "datesCount_other": "{{n}} dates",
+      "creating": "Creating…",
+      "create": "Create event"
+    },
+    "success": {
+      "title": "Event created!",
+      "pending": "Your event is pending admin approval. You'll see it in My events once approved.",
+      "live": "Your event is live. Share the link with players or start the tournament when ready.",
+      "view": "View event",
+      "another": "Create another"
+    },
+    "help": {
+      "1": "Casual events publish immediately. Players can register with or without an account.",
+      "2": "Local league supports weekly or multi-date schedules. Pick a venue so the city is detected automatically.",
+      "3": "Lv1 / Lv2 require admin approval before appearing on the public calendar.",
+      "4": "On event day, open your event and use Start tournament to generate Swiss pairings.",
+      "5": "Enter match results, then End round when all tables are done. Pending results block the next round.",
+      "title": "Organizer guide",
+      "1Strong": "Casual events",
+      "2Strong": "Local league",
+      "3Strong": "Lv1 / Lv2",
+      "4Strong": "Start tournament",
+      "5Strong": "End round"
+    },
+    "toasts": {
+      "cityRequired": "Please pick a tournament location so we can determine the city.",
+      "submitted": "Event submitted for admin approval",
+      "created": "Event created!",
+      "createFailed": "Failed to create event"
+    }
+  }
+}

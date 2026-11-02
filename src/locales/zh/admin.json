@@ -1,0 +1,59 @@
+{
+  "denied": "需要管理员权限。",
+  "chip": "管理",
+  "title": "指挥中心",  "stats": {
+    "coordQueue": "协调员队列",
+    "eventApprovals": "赛事审批",    "coords": "协调",
+    "events": "赛事",
+    "aria": "管理队列计数"
+  },
+  "tabs": {
+    "coords": "协调员",
+    "coordsShort": "协调",
+    "events": "赛事审批",
+    "eventsShort": "赛事",
+    "sync": "规则同步",
+    "syncShort": "同步",
+    "news": "新闻",
+    "aria": "管理分区"
+  },
+  "coord": {
+    "requests": "协调员申请",
+    "pending_one": "{{n}} 待审",
+    "pending_other": "{{n}} 待审",
+    "pendingZero": "0 待审",
+    "empty": "暂无待审申请。",
+    "contact": "联系方式：{{info}}",
+    "approve": "批准",
+    "reject": "拒绝",
+    "modalTitle": "批准协调员",
+    "storeLabel": "协调员店铺名称（可选）"
+  },
+  "events": {
+    "title": "LV1 / LV2 赛事审批",
+    "empty": "暂无待审赛事申请。",
+    "noDesc": "无描述",
+    "noDescLong": "未提供描述。"
+  },
+  "sync": {
+    "title": "规则与禁用列表同步",
+    "titleShort": "规则与禁用",
+    "lede": "从 centurioncommander.eu 拉取最新官方规则和禁用列表到应用。",
+    "now": "立即同步"
+  },
+  "news": {
+    "title": "发布新闻",
+    "fieldTitle": "标题",
+    "fieldContent": "内容",
+    "publish": "发布"
+  },
+  "toasts": {
+    "loadFailed": "加载管理数据失败",
+    "rejected": "申请已拒绝",
+    "approved": "协调员已批准",
+    "synced": "规则已同步",
+    "published": "帖子已发布！",
+    "eventApproved": "赛事已批准",
+    "eventRejected": "赛事已拒绝"
+  }
+}

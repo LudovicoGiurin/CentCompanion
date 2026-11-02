@@ -1,0 +1,157 @@
+﻿{
+    "guest":  {
+                  "title":  "Profil",
+                  "create":  "Vytvořit účet"
+              },
+    "phone":  {
+                  "eyebrow":  "Váš hub"
+              },
+    "settings":  {
+                     "link":  "Nastavení",
+                     "title":  "Nastavení účtu",
+                     "email":  "E-mail:",
+                     "username":  "Uživatelské jméno:",
+                     "role":  "Role:",
+                     "cityLabel":  "Výchozí město místní ligy",
+                     "cityNotSet":  "Nenastaveno",
+                     "cityPh":  "např. Praha",
+                     "profile":  "Profil",
+                     "saveProfile":  "Uložit profil",
+                     "profileUpdated":  "Profil aktualizován.",
+                     "profileFailed":  "Nepodařilo se aktualizovat preference",
+                     "changePassword":  "Změnit heslo",
+                     "currentPassword":  "Současné heslo",
+                     "newPassword":  "Nové heslo",
+                     "confirmNew":  "Potvrďte nové heslo",
+                     "updatePassword":  "Aktualizovat heslo",
+                     "saving":  "Ukládání…",
+                     "passwordMismatch":  "Nová hesla se neshodují",
+                     "passwordFailed":  "Nepodařilo se aktualizovat heslo",
+                     "resetViaEmail":  "Zapomenuté heslo? Obnovte e-mailem",
+                     "help":  "Nápověda",
+                     "gibboHelp":  "Gibbo je průvodce profilem — malý šašek, který vysvětlí pořadí, turnaje a nastavení.",
+                     "meetGibbo":  "Potkat Gibba znovu",
+                     "privacy":  "Soukromí a data",
+                     "privacyBody":  "Podle GDPR můžete přistupovat, exportovat nebo smazat osobní údaje. Viz Zásady ochrany osobních údajů nebo kontaktujte {{email}}.",
+                     "download":  "Stáhnout má data",
+                     "preparing":  "Připravuji…",
+                     "exportDone":  "Export dat byl stažen.",
+                     "exportFailed":  "Export selhal",
+                     "delete":  {
+                                    "title":  "Smazat můj účet",
+                                    "body":  "Trvale odstraní přihlášení, e-mail a profil. Nadcházející registrace se zruší; minulé turnajové záznamy mohou zobrazit \"Former Player\". Nelze vrátit zpět.",
+                                    "confirmTitle":  "Smazat účet?",
+                                    "confirmLabel":  "Smazat účet",
+                                    "confirmBody":  "Tím odstraníte e-mail, profil a přístup. Historie turnajů může zobrazit obecné označení \"Former Player\". Nelze vrátit zpět.",
+                                    "password":  "Potvrďte heslem",
+                                    "failed":  "Účet se nepodařilo smazat"
+                                },
+                     "coordinator":  {
+                                         "title":  "Žádost o koordinátora",
+                                         "lede":  "Koordinátoři mohou po schválení adminem vytvářet turnaje pro svůj obchod.",
+                                         "why":  "Proč chcete být koordinátorem?",
+                                         "contact":  "Kontaktní údaje (obchod, telefon atd.)",
+                                         "submit":  "Odeslat žádost",
+                                         "success":  "Žádost odeslána! Admin ji posoudí.",
+                                         "failed":  "Odeslání selhalo"
+                                     }
+                 },
+    "liveNow":  "Právě živě",
+    "pairings":  "Párování",
+    "nudge":  {
+                  "city":  "Nastavte město ligy pro blízké turnaje",
+                  "cityDesktop":  "V nastavení zvolte město místní ligy, abyste na kalendáři viděli blízké ligové turnaje."
+              },
+    "standing":  {
+                     "title":  "Pořadí",
+                     "national":  "Národní pořadí",
+                     "points":  "bodů",
+                     "pointsUpper":  "BODY",
+                     "events":  "turnaje",
+                     "fullLb":  "Celý žebříček"
+                 },
+    "myEvents":  "Mé turnaje",
+    "myEventsDesktop":  "Mé registrované turnaje",
+    "browse":  "Procházet",
+    "noRegs":  "Zatím žádné registrace. Najděte turnaj",
+    "noRegsDesktop":  "Žádné nadcházející registrace. Procházejte turnaje",
+    "running":  "Pořádám",
+    "runningDesktop":  "Turnaje, které pořádám",
+    "hub":  "Hub",
+    "hubDesktop":  "Hub organizátora",
+    "createOne":  "Vytvořit",
+    "noEventsYet":  "Zatím žádné turnaje.",
+    "upcoming":  "Nadcházející",
+    "upcomingDesktop":  "Nadcházející turnaje",
+    "all":  "Vše",
+    "allDesktop":  "Všechny turnaje",
+    "welcome":  "Vítej, {{name}}",
+    "liveTournament":  "Živý turnaj",
+    "manage":  "Spravovat",
+    "profile":  {
+                    "changePhoto":  "Změnit profilový obrázek",
+                    "removePhoto":  "Obnovit výchozí artwork",
+                    "avatarUpdated":  "Profilový obrázek aktualizován.",
+                    "avatarRemoved":  "Výchozí artwork obnoven.",
+                    "avatarFailed":  "Obrázek se nepodařilo aktualizovat",
+                    "frameFailed":  "Rámeček se nepodařilo změnit",
+                    "medals":  "Medaile",
+                    "medalHint":  "Získávej úspěchy a odemykej medaile — klepnutím na medaili nasadíš její rámeček.",
+                    "locked":  "Zamčeno",
+                    "achievements":  {
+                                         "welcome":  {
+                                                         "name":  "Vítej",
+                                                         "desc":  "Připoj se k Cent Companion"
+                                                     },
+                                         "contender":  {
+                                                           "name":  "Vyzyvatel",
+                                                           "desc":  "Přihlas se na svou první akci"
+                                                       },
+                                         "first_blood":  {
+                                                             "name":  "První krev",
+                                                             "desc":  "Vyhraj svůj první zápas"
+                                                         },
+                                         "veteran":  {
+                                                         "name":  "Veterán",
+                                                         "desc":  "Přihlas se na 5 akcí"
+                                                     },
+                                         "slayer":  {
+                                                        "name":  "Zabiják",
+                                                        "desc":  "Vyhraj 10 zápasů"
+                                                    }
+                                     },
+                    "memberSince":  "Na Cent Companion od {{date}}",
+                    "organizerBadge":  "Organizátor",
+                    "stats":  {
+                                  "points":  "Body",
+                                  "wins":  "Výhry",
+                                  "losses":  "Prohry",
+                                  "draws":  "Remízy",
+                                  "events":  "Akce"
+                              },
+                    "nextEvents":  "Tvoje nadcházející akce",
+                    "noEvents":  "Zatím žádné plánované akce.",
+                    "discover":  "Objevit akce",
+                    "organizing_one":  "Pořádáš {{count}} akci",
+                    "organizing_few":  "Pořádáš {{count}} akce",
+                    "organizing_other":  "Pořádáš {{count}} akcí",
+                    "changeCover":  "Změnit pozadí",
+                    "removeCover":  "Obnovit výchozí pozadí",
+                    "coverUpdated":  "Pozadí aktualizováno.",
+                    "coverRemoved":  "Výchozí pozadí obnoveno.",
+                    "coverFailed":  "Pozadí se nepodařilo aktualizovat",
+                    "crop":  {
+                                 "avatarTitle":  "Upravit profilový obrázek",
+                                 "coverTitle":  "Upravit úvodní foto",
+                                 "zoom":  "Přiblížení",
+                                 "apply":  "Použít",
+                                 "hintAvatar":  "Přetáhnutím posuňte, posuvníkem přibližte. Rámeček ukazuje výsledný avatar.",
+                                 "hintCover":  "Přetáhnutím posuňte, posuvníkem přibližte úvodní foto."
+                             },
+                    "achievementsTitle":  "Úspěchy",
+    "publicNotFound": "Profil nenalezen.",
+                    "achievementsEquipHint":  "Klepnutím na odemčenou medaili nasadíš její rámeček na avatar.",
+    "achievementsViewHint": "Odemčené medaile tohoto profilu.",
+                    "frameEquipped":  "Nasazeno"
+                }
+}

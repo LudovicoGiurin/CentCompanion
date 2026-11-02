@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Cent Companion">
+  <title>Cent Companion</title>
+  <!-- Ink frame -->
+  <rect width="32" height="32" fill="#1c1c1c"/>
+  <rect x="2" y="2" width="28" height="28" fill="#f4e9c8"/>
+  <rect x="4" y="4" width="24" height="24" fill="#fbf5dd"/>
+
+  <!-- CENT//COMP 3×3 mark (matches cc-logo__mark) -->
+  <!-- row 1 -->
+  <rect x="9" y="9" width="4" height="4" fill="#c0392b"/>
+  <rect x="14" y="9" width="4" height="4" fill="#f0a232"/>
+  <rect x="19" y="9" width="4" height="4" fill="#c0392b"/>
+  <!-- row 2 -->
+  <rect x="9" y="14" width="4" height="4" fill="#f0a232"/>
+  <rect x="14" y="14" width="4" height="4" fill="#c0392b"/>
+  <rect x="19" y="14" width="4" height="4" fill="#f0a232"/>
+  <!-- row 3 -->
+  <rect x="9" y="19" width="4" height="4" fill="#c0392b"/>
+  <rect x="14" y="19" width="4" height="4" fill="#f0a232"/>
+  <rect x="19" y="19" width="4" height="4" fill="#c0392b"/>
+
+  <!-- Pixel bevel highlight -->
+  <rect x="4" y="4" width="24" height="2" fill="#ffffff" opacity="0.35"/>
+  <rect x="4" y="4" width="2" height="24" fill="#ffffff" opacity="0.35"/>
+  <rect x="26" y="6" width="2" height="22" fill="#6d5526" opacity="0.45"/>
+  <rect x="6" y="26" width="22" height="2" fill="#6d5526" opacity="0.45"/>
+</svg>

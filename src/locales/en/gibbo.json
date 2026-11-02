@@ -1,0 +1,27 @@
+﻿{
+    "kicker":  "Gibbo says",
+    "skip":  "Skip tour",
+    "back":  "Back",
+    "next":  "Next",
+    "done":  "Got it!",
+    "welcome":  {
+                    "title":  "Hey, I\u0027m Gibbo!",
+                    "body":  "Your pocket jester for Cent Companion. I\u0027ll show you around your profile — takes about thirty seconds."
+                },
+    "standings":  {
+                      "title":  "National standing",
+                      "body":  "Your points, wins, losses, and how many events you\u0027ve played on the national leaderboard."
+                  },
+    "myEvents":  {
+                     "title":  "Your events",
+                     "body":  "Tournaments you\u0027ve registered for live here. When a round starts, you\u0027ll get a shortcut to pairings."
+                 },
+    "settings":  {
+                     "title":  "Profile \u0026 city",
+                     "body":  "Open Settings to set your local league city — we\u0027ll surface nearby league events on the calendar."
+                 },
+    "finish":  {
+                   "title":  "You\u0027re set!",
+                   "body":  "Browse events, join with a code at the venue, and check the Tournament tab on event day. I\u0027ll stay out of your way during rounds."
+               }
+}

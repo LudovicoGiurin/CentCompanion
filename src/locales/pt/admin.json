@@ -1,0 +1,59 @@
+{
+  "denied": "Acesso de administrador necessário.",
+  "chip": "Admin",
+  "title": "Centro de comando",  "stats": {
+    "coordQueue": "Fila de coordenadores",
+    "eventApprovals": "Aprovações de eventos",    "coords": "Coords",
+    "events": "Eventos",
+    "aria": "Contagens da fila de admin"
+  },
+  "tabs": {
+    "coords": "Coordenadores",
+    "coordsShort": "Coords",
+    "events": "Aprovações de eventos",
+    "eventsShort": "Eventos",
+    "sync": "Sincronizar regras",
+    "syncShort": "Sync",
+    "news": "Notícias",
+    "aria": "Seções de admin"
+  },
+  "coord": {
+    "requests": "Pedidos de coordenador",
+    "pending_one": "{{n}} pendente",
+    "pending_other": "{{n}} pendentes",
+    "pendingZero": "0 pendentes",
+    "empty": "Nenhum pedido pendente.",
+    "contact": "Contato: {{info}}",
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "modalTitle": "Aprovar coordenador",
+    "storeLabel": "Nome da loja do coordenador (opcional)"
+  },
+  "events": {
+    "title": "Aprovações de eventos LV1 / LV2",
+    "empty": "Nenhum pedido de evento pendente.",
+    "noDesc": "Sem descrição",
+    "noDescLong": "Nenhuma descrição fornecida."
+  },
+  "sync": {
+    "title": "Sincronização de regras e banlist",
+    "titleShort": "Regras e banlist",
+    "lede": "Puxe as regras e banlist oficiais mais recentes de centurioncommander.eu para o app.",
+    "now": "Sincronizar agora"
+  },
+  "news": {
+    "title": "Publicar notícia",
+    "fieldTitle": "Título",
+    "fieldContent": "Conteúdo",
+    "publish": "Publicar"
+  },
+  "toasts": {
+    "loadFailed": "Falha ao carregar dados de admin",
+    "rejected": "Pedido rejeitado",
+    "approved": "Coordenador aprovado",
+    "synced": "Regras sincronizadas",
+    "published": "Post publicado!",
+    "eventApproved": "Evento aprovado",
+    "eventRejected": "Evento rejeitado"
+  }
+}

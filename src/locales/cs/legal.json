@@ -1,0 +1,118 @@
+{
+  "updated": "Poslední aktualizace: 4. července 2026",
+  "home": "Domů",
+  "privacy": {
+    "title": "Zásady ochrany osobních údajů",
+    "intro": "{{siteName}} ({{siteUrl}}) je neoficiální fanouškovský companion pro turnaje Centurion Commander. Tyto zásady vysvětlují, jak zpracováváme osobní údaje podle obecného nařízení EU o ochraně osobních údajů (GDPR) a podobných zákonů.",
+    "h": {
+      "controller": "Správce údajů",
+      "collect": "Co shromažďujeme",
+      "bases": "Proč je používáme (právní základy)",
+      "processors": "Zpracovatelé a přenosy",
+      "retention": "Uchovávání",
+      "rights": "Vaše práva",
+      "children": "Děti",
+      "cookies": "Cookies a místní úložiště",
+      "changes": "Změny"
+    },
+    "controller": {
+      "body": "Provozovatel {{siteName}} je správcem údajů. Pro žádosti o ochranu soukromí kontaktujte: {{email}}."
+    },
+    "collect": {
+      "accountLabel": "Údaje o účtu:",
+      "account": "e-mail, uživatelské jméno, heslo (uložené jako hash), jméno a příjmení, volitelný název obchodu a město místní ligy.",
+      "eventLabel": "Údaje o turnajích:",
+      "event": "registrace, volitelné URL balíčků na Moxfield, párování a výsledky turnajů propojené s vaším účtem.",
+      "guestLabel": "Hostovské rezervace:",
+      "guest": "jméno a příjmení (a volitelné informace o balíčku) bez účtu.",
+      "coordinatorLabel": "Žádosti o koordinátora:",
+      "coordinator": "zpráva a kontaktní údaje, které odešlete.",
+      "technicalLabel": "Technická data:",
+      "technical": "session token v úložišti prohlížeče; volitelná přibližná poloha, pokud ji povolíte (pro turnaje „blízko mě“); antiabuse signály Cloudflare Turnstile."
+    },
+    "bases": {
+      "contractLabel": "Smlouva:",
+      "contract": "vytvoření a správa účtu, registrace na turnaje a vedení turnajů.",
+      "legitimateLabel": "Oprávněné zájmy:",
+      "legitimate": "zabezpečení (Turnstile), prevence podvodů, zobrazení seznamů hráčů na turnajích, kterých se účastníte, a zlepšování služby.",
+      "consentLabel": "Souhlas:",
+      "consent": "volitelná poloha prohlížeče pro blízké turnaje; můžete odmítnout a web stále používat.",
+      "legalLabel": "Právní povinnost:",
+      "legal": "tam, kde je to nutné ke splnění zákona."
+    },
+    "processors": {
+      "intro": "Používáme důvěryhodné poskytovatele, kteří zpracovávají údaje naším jménem:",
+      "cloudflare": "Cloudflare (hosting, Turnstile) — může zpracovávat údaje v USA s odpovídajícími zárukami.",
+      "neon": "Neon (databáze) — EU/USA podle regionu projektu.",
+      "resend": "Resend (transakční e-mail).",
+      "osm": "OpenStreetMap Nominatim (vyhledávání míst, pouze když hledáte nebo používáte funkce polohy).",
+      "noSell": "Vaše osobní údaje neprodáváme. Nepoužíváme reklamní trackery."
+    },
+    "retention": {
+      "account": "Údaje o účtu: dokud účet nesmažete nebo nepožádáte o výmaz.",
+      "guest": "Hostovské rezervace: do dokončení turnaje, poté odstraněny nebo anonymizovány do 12 měsíců.",
+      "tournament": "Turnajové záznamy: po smazání účtu se jména mohou zobrazit jako \"Former Player\" / \"Deleted User\", aby zůstaly zachovány minulé výsledky.",
+      "verify": "Tokeny ověření e-mailu: 24 hodin.",
+      "reset": "Tokeny obnovení hesla: 1 hodina."
+    },
+    "rights": {
+      "intro": "Pokud jste v EHP/UK, máte právo:",
+      "access": "Přístup k údajům (Nastavení → Stáhnout má data).",
+      "rectify": "Opravit nepřesné údaje (Nastavení → Profil).",
+      "erase": "Vymazat údaje (Nastavení → Smazat účet).",
+      "restrict": "Omezit nebo namítat určité zpracování — kontaktujte nás.",
+      "portability": "Přenositelnost údajů — použijte export.",
+      "withdraw": "Odvolat souhlas s volitelnou polohou — odepřete oprávnění prohlížeče nebo vymažte data webu.",
+      "complaint": "Podat stížnost u místního dozorového úřadu."
+    },
+    "children": {
+      "body": "Služba není určena dětem mladším 16 let. Pokud se domníváte, že dítě poskytlo údaje, kontaktujte nás a smažeme je."
+    },
+    "cookies": {
+      "body": "Používáme místní úložiště prohlížeče pro přihlašovací relace a preference a session storage pro volitelný bias polohy a tipy k hostovským rezervacím. Popisujeme to při první návštěvě. Viz také naše Podmínky služby.",
+      "termsLink": "Podmínky služby"
+    },
+    "changes": {
+      "body": "Tyto zásady můžeme aktualizovat. Podstatné změny uvedeme na této stránce s novým datem „Poslední aktualizace“."
+    }
+  },
+  "terms": {
+    "title": "Podmínky služby",
+    "intro": "Používáním {{siteName}} na {{siteUrl}} souhlasíte s těmito podmínkami. Web je neoficiální fanouškovský projekt a není spojen ani schválen Centurion Commander ani jeho vydavateli.",
+    "h": {
+      "accounts": "Účty",
+      "events": "Turnaje a registrace",
+      "acceptable": "Přípustné použití",
+      "disclaimer": "Vyloučení odpovědnosti",
+      "privacy": "Soukromí",
+      "contact": "Kontakt"
+    },
+    "accounts": {
+      "accurate": "Musíte uvádět přesné informace a chránit své heslo.",
+      "verify": "Před používáním funkcí účtu musíte ověřit e-mail.",
+      "onePerson": "Jeden člověk na účet. Nezastupujte jiné osoby.",
+      "suspend": "Můžeme pozastavit účty, které zneužívají službu nebo porušují pravidla turnajů."
+    },
+    "events": {
+      "organizers": "Organizátoři odpovídají za své turnaje; my poskytujeme pouze nástroje.",
+      "names": "Jména hráčů se mohou zobrazit na veřejných stránkách turnajů a v párování.",
+      "guests": "Hostovské rezervace mohou být na čekací listině; držitelé účtu mají prioritu při omezeném počtu míst."
+    },
+    "acceptable": {
+      "intro": "Souhlasíte, že nebudete:",
+      "attack": "Útočit na službu, scrapovat ji ani ji přetěžovat.",
+      "upload": "Nahrávat nezákonný, obtěžující nebo zavádějící obsah.",
+      "circumvent": "Obcházet bezpečnostní opatření (včetně Turnstile)."
+    },
+    "disclaimer": {
+      "body": "Služba je poskytována „tak, jak je“, bez záruk. Neodpovídáme za turnajové spory, ztrátu dat nad rámec přiměřené péče ani služby třetích stran (Moxfield, obchody atd.)."
+    },
+    "privacy": {
+      "body": "Naše Zásady ochrany osobních údajů vysvětlují, jak zpracováváme osobní údaje, a tvoří součást těchto podmínek.",
+      "link": "Zásady ochrany osobních údajů"
+    },
+    "contact": {
+      "body": "Dotazy: {{email}}"
+    }
+  }
+}

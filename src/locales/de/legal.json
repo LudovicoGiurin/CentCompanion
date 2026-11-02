@@ -1,0 +1,118 @@
+{
+  "updated": "Zuletzt aktualisiert: 4. Juli 2026",
+  "home": "Start",
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "{{siteName}} ({{siteUrl}}) ist ein inoffizieller Fan-Companion für Centurion-Commander-Turniere. Diese Erklärung erläutert, wie wir personenbezogene Daten gemäß der EU-Datenschutz-Grundverordnung (GDPR) und ähnlichen Gesetzen verarbeiten.",
+    "h": {
+      "controller": "Verantwortlicher",
+      "collect": "Was wir erheben",
+      "bases": "Warum wir sie nutzen (Rechtsgrundlagen)",
+      "processors": "Auftragsverarbeiter & Übermittlungen",
+      "retention": "Speicherdauer",
+      "rights": "Ihre Rechte",
+      "children": "Kinder",
+      "cookies": "Cookies & lokaler Speicher",
+      "changes": "Änderungen"
+    },
+    "controller": {
+      "body": "Der Betreiber von {{siteName}} ist der Verantwortliche. Für Datenschutzanfragen kontaktieren Sie: {{email}}."
+    },
+    "collect": {
+      "accountLabel": "Kontodaten:",
+      "account": "E-Mail, Benutzername, Passwort (gehasht gespeichert), Vor- und Nachname, optional Ladenname und Stadt der lokalen Liga.",
+      "eventLabel": "Event-Daten:",
+      "event": "Anmeldungen, optionale Moxfield-Deck-URLs, Turnier-Pairings und Ergebnisse, die mit Ihrem Konto verknüpft sind.",
+      "guestLabel": "Gast-Reservierungen:",
+      "guest": "Vor- und Nachname (und optionale Deck-Infos) ohne Konto.",
+      "coordinatorLabel": "Koordinator-Bewerbungen:",
+      "coordinator": "Nachricht und Kontaktdaten, die Sie übermitteln.",
+      "technicalLabel": "Technische Daten:",
+      "technical": "Session-Token im Browser-Speicher; optional ungefährer Standort, wenn Sie ihn erlauben (für „in meiner Nähe“-Events); Cloudflare-Turnstile-Anti-Missbrauchssignale."
+    },
+    "bases": {
+      "contractLabel": "Vertrag:",
+      "contract": "um Ihr Konto zu erstellen und zu verwalten, Sie für Events anzumelden und Turniere zu leiten.",
+      "legitimateLabel": "Berechtigte Interessen:",
+      "legitimate": "Sicherheit (Turnstile), Betrugsprävention, Anzeige von Spielerlisten für Events, an denen Sie teilnehmen, und Verbesserung des Dienstes.",
+      "consentLabel": "Einwilligung:",
+      "consent": "optionaler Browser-Standort für Events in der Nähe; Sie können ablehnen und die Seite trotzdem nutzen.",
+      "legalLabel": "Rechtliche Verpflichtung:",
+      "legal": "soweit erforderlich, um gesetzliche Vorgaben einzuhalten."
+    },
+    "processors": {
+      "intro": "Wir nutzen vertrauenswürdige Anbieter, die Daten in unserem Auftrag verarbeiten:",
+      "cloudflare": "Cloudflare (Hosting, Turnstile) — kann Daten in den USA unter geeigneten Garantien verarbeiten.",
+      "neon": "Neon (Datenbank) — EU/USA je nach Region Ihres Projekts.",
+      "resend": "Resend (Transaktions-E-Mail).",
+      "osm": "OpenStreetMap Nominatim (Ortssuche, nur wenn Sie suchen oder Standortfunktionen nutzen).",
+      "noSell": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir nutzen keine Werbe-Tracker."
+    },
+    "retention": {
+      "account": "Kontodaten: bis Sie Ihr Konto löschen oder uns um Löschung bitten.",
+      "guest": "Gast-Reservierungen: bis das Event endet, danach innerhalb von 12 Monaten entfernt oder anonymisiert.",
+      "tournament": "Turnierdaten: nach Kontolöschung können Namen als \"Former Player\" / \"Deleted User\" erscheinen, damit vergangene Ergebnisse erhalten bleiben.",
+      "verify": "E-Mail-Bestätigungstoken: 24 Stunden.",
+      "reset": "Passwort-Reset-Token: 1 Stunde."
+    },
+    "rights": {
+      "intro": "Wenn Sie im EWR/Vereinigten Königreich sind, haben Sie das Recht auf:",
+      "access": "Auskunft über Ihre Daten (Einstellungen → Meine Daten herunterladen).",
+      "rectify": "Berichtigung unrichtiger Daten (Einstellungen → Profil).",
+      "erase": "Löschung Ihrer Daten (Einstellungen → Konto löschen).",
+      "restrict": "Einschränkung oder Widerspruch gegen bestimmte Verarbeitungen — kontaktieren Sie uns.",
+      "portability": "Datenübertragbarkeit — nutzen Sie die Exportfunktion.",
+      "withdraw": "Widerruf der Einwilligung für optionalen Standort — Browser-Berechtigung verweigern oder Seitendaten löschen.",
+      "complaint": "Beschwerde bei Ihrer örtlichen Aufsichtsbehörde."
+    },
+    "children": {
+      "body": "Der Dienst richtet sich nicht an Kinder unter 16 Jahren. Wenn Sie glauben, dass ein Kind Daten angegeben hat, kontaktieren Sie uns und wir löschen sie."
+    },
+    "cookies": {
+      "body": "Wir nutzen lokalen Browser-Speicher für Login-Sessions und Einstellungen sowie Session Storage für optionalen Standort-Bias und Hinweise zu Gast-Reservierungen. Diese werden bei Ihrem ersten Besuch beschrieben. Siehe auch unsere Nutzungsbedingungen.",
+      "termsLink": "Nutzungsbedingungen"
+    },
+    "changes": {
+      "body": "Wir können diese Erklärung aktualisieren. Wesentliche Änderungen werden auf dieser Seite mit einem neuen Datum „Zuletzt aktualisiert“ vermerkt."
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "intro": "Durch die Nutzung von {{siteName}} unter {{siteUrl}} stimmen Sie diesen Bedingungen zu. Die Seite ist ein inoffizielles Fan-Projekt und weder verbunden mit noch unterstützt von Centurion Commander oder dessen Verlagen.",
+    "h": {
+      "accounts": "Konten",
+      "events": "Events & Anmeldungen",
+      "acceptable": "Zulässige Nutzung",
+      "disclaimer": "Haftungsausschluss",
+      "privacy": "Datenschutz",
+      "contact": "Kontakt"
+    },
+    "accounts": {
+      "accurate": "Sie müssen korrekte Angaben machen und Ihr Passwort sicher aufbewahren.",
+      "verify": "Sie müssen Ihre E-Mail bestätigen, bevor Sie Kontofunktionen nutzen.",
+      "onePerson": "Eine Person pro Konto. Geben Sie sich nicht als andere aus.",
+      "suspend": "Wir können Konten sperren, die den Dienst missbrauchen oder Event-Regeln verletzen."
+    },
+    "events": {
+      "organizers": "Organisatoren sind für ihre Events verantwortlich; wir stellen nur die Werkzeuge bereit.",
+      "names": "Spielernamen können auf öffentlichen Event-Seiten und Pairings erscheinen.",
+      "guests": "Gast-Reservierungen können auf die Warteliste gesetzt werden; Kontoinhaber haben Vorrang, wenn Plätze begrenzt sind."
+    },
+    "acceptable": {
+      "intro": "Sie verpflichten sich, Folgendes zu unterlassen:",
+      "attack": "Den Dienst anzugreifen, zu scrapen oder zu überlasten.",
+      "upload": "Rechtswidrige, belästigende oder irreführende Inhalte hochzuladen.",
+      "circumvent": "Sicherheitsmaßnahmen zu umgehen (einschließlich Turnstile)."
+    },
+    "disclaimer": {
+      "body": "Der Dienst wird „wie besehen“ ohne Gewährleistungen bereitgestellt. Wir haften nicht für Turnierstreitigkeiten, Datenverlust über die zumutbare Sorgfalt hinaus oder Drittanbieterdienste (Moxfield, Läden usw.)."
+    },
+    "privacy": {
+      "body": "Unsere Datenschutzerklärung erläutert, wie wir personenbezogene Daten verarbeiten, und ist Teil dieser Bedingungen.",
+      "link": "Datenschutzerklärung"
+    },
+    "contact": {
+      "body": "Fragen: {{email}}"
+    }
+  }
+}

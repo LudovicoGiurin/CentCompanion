@@ -1,0 +1,156 @@
+﻿{
+    "guest":  {
+                  "title":  "Perfil",
+                  "create":  "Crear cuenta"
+              },
+    "phone":  {
+                  "eyebrow":  "Tu centro"
+              },
+    "settings":  {
+                     "link":  "Ajustes",
+                     "title":  "Ajustes de la cuenta",
+                     "email":  "Email:",
+                     "username":  "Usuario:",
+                     "role":  "Rol:",
+                     "cityLabel":  "Ciudad de liga local predeterminada",
+                     "cityNotSet":  "No definida",
+                     "cityPh":  "p. ej. Madrid",
+                     "profile":  "Perfil",
+                     "saveProfile":  "Guardar perfil",
+                     "profileUpdated":  "Perfil actualizado.",
+                     "profileFailed":  "Error al actualizar preferencias",
+                     "changePassword":  "Cambiar contraseña",
+                     "currentPassword":  "Contraseña actual",
+                     "newPassword":  "Nueva contraseña",
+                     "confirmNew":  "Confirmar nueva contraseña",
+                     "updatePassword":  "Actualizar contraseña",
+                     "saving":  "Guardando…",
+                     "passwordMismatch":  "Las nuevas contraseñas no coinciden",
+                     "passwordFailed":  "Error al actualizar la contraseña",
+                     "resetViaEmail":  "¿Olvidaste la contraseña? Restablecer por email",
+                     "help":  "Ayuda",
+                     "gibboHelp":  "Gibbo es tu guía del perfil — un pequeño bufón que explica clasificaciones, eventos y ajustes.",
+                     "meetGibbo":  "Volver a ver a Gibbo",
+                     "privacy":  "Privacidad y datos",
+                     "privacyBody":  "Bajo el GDPR puedes acceder, exportar o eliminar tus datos personales. Consulta nuestra Política de privacidad o contacta {{email}}.",
+                     "download":  "Descargar mis datos",
+                     "preparing":  "Preparando…",
+                     "exportDone":  "La exportación de tus datos se ha descargado.",
+                     "exportFailed":  "Error en la exportación",
+                     "delete":  {
+                                    "title":  "Eliminar mi cuenta",
+                                    "body":  "Elimina permanentemente tu acceso, email y perfil. Se cancelan las inscripciones a eventos próximos; los registros de torneos pasados pueden aparecer como \"Former Player\". No se puede deshacer.",
+                                    "confirmTitle":  "¿Eliminar tu cuenta?",
+                                    "confirmLabel":  "Eliminar cuenta",
+                                    "confirmBody":  "Esto elimina tu email, perfil y acceso. El historial de torneos puede mostrar la etiqueta genérica \"Former Player\". No se puede deshacer.",
+                                    "password":  "Confirma con tu contraseña",
+                                    "failed":  "No se pudo eliminar la cuenta"
+                                },
+                     "coordinator":  {
+                                         "title":  "Solicitar ser coordinador",
+                                         "lede":  "Los coordinadores pueden crear eventos para su tienda tras la aprobación del admin.",
+                                         "why":  "¿Por qué quieres ser coordinador?",
+                                         "contact":  "Datos de contacto (tienda, teléfono, etc.)",
+                                         "submit":  "Enviar solicitud",
+                                         "success":  "¡Solicitud enviada! Un admin revisará tu petición.",
+                                         "failed":  "Error al enviar"
+                                     }
+                 },
+    "liveNow":  "En vivo ahora",
+    "pairings":  "Pairings",
+    "nudge":  {
+                  "city":  "Define tu ciudad de liga para ver eventos cercanos",
+                  "cityDesktop":  "Define tu ciudad de liga local en ajustes para ver eventos de liga cercanos en el calendario."
+              },
+    "standing":  {
+                     "title":  "Clasificación",
+                     "national":  "Clasificación nacional",
+                     "points":  "puntos",
+                     "pointsUpper":  "PUNTOS",
+                     "events":  "eventos",
+                     "fullLb":  "Clasificación completa"
+                 },
+    "myEvents":  "Mis eventos",
+    "myEventsDesktop":  "Mis eventos inscritos",
+    "browse":  "Explorar",
+    "noRegs":  "Aún no hay inscripciones. Busca un evento",
+    "noRegsDesktop":  "No hay inscripciones próximas. Explora eventos",
+    "running":  "Gestionando",
+    "runningDesktop":  "Eventos que gestiono",
+    "hub":  "Centro",
+    "hubDesktop":  "Centro del organizador",
+    "createOne":  "Crear uno",
+    "noEventsYet":  "Aún no hay eventos.",
+    "upcoming":  "Próximos",
+    "upcomingDesktop":  "Próximos eventos",
+    "all":  "Todos",
+    "allDesktop":  "Todos los eventos",
+    "welcome":  "Bienvenido, {{name}}",
+    "liveTournament":  "Torneo en vivo",
+    "manage":  "Gestionar",
+    "profile":  {
+                    "changePhoto":  "Cambiar foto de perfil",
+                    "removePhoto":  "Restaurar ilustración por defecto",
+                    "avatarUpdated":  "Foto de perfil actualizada.",
+                    "avatarRemoved":  "Ilustración por defecto restaurada.",
+                    "avatarFailed":  "No se pudo actualizar la imagen",
+                    "frameFailed":  "No se pudo cambiar el marco",
+                    "medals":  "Medallas",
+                    "medalHint":  "Consigue logros para desbloquear medallas — toca una para equipar su marco.",
+                    "locked":  "Bloqueada",
+                    "achievements":  {
+                                         "welcome":  {
+                                                         "name":  "Bienvenida",
+                                                         "desc":  "Únete a Cent Companion"
+                                                     },
+                                         "contender":  {
+                                                           "name":  "Contendiente",
+                                                           "desc":  "Inscríbete en tu primer evento"
+                                                       },
+                                         "first_blood":  {
+                                                             "name":  "Primera Sangre",
+                                                             "desc":  "Gana tu primera partida"
+                                                         },
+                                         "veteran":  {
+                                                         "name":  "Veterano",
+                                                         "desc":  "Inscríbete en 5 eventos"
+                                                     },
+                                         "slayer":  {
+                                                        "name":  "Verdugo",
+                                                        "desc":  "Gana 10 partidas"
+                                                    }
+                                     },
+                    "memberSince":  "En Cent Companion desde {{date}}",
+                    "organizerBadge":  "Organizador",
+                    "stats":  {
+                                  "points":  "Puntos",
+                                  "wins":  "Victorias",
+                                  "losses":  "Derrotas",
+                                  "draws":  "Empates",
+                                  "events":  "Eventos"
+                              },
+                    "nextEvents":  "Tus próximos eventos",
+                    "noEvents":  "Aún no hay eventos en tu agenda.",
+                    "discover":  "Descubrir eventos",
+                    "organizing_one":  "Estás organizando {{count}} evento",
+                    "organizing_other":  "Estás organizando {{count}} eventos",
+                    "changeCover":  "Cambiar portada",
+                    "removeCover":  "Restaurar portada por defecto",
+                    "coverUpdated":  "Portada actualizada.",
+                    "coverRemoved":  "Portada por defecto restaurada.",
+                    "coverFailed":  "No se pudo actualizar la portada",
+                    "crop":  {
+                                 "avatarTitle":  "Ajustar foto de perfil",
+                                 "coverTitle":  "Ajustar foto de portada",
+                                 "zoom":  "Zoom",
+                                 "apply":  "Aplicar",
+                                 "hintAvatar":  "Arrastra para reposicionar, usa el control para ampliar. El marco muestra cómo se verá el avatar.",
+                                 "hintCover":  "Arrastra para reposicionar, usa el control para ampliar la portada."
+                             },
+                    "achievementsTitle":  "Logros",
+    "publicNotFound": "Perfil no encontrado.",
+                    "achievementsEquipHint":  "Toca una medalla desbloqueada para equipar su marco en el avatar.",
+    "achievementsViewHint": "Medallas desbloqueadas en este perfil.",
+                    "frameEquipped":  "Equipado"
+                }
+}

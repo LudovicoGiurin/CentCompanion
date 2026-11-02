@@ -1,0 +1,27 @@
+﻿{
+    "kicker":  "Gibbo říká",
+    "skip":  "Přeskočit prohlídku",
+    "back":  "Zpět",
+    "next":  "Další",
+    "done":  "Rozumím!",
+    "welcome":  {
+                    "title":  "Ahoj, jsem Gibbo!",
+                    "body":  "Tvůj kapesní šašek pro Cent Companion. Ukážu ti profil — zabere to asi třicet sekund."
+                },
+    "standings":  {
+                      "title":  "Národní žebříček",
+                      "body":  "Tvé body, výhry, prohry a kolik turnajů jsi odehrál v národním žebříčku."
+                  },
+    "myEvents":  {
+                     "title":  "Tvé turnaje",
+                     "body":  "Turnaje, na které ses přihlásil, jsou tady. Když začne kolo, dostaneš zkratku k párování."
+                 },
+    "settings":  {
+                     "title":  "Profil a město",
+                     "body":  "Otevři Nastavení a nastav město místní ligy — na kalendáři ti ukážeme blízké ligové turnaje."
+                 },
+    "finish":  {
+                   "title":  "Hotovo!",
+                   "body":  "Procházej turnaje, připoj se kódem na místě a v den turnaje zkontroluj záložku Turnaj. Během kol ti nebudu překážet."
+               }
+}

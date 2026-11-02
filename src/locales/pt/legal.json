@@ -1,0 +1,118 @@
+{
+  "updated": "Última atualização: 4 de julho de 2026",
+  "home": "Início",
+  "privacy": {
+    "title": "Política de Privacidade",
+    "intro": "{{siteName}} ({{siteUrl}}) é um companion não oficial de fãs para torneios de Centurion Commander. Esta política explica como tratamos dados pessoais sob o Regulamento Geral sobre a Proteção de Dados (GDPR) da UE e leis semelhantes.",
+    "h": {
+      "controller": "Controlador de dados",
+      "collect": "O que coletamos",
+      "bases": "Por que usamos (bases legais)",
+      "processors": "Processadores e transferências",
+      "retention": "Retenção",
+      "rights": "Seus direitos",
+      "children": "Crianças",
+      "cookies": "Cookies e armazenamento local",
+      "changes": "Alterações"
+    },
+    "controller": {
+      "body": "O operador de {{siteName}} é o controlador de dados. Para solicitações de privacidade, contate: {{email}}."
+    },
+    "collect": {
+      "accountLabel": "Dados da conta:",
+      "account": "e-mail, nome de usuário, senha (armazenada com hash), nome e sobrenome, nome da loja opcional e cidade da liga local.",
+      "eventLabel": "Dados de eventos:",
+      "event": "inscrições, URLs opcionais de decks no Moxfield, emparelhamentos e resultados de torneios vinculados à sua conta.",
+      "guestLabel": "Reservas de convidado:",
+      "guest": "nome e sobrenome (e informações opcionais de deck) sem conta.",
+      "coordinatorLabel": "Candidaturas de coordenador:",
+      "coordinator": "mensagem e dados de contato que você envia.",
+      "technicalLabel": "Dados técnicos:",
+      "technical": "token de sessão no armazenamento do navegador; localização aproximada opcional se você permitir (para eventos \"perto de mim\"); sinais antiabuso do Cloudflare Turnstile."
+    },
+    "bases": {
+      "contractLabel": "Contrato:",
+      "contract": "criar e gerenciar sua conta, inscrevê-lo em eventos e conduzir torneios.",
+      "legitimateLabel": "Interesses legítimos:",
+      "legitimate": "segurança (Turnstile), prevenção de fraude, exibição de listas de jogadores em eventos que você participa e melhoria do serviço.",
+      "consentLabel": "Consentimento:",
+      "consent": "localização opcional do navegador para eventos próximos; você pode recusar e ainda usar o site.",
+      "legalLabel": "Obrigação legal:",
+      "legal": "quando necessário para cumprir a lei."
+    },
+    "processors": {
+      "intro": "Usamos provedores confiáveis que processam dados em nosso nome:",
+      "cloudflare": "Cloudflare (hospedagem, Turnstile) — pode processar dados nos EUA com salvaguardas adequadas.",
+      "neon": "Neon (banco de dados) — UE/EUA conforme a região do projeto.",
+      "resend": "Resend (e-mail transacional).",
+      "osm": "OpenStreetMap Nominatim (busca de localização, apenas quando você pesquisa ou usa recursos de localização).",
+      "noSell": "Não vendemos seus dados pessoais. Não usamos rastreadores de publicidade."
+    },
+    "retention": {
+      "account": "Dados da conta: até você excluir a conta ou pedir a exclusão.",
+      "guest": "Reservas de convidado: até o evento terminar, depois removidas ou anonimizadas em até 12 meses.",
+      "tournament": "Registros de torneio: após exclusão da conta, nomes podem aparecer como \"Former Player\" / \"Deleted User\" para manter resultados passados.",
+      "verify": "Tokens de verificação de e-mail: 24 horas.",
+      "reset": "Tokens de redefinição de senha: 1 hora."
+    },
+    "rights": {
+      "intro": "Se você estiver no EEE/Reino Unido, tem o direito de:",
+      "access": "Acessar seus dados (Configurações → Baixar meus dados).",
+      "rectify": "Retificar dados incorretos (Configurações → Perfil).",
+      "erase": "Apagar seus dados (Configurações → Excluir conta).",
+      "restrict": "Restringir ou se opor a certos processamentos — contate-nos.",
+      "portability": "Portabilidade de dados — use a exportação.",
+      "withdraw": "Retirar consentimento de localização opcional — negue a permissão do navegador ou limpe os dados do site.",
+      "complaint": "Apresentar reclamação à autoridade supervisora local."
+    },
+    "children": {
+      "body": "O serviço não se destina a menores de 16 anos. Se acredita que uma criança forneceu dados, contate-nos e excluiremos."
+    },
+    "cookies": {
+      "body": "Usamos armazenamento local do navegador para sessões de login e preferências, e armazenamento de sessão para viés de localização opcional e dicas de reserva de convidado. Isso é descrito na primeira visita. Veja também nossos Termos de Serviço.",
+      "termsLink": "Termos de Serviço"
+    },
+    "changes": {
+      "body": "Podemos atualizar esta política. Mudanças relevantes serão indicadas nesta página com uma nova data de \"Última atualização\"."
+    }
+  },
+  "terms": {
+    "title": "Termos de Serviço",
+    "intro": "Ao usar {{siteName}} em {{siteUrl}}, você concorda com estes termos. O site é um projeto não oficial de fãs e não é afiliado nem endossado por Centurion Commander ou seus editores.",
+    "h": {
+      "accounts": "Contas",
+      "events": "Eventos e inscrições",
+      "acceptable": "Uso aceitável",
+      "disclaimer": "Isenção de responsabilidade",
+      "privacy": "Privacidade",
+      "contact": "Contato"
+    },
+    "accounts": {
+      "accurate": "Você deve fornecer informações precisas e manter sua senha segura.",
+      "verify": "Você deve verificar o e-mail antes de usar recursos da conta.",
+      "onePerson": "Uma pessoa por conta. Não se passe por outras pessoas.",
+      "suspend": "Podemos suspender contas que abusem do serviço ou violem regras de eventos."
+    },
+    "events": {
+      "organizers": "Organizadores são responsáveis por seus eventos; fornecemos apenas as ferramentas.",
+      "names": "Nomes de jogadores podem aparecer em páginas públicas de eventos e emparelhamentos.",
+      "guests": "Reservas de convidado podem ir para lista de espera; titulares de conta têm prioridade quando as vagas são limitadas."
+    },
+    "acceptable": {
+      "intro": "Você concorda em não:",
+      "attack": "Atacar, fazer scraping ou sobrecarregar o serviço.",
+      "upload": "Enviar conteúdo ilegal, assediador ou enganoso.",
+      "circumvent": "Contornar medidas de segurança (incluindo Turnstile)."
+    },
+    "disclaimer": {
+      "body": "O serviço é fornecido \"como está\", sem garantias. Não somos responsáveis por disputas de torneio, perda de dados além do cuidado razoável ou serviços de terceiros (Moxfield, lojas etc.)."
+    },
+    "privacy": {
+      "body": "Nossa Política de Privacidade explica como processamos dados pessoais e faz parte destes termos.",
+      "link": "Política de Privacidade"
+    },
+    "contact": {
+      "body": "Dúvidas: {{email}}"
+    }
+  }
+}

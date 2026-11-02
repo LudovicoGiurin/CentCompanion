@@ -1,0 +1,59 @@
+{
+  "denied": "Vyžadován přístup administrátora.",
+  "chip": "Admin",
+  "title": "Velitelské centrum",  "stats": {
+    "coordQueue": "Fronta koordinátorů",
+    "eventApprovals": "Schválení turnajů",    "coords": "Koord.",
+    "events": "Turnaje",
+    "aria": "Počty ve frontě admina"
+  },
+  "tabs": {
+    "coords": "Koordinátoři",
+    "coordsShort": "Koord.",
+    "events": "Schválení turnajů",
+    "eventsShort": "Turnaje",
+    "sync": "Sync pravidel",
+    "syncShort": "Sync",
+    "news": "Novinky",
+    "aria": "Sekce admina"
+  },
+  "coord": {
+    "requests": "Žádosti koordinátorů",
+    "pending_one": "{{n}} čeká",
+    "pending_other": "{{n}} čeká",
+    "pendingZero": "0 čeká",
+    "empty": "Žádné nevyřízené žádosti.",
+    "contact": "Kontakt: {{info}}",
+    "approve": "Schválit",
+    "reject": "Odmítnout",
+    "modalTitle": "Schválit koordinátora",
+    "storeLabel": "Název obchodu koordinátora (volitelné)"
+  },
+  "events": {
+    "title": "Schválení turnajů LV1 / LV2",
+    "empty": "Žádné nevyřízené žádosti o turnaje.",
+    "noDesc": "Bez popisu",
+    "noDescLong": "Popis nebyl uveden."
+  },
+  "sync": {
+    "title": "Sync pravidel a banlistu",
+    "titleShort": "Pravidla a banlist",
+    "lede": "Stáhněte nejnovější oficiální pravidla a banlist z centurioncommander.eu do aplikace.",
+    "now": "Synchronizovat teď"
+  },
+  "news": {
+    "title": "Publikovat novinku",
+    "fieldTitle": "Název",
+    "fieldContent": "Obsah",
+    "publish": "Publikovat"
+  },
+  "toasts": {
+    "loadFailed": "Nepodařilo se načíst data admina",
+    "rejected": "Žádost odmítnuta",
+    "approved": "Koordinátor schválen",
+    "synced": "Pravidla synchronizována",
+    "published": "Příspěvek publikován!",
+    "eventApproved": "Turnaj schválen",
+    "eventRejected": "Turnaj odmítnut"
+  }
+}

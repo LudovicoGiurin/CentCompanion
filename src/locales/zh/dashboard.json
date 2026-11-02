@@ -1,0 +1,155 @@
+﻿{
+    "guest":  {
+                  "title":  "个人资料",
+                  "create":  "创建账户"
+              },
+    "phone":  {
+                  "eyebrow":  "你的中心"
+              },
+    "settings":  {
+                     "link":  "设置",
+                     "title":  "账户设置",
+                     "email":  "邮箱：",
+                     "username":  "用户名：",
+                     "role":  "角色：",
+                     "cityLabel":  "默认本地联赛城市",
+                     "cityNotSet":  "未设置",
+                     "cityPh":  "例如：上海",
+                     "profile":  "个人资料",
+                     "saveProfile":  "保存资料",
+                     "profileUpdated":  "资料已更新。",
+                     "profileFailed":  "更新偏好失败",
+                     "changePassword":  "修改密码",
+                     "currentPassword":  "当前密码",
+                     "newPassword":  "新密码",
+                     "confirmNew":  "确认新密码",
+                     "updatePassword":  "更新密码",
+                     "saving":  "保存中…",
+                     "passwordMismatch":  "两次新密码不一致",
+                     "passwordFailed":  "更新密码失败",
+                     "resetViaEmail":  "忘记密码？通过邮箱重置",
+                     "help":  "帮助",
+                     "gibboHelp":  "Gibbo 是你的个人资料向导——一位解释排名、赛事和设置的小小丑。",
+                     "meetGibbo":  "再次认识 Gibbo",
+                     "privacy":  "隐私与数据",
+                     "privacyBody":  "根据 GDPR，你可以访问、导出或删除个人数据。请查看隐私政策或联系 {{email}}。",
+                     "download":  "下载我的数据",
+                     "preparing":  "准备中…",
+                     "exportDone":  "数据导出已下载。",
+                     "exportFailed":  "导出失败",
+                     "delete":  {
+                                    "title":  "删除我的账户",
+                                    "body":  "永久删除登录、邮箱和个人资料。即将到来的赛事报名将被取消；过往锦标赛记录可能显示为 \"Former Player\"。此操作不可撤销。",
+                                    "confirmTitle":  "删除账户？",
+                                    "confirmLabel":  "删除账户",
+                                    "confirmBody":  "这将删除邮箱、个人资料和登录权限。锦标赛历史可能显示通用的 \"Former Player\" 标签。此操作不可撤销。",
+                                    "password":  "用密码确认",
+                                    "failed":  "无法删除账户"
+                                },
+                     "coordinator":  {
+                                         "title":  "申请成为协调员",
+                                         "lede":  "经管理员批准后，协调员可为店铺创建赛事。",
+                                         "why":  "你为什么想成为协调员？",
+                                         "contact":  "联系信息（店铺、电话等）",
+                                         "submit":  "提交申请",
+                                         "success":  "申请已提交！管理员将审核你的请求。",
+                                         "failed":  "提交失败"
+                                     }
+                 },
+    "liveNow":  "正在进行",
+    "pairings":  "配对",
+    "nudge":  {
+                  "city":  "设置联赛城市以查看附近赛事",
+                  "cityDesktop":  "在设置中设定本地联赛城市，即可在日历上看到附近的联赛赛事。"
+              },
+    "standing":  {
+                     "title":  "排名",
+                     "national":  "国内排名",
+                     "points":  "积分",
+                     "pointsUpper":  "积分",
+                     "events":  "赛事",
+                     "fullLb":  "完整排行榜"
+                 },
+    "myEvents":  "我的赛事",
+    "myEventsDesktop":  "我已报名的赛事",
+    "browse":  "浏览",
+    "noRegs":  "尚无报名。去找一场赛事",
+    "noRegsDesktop":  "暂无即将到来的报名。浏览赛事",
+    "running":  "运营中",
+    "runningDesktop":  "我运营的赛事",
+    "hub":  "中心",
+    "hubDesktop":  "主办方中心",
+    "createOne":  "创建",
+    "noEventsYet":  "尚无赛事。",
+    "upcoming":  "即将开始",
+    "upcomingDesktop":  "即将开始的赛事",
+    "all":  "全部",
+    "allDesktop":  "全部赛事",
+    "welcome":  "欢迎，{{name}}",
+    "liveTournament":  "进行中的锦标赛",
+    "manage":  "管理",
+    "profile":  {
+                    "changePhoto":  "更换头像",
+                    "removePhoto":  "恢复默认插画",
+                    "avatarUpdated":  "头像已更新。",
+                    "avatarRemoved":  "已恢复默认插画。",
+                    "avatarFailed":  "无法更新头像",
+                    "frameFailed":  "无法更换边框",
+                    "medals":  "奖章",
+                    "medalHint":  "达成成就解锁奖章 — 点击奖章即可装备其边框。",
+                    "locked":  "未解锁",
+                    "achievements":  {
+                                         "welcome":  {
+                                                         "name":  "欢迎",
+                                                         "desc":  "加入 Cent Companion"
+                                                     },
+                                         "contender":  {
+                                                           "name":  "挑战者",
+                                                           "desc":  "报名参加你的第一场赛事"
+                                                       },
+                                         "first_blood":  {
+                                                             "name":  "首胜",
+                                                             "desc":  "赢得你的第一场对局"
+                                                         },
+                                         "veteran":  {
+                                                         "name":  "老将",
+                                                         "desc":  "报名参加 5 场赛事"
+                                                     },
+                                         "slayer":  {
+                                                        "name":  "杀手",
+                                                        "desc":  "赢得 10 场对局"
+                                                    }
+                                     },
+                    "memberSince":  "{{date}}加入 Cent Companion",
+                    "organizerBadge":  "主办方",
+                    "stats":  {
+                                  "points":  "积分",
+                                  "wins":  "胜场",
+                                  "losses":  "负场",
+                                  "draws":  "平局",
+                                  "events":  "赛事"
+                              },
+                    "nextEvents":  "你即将参加的赛事",
+                    "noEvents":  "还没有安排中的赛事。",
+                    "discover":  "发现赛事",
+                    "organizing_other":  "你正在主办 {{count}} 场赛事",
+                    "changeCover":  "更换封面",
+                    "removeCover":  "恢复默认封面",
+                    "coverUpdated":  "封面已更新。",
+                    "coverRemoved":  "已恢复默认封面。",
+                    "coverFailed":  "无法更新封面",
+                    "crop":  {
+                                 "avatarTitle":  "调整头像",
+                                 "coverTitle":  "调整封面",
+                                 "zoom":  "缩放",
+                                 "apply":  "应用",
+                                 "hintAvatar":  "拖动调整位置，用滑块缩放。边框预览头像最终效果。",
+                                 "hintCover":  "拖动调整位置，用滑块缩放封面。"
+                             },
+                    "achievementsTitle":  "成就",
+    "publicNotFound": "未找到个人资料。",
+                    "achievementsEquipHint":  "点按已解锁的奖章，可为头像装备对应边框。",
+    "achievementsViewHint": "该资料已解锁的奖章。",
+                    "frameEquipped":  "已装备"
+                }
+}

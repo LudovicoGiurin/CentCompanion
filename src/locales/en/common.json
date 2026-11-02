@@ -1,0 +1,237 @@
+﻿{
+    "nav":  {
+                "home":  "Home",
+                "events":  "Events",
+                "joinEvent":  "Join event",
+                "joinShort":  "Join",
+                "rules":  "Rules",
+                "banlist":  "Banlist",
+                "leaderboard":  "Leaderboard",
+                "admin":  "Admin",
+                "organizer":  "Organizer",
+                "menu":  "Menu",
+                "closeMenu":  "Close menu",
+                "openMenu":  "Open menu",
+                "mainMenu":  "Main menu",
+                "mobile":  "Mobile",
+                "primary":  "Primary",
+                "skipToContent":  "Skip to content",
+                "logIn":  "Log in",
+                "logOut":  "Log out",
+                "joinCta":  "Join",
+                "profile":  "Profile"
+            },
+    "theme":  {
+                  "lightMode":  "Light mode",
+                  "darkMode":  "Dark mode",
+                  "light":  "Light",
+                  "dark":  "Dark",
+                  "switchToLight":  "Switch to light mode",
+                  "switchToDark":  "Switch to dark mode"
+              },
+    "language":  {
+                     "label":  "Language"
+                 },
+    "brand":  {
+                  "full":  "CENT//COMP",
+                  "short":  "C//C",
+                  "name":  "Cent Companion"
+              },
+    "footer":  {
+                   "copyright":  "© Cent Companion — Unofficial fan companion for Centurion Commander",
+                   "privacy":  "Privacy",
+                   "terms":  "Terms",
+                   "contact":  "Contact",
+                   "officialSite":  "Official site"
+               },
+    "actions":  {
+                    "back":  "Back",
+                    "next":  "Next",
+                    "cancel":  "Cancel",
+                    "confirm":  "Confirm",
+                    "save":  "Save",
+                    "loading":  "Loading…",
+                    "dismiss":  "Dismiss",
+                    "browseEvents":  "Browse events"
+                },
+    "breadcrumb":  {
+                       "aria":  "Breadcrumb"
+                   },
+    "meta":  {
+                 "defaultTitle":  "Cent Companion — Centurion Commander",
+                 "defaultDescription":  "Unofficial companion for Centurion Commander tournaments, leaderboard, and metagame."
+             },
+    "securityCheck":  {
+                          "label":  "Please complete the security check",
+                          "aria":  "Security check"
+                      },
+    "errors":  {
+                   "generic":  "Request failed",
+                   "failedToLoad":  "Failed to load"
+               },
+    "privacy":  {
+                    "banner":  {
+                                   "aria":  "Privacy notice",
+                                   "body":  "We use essential local storage for sign-in and optional location (with your permission) for nearby events. See our \u003cprivacyLink\u003ePrivacy Policy\u003c/privacyLink\u003e for details on your GDPR rights.",
+                                   "accept":  "Got it"
+                               },
+                    "consent":  "I agree to the \u003ctermsLink\u003eTerms of Service\u003c/termsLink\u003e and \u003cprivacyLink\u003ePrivacy Policy\u003c/privacyLink\u003e."
+                },
+    "location":  {
+                     "placeholder":  "Search tournament location",
+                     "placeholderVenue":  "Search store, venue, or address",
+                     "searching":  "Searching…",
+                     "city":  "City: {{city}}",
+                     "searchingNear":  "Searching near you ({{country}})",
+                     "unknownPlace":  "Unknown place",
+                     "noMatches":  "No matches yet — try store name + city (e.g. Mr Magic Savona)."
+                 },
+    "eventType":  {
+                      "casual":  "Casual",
+                      "localLeague":  "Local league",
+                      "lv1":  "LV1",
+                      "lv2":  "LV2"
+                  },
+    "eventStatus":  {
+                        "live":  "Live",
+                        "completed":  "Completed",
+                        "cancelled":  "Cancelled",
+                        "upcoming":  "Upcoming"
+                    },
+    "rules":  {
+                  "title":  "Rules",
+                  "lastSynced":  "Last synced {{date}}",
+                  "footer":  "Content syncs daily from comprehensive rules. Admins can trigger manual sync from the Admin panel.",
+                  "linkLabel":  "comprehensive rules"
+              },
+    "banlist":  {
+                    "title":  "Banlist",
+                    "footer":  "Content syncs daily from ban list. Admins can trigger manual sync from the Admin panel.",
+                    "linkLabel":  "ban list"
+                },
+    "leaderboard":  {
+                        "fallbackTitle":  "Italian Leaderboard 2026",
+                        "yourRank":  "YOUR RANK: #{{rank}} — {{points}} PTS",
+                        "officialSheet":  "Official sheet",
+                        "comingSoon":  "Coming soon",
+                        "pts":  "{{n}} PTS",
+                        "col":  {
+                                    "rank":  "#",
+                                    "player":  "Player",
+                                    "total":  "Total",
+                                    "achievements":  "Achievements"
+                                },
+                        "empty":  "No standings available.",
+                        "synced":  "Synced {{date}} · Data from Google Sheets"
+                    },
+    "metagame":  {
+                     "title":  "Metagame snapshot",
+                     "empty":  "Metagame data will populate as tournament results are recorded.",
+                     "tier":  "TIER {{tier}}",
+                     "winRate":  "{{n}}% WR"
+                 },
+    "home":  {
+                 "eyebrow":  "COMMUNITY FORMAT",
+                 "headline":  {
+                                  "line1":  "Centurion Commander",
+                                  "line2":  "Companion"
+                              },
+                 "cta":  {
+                             "events":  "Upcoming Events",
+                             "rules":  "The rules",
+                             "leaderboard":  "Leaderboard"
+                         },
+                 "intro":  {
+                               "label":  "Centurion opening",
+                               "skip":  "Skip",
+                               "boot":  "LOADING"
+                           },
+                 "format":  {
+                                "eyebrow":  "THE FORMAT",
+                                "title":  "How a duel is built",
+                                "titlePhone":  "The format",
+                                "rules":  "Full rules",
+                                "duel":  {
+                                             "mark":  "1v1",
+                                             "title":  "A duel",
+                                             "body":  "One opponent, at the pace of a tournament match."
+                                         },
+                                "deck":  {
+                                             "mark":  "100",
+                                             "title":  "One hundred cards",
+                                             "body":  "The deck is exactly 100 cards, commander included."
+                                         },
+                                "single":  {
+                                               "mark":  "1×",
+                                               "title":  "Singleton",
+                                               "body":  "One copy of each card. Basic lands are the exception."
+                                           },
+                                "life":  {
+                                             "mark":  "25",
+                                             "title":  "Starting life",
+                                             "body":  "Each player begins at 25 life."
+                                         }
+                            },
+                 "hud":  {
+                             "title":  "PLAYER.HUD",
+                             "rankPts":  "international RANK PTS",
+                             "eventsPlayed":  "EVENTS PLAYED",
+                             "record":  "W {{w}} / L {{l}}",
+                             "guest":  "Sign in to see your international and national rank, register for events, and submit decklists.",
+                             "profile":  "PROFILE"
+                         },
+                 "phone":  {
+                               "you":  "YOU",
+                               "pts":  "pts",
+                               "events":  "events",
+                               "guest":  "Sign in to track rank, register, and submit decklists.",
+                               "openProfile":  "Open profile"
+                           },
+                 "section":  {
+                                 "events":  "EVENTS",
+                                 "news":  "NEWS"
+                             },
+                 "upcoming":  {
+                                  "desktop":  "Upcoming tournaments",
+                                  "phone":  "Upcoming"
+                              },
+                 "viewAll":  "View all",
+                 "noEvents":  "No events scheduled yet. Coordinators can create events from the Organizer panel.",
+                 "noEventsShort":  "No events scheduled yet.",
+                 "details":  "DETAILS",
+                 "open":  "OPEN",
+                 "rail":  {
+                              "aria":  "Upcoming events"
+                          },
+                 "news":  {
+                              "desktop":  "Latest dispatches",
+                              "phone":  "News",
+                              "empty":  "News posts will appear here once admins publish updates.",
+                              "emptyShort":  "No news yet.",
+                              "staff":  "Staff"
+                          }
+             },
+    "organizerProfile":  {
+                             "notFound":  "Organizer not found",
+                             "notPublic":  "This profile is not public.",
+                             "localLeague":  "Local league: {{city}}",
+                             "events":  "Events",
+                             "noEvents":  "No public events yet."
+                         },
+    "calendar":  {
+                     "formatPrefix":  "Format: {{format}}",
+                     "defaultDescription":  "Centurion Commander event via Cent Companion"
+                 },
+    "locale":  {
+                   "label":  "Language",
+                   "en":  "English",
+                   "it":  "Italiano",
+                   "es":  "Español",
+                   "fr":  "Français",
+                   "de":  "Deutsch",
+                   "pt":  "Português",
+                   "cs":  "Čeština",
+                   "ja":  "日本語",
+                   "zh":  "中文"
+               }
+}

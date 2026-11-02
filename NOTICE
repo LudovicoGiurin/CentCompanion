@@ -1,0 +1,25 @@
+Cent Companion
+Copyright (c) 2026 Ludovico Giurin
+
+The MIT license in LICENSE covers the source code in this repository only.
+Third-party material referenced by this project is listed below.
+
+Spritecraft design system
+    css/system.css is derived from Spritecraft, a commercial pixel-art UI kit
+    licensed from Uiverse Design (https://design.uiverse.io). It is included
+    here solely so this application builds and runs, and it is NOT covered by
+    the MIT license above. It remains the property of Uiverse and is not
+    offered for reuse, redistribution, or repackaging. If you want to use
+    Spritecraft in your own work, buy a license from Uiverse.
+
+Phosphor Icons
+    Icon set by Phosphor (https://phosphoricons.com), MIT licensed.
+
+Fonts
+    Press Start 2P, VT323, and Silkscreen are served from Google Fonts under
+    the SIL Open Font License.
+
+Centurion Commander / Magic: The Gathering
+    This is an unofficial fan project, not produced by or affiliated with
+    Wizards of the Coast. Card data and imagery are retrieved from Scryfall
+    (https://scryfall.com) and remain the property of their respective owners.

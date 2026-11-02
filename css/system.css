@@ -1,0 +1,714 @@
+/* =====================================================================
+   Spritecraft Design System
+   A light pixel-art game UI kit. Chunky 8-bit bevels, ink outlines,
+   parchment surfaces, and HUD-style components.
+   ===================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+
+/* ---------- Tokens -------------------------------------------------- */
+:root {
+  /* Color */
+  --sc-bg: #f4e9c8;
+  --sc-surface: #fbf5dd;
+  --sc-surface-sunken: #ead8a3;
+  --sc-ink: #1c1c1c;
+  --sc-ink-soft: #3a3024;
+  --sc-muted: #6d5526;
+  --sc-line: #1c1c1c;
+
+  --sc-primary: #c0392b;
+  --sc-primary-hi: #e2725b;
+  --sc-primary-lo: #7a1c12;
+  --sc-primary-shadow: rgba(122, 28, 18, 0.5);
+  --sc-primary-highlight: rgba(253, 142, 118, 0.99);
+
+  --sc-secondary: #f0a232;
+  --sc-secondary-hi: #ffd27a;
+  --sc-secondary-lo: #8a5510;
+
+  --sc-tertiary: #3aa0e6;
+  --sc-tertiary-hi: #8fd4ff;
+  --sc-tertiary-lo: #134a78;
+
+  --sc-danger: #d94343;
+  --sc-danger-hi: #ff8a8a;
+  --sc-danger-lo: #7a1414;
+
+  --sc-on-primary: #ffffff;
+  --sc-on-surface: #1c1c1c;
+
+  --sc-focus: #3aa0e6;
+
+  /* Typography */
+  --sc-font-display: "Press Start 2P", "Courier New", monospace;
+  --sc-font-body: "VT323", "Courier New", monospace;
+  --sc-font-micro: "Silkscreen", "Courier New", monospace;
+
+  --sc-text-display-lg: 28px;
+  --sc-text-display-md: 22px;
+  --sc-text-display-sm: 16px;
+  --sc-text-headline-lg: 26px;
+  --sc-text-headline-md: 20px;
+  --sc-text-body-lg: 24px;
+  --sc-text-body-md: 20px;
+  --sc-text-body-sm: 18px;
+  --sc-text-label-sm: 13px;
+  --sc-text-micro: 11px;
+
+  --sc-leading-tight: 1.1;
+  --sc-leading-snug: 1.25;
+  --sc-leading-normal: 1.4;
+
+  /* Spacing — 4px grid */
+  --sc-space-1: 4px;
+  --sc-space-2: 8px;
+  --sc-space-3: 12px;
+  --sc-space-4: 16px;
+  --sc-space-5: 24px;
+  --sc-space-6: 32px;
+  --sc-space-7: 48px;
+  --sc-space-8: 64px;
+
+  /* Shape — pixel grid: no radius */
+  --sc-radius-none: 0px;
+  --sc-radius-sm: 0px;
+  --sc-radius-md: 0px;
+
+  /* Borders */
+  --sc-border-thin: 2px solid var(--sc-line);
+  --sc-border-thick: 4px solid var(--sc-line);
+
+  /* Elevation — hard pixel bevels (no blur) */
+  --sc-bevel-primary:
+    0 -4px var(--sc-primary-shadow) inset,
+    0 4px var(--sc-primary-highlight) inset,
+    -4px 0 rgba(253, 142, 118, 0.5) inset,
+    4px 0 rgba(122, 28, 18, 0.5) inset;
+
+  --sc-bevel-light:
+    0 -4px rgba(0, 0, 0, 0.35) inset,
+    0 4px rgba(255, 255, 255, 0.75) inset,
+    -4px 0 rgba(255, 255, 255, 0.35) inset,
+    4px 0 rgba(0, 0, 0, 0.35) inset;
+
+  --sc-bevel-sunken:
+    0 4px rgba(0, 0, 0, 0.4) inset,
+    0 -4px rgba(255, 255, 255, 0.55) inset,
+    4px 0 rgba(0, 0, 0, 0.25) inset,
+    -4px 0 rgba(255, 255, 255, 0.25) inset;
+
+  --sc-drop-1: 0 4px 0 0 rgba(0, 0, 0, 0.25);
+  --sc-drop-2: 0 6px 0 0 rgba(0, 0, 0, 0.3);
+  --sc-drop-3: 0 8px 0 0 rgba(0, 0, 0, 0.35);
+
+  /* Motion */
+  --sc-ease: cubic-bezier(0, 0.8, 0.26, 0.99);
+  --sc-dur-fast: 120ms;
+  --sc-dur-med: 320ms;
+  --sc-dur-slow: 700ms;
+}
+
+:root[data-theme="dark"] {
+  --sc-bg: #121316;
+  --sc-surface: #1b1d22;
+  --sc-surface-sunken: #14161a;
+  --sc-ink: #c7d0dd;
+  --sc-ink-soft: #aab4c4;
+  --sc-muted: #9ea5b2;
+  --sc-line: #6f7b90;
+
+  --sc-primary: #d4553f;
+  --sc-primary-hi: #f0917a;
+  --sc-primary-lo: #8f2b1d;
+  --sc-primary-shadow: rgba(58, 18, 12, 0.6);
+  --sc-primary-highlight: rgba(255, 173, 152, 0.9);
+
+  --sc-secondary: #e39a31;
+  --sc-secondary-hi: #ffd18d;
+  --sc-secondary-lo: #9a6314;
+
+  --sc-tertiary: #5baee8;
+  --sc-tertiary-hi: #9dd8ff;
+  --sc-tertiary-lo: #2e71a1;
+
+  --sc-danger: #e56060;
+  --sc-danger-hi: #ffaaaa;
+  --sc-danger-lo: #9f3a3a;
+
+  --sc-on-primary: #150705;
+  --sc-on-surface: #e7edf8;
+  --sc-focus: #7ec6ff;
+}
+
+/* ---------- Base ---------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--sc-bg);
+  color: var(--sc-on-surface);
+  font-family: var(--sc-font-body);
+  font-size: var(--sc-text-body-md);
+  line-height: var(--sc-leading-normal);
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+  image-rendering: pixelated;
+}
+
+::selection {
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+}
+
+/* Faint scanline overlay token, opt-in via .sc-scanlines */
+.sc-scanlines {
+  position: relative;
+  isolation: isolate;
+}
+.sc-scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(28, 28, 28, 0.04) 0,
+    rgba(28, 28, 28, 0.04) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  z-index: 0;
+}
+
+/* ---------- Typography utilities ----------------------------------- */
+.sc-display-lg,
+.sc-display-md,
+.sc-display-sm {
+  font-family: var(--sc-font-display);
+  color: var(--sc-ink);
+  letter-spacing: 0.5px;
+  line-height: var(--sc-leading-tight);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.18);
+}
+.sc-display-lg { font-size: var(--sc-text-display-lg); }
+.sc-display-md { font-size: var(--sc-text-display-md); }
+.sc-display-sm { font-size: var(--sc-text-display-sm); }
+
+.sc-headline-lg,
+.sc-headline-md {
+  font-family: var(--sc-font-display);
+  color: var(--sc-ink);
+  letter-spacing: 0.5px;
+  line-height: var(--sc-leading-tight);
+}
+.sc-headline-lg { font-size: var(--sc-text-headline-lg); }
+.sc-headline-md { font-size: var(--sc-text-headline-md); }
+
+.sc-body-lg,
+.sc-body-md,
+.sc-body-sm {
+  font-family: var(--sc-font-body);
+  color: var(--sc-ink);
+  line-height: var(--sc-leading-normal);
+}
+.sc-body-lg { font-size: var(--sc-text-body-lg); }
+.sc-body-md { font-size: var(--sc-text-body-md); }
+.sc-body-sm { font-size: var(--sc-text-body-sm); }
+
+.sc-label-sm,
+.sc-micro {
+  font-family: var(--sc-font-micro);
+  color: var(--sc-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.sc-label-sm { font-size: var(--sc-text-label-sm); }
+.sc-micro { font-size: var(--sc-text-micro); }
+
+/* ---------- Layout primitives -------------------------------------- */
+.sc-container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 var(--sc-space-5);
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.sc-stack { display: flex; flex-direction: column; gap: var(--sc-space-4); }
+.sc-row   { display: flex; flex-direction: row; gap: var(--sc-space-4); align-items: center; }
+.sc-grid  { display: grid; gap: var(--sc-space-5); }
+
+/* ---------- Button -------------------------------------------------- */
+.sc-btn {
+  font-family: var(--sc-font-display);
+  font-size: var(--sc-text-label-sm);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--sc-on-primary);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--sc-primary);
+  border: 0;
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sc-space-2);
+  padding: 12px 20px;
+  min-height: 44px;
+  user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: var(--sc-radius-none);
+  transition: transform var(--sc-dur-slow) var(--sc-ease),
+              box-shadow var(--sc-dur-slow) var(--sc-ease),
+              background-color var(--sc-dur-fast) var(--sc-ease);
+}
+
+.sc-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: var(--sc-primary) !important;
+  box-shadow: var(--sc-bevel-primary);
+  transition: box-shadow var(--sc-dur-slow) var(--sc-ease);
+}
+
+.sc-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: var(--sc-drop-1);
+  transition: box-shadow var(--sc-dur-slow) var(--sc-ease);
+}
+
+.sc-btn:hover::before {
+  box-shadow:
+    0 -4px rgba(0, 0, 0, 0.5) inset,
+    0 4px rgba(255, 255, 255, 0.2) inset,
+    -4px 0 rgba(255, 255, 255, 0.2) inset,
+    4px 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+.sc-btn:active {
+  transform: translateY(4px);
+}
+.sc-btn:active::after {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.sc-btn:focus-visible {
+  outline: 3px solid var(--sc-focus);
+  outline-offset: 4px;
+}
+
+.sc-btn:disabled,
+.sc-btn[aria-disabled="true"] {
+  cursor: not-allowed;
+  filter: grayscale(0.55) brightness(0.95);
+  opacity: 0.7;
+}
+
+/* Variants */
+.sc-btn--secondary {
+  background-color: var(--sc-secondary);
+}
+.sc-btn--secondary::before {
+  background-color: var(--sc-secondary) !important;
+  box-shadow:
+    0 -4px rgba(138, 85, 16, 0.55) inset,
+    0 4px rgba(255, 210, 122, 0.95) inset,
+    -4px 0 rgba(255, 210, 122, 0.55) inset,
+    4px 0 rgba(138, 85, 16, 0.55) inset;
+}
+
+.sc-btn--danger {
+  background-color: var(--sc-danger);
+}
+.sc-btn--danger::before {
+  background-color: var(--sc-danger) !important;
+  box-shadow:
+    0 -4px rgba(122, 20, 20, 0.55) inset,
+    0 4px rgba(255, 138, 138, 0.95) inset,
+    -4px 0 rgba(255, 138, 138, 0.55) inset,
+    4px 0 rgba(122, 20, 20, 0.55) inset;
+}
+
+.sc-btn--ghost {
+  background-color: var(--sc-surface);
+  color: var(--sc-ink);
+  text-shadow: none;
+}
+.sc-btn--ghost::before {
+  background-color: var(--sc-surface) !important;
+  box-shadow:
+    0 -4px rgba(109, 85, 38, 0.55) inset,
+    0 4px rgba(255, 255, 255, 0.85) inset,
+    -4px 0 rgba(255, 255, 255, 0.55) inset,
+    4px 0 rgba(109, 85, 38, 0.55) inset;
+}
+
+.sc-btn--sm { padding: 8px 14px; min-height: 38px; font-size: 12px; }
+.sc-btn--lg { padding: 16px 28px; min-height: 56px; font-size: 15px; }
+
+/* ---------- Input --------------------------------------------------- */
+.sc-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sc-space-2);
+  font-family: var(--sc-font-body);
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.sc-field__label {
+  font-family: var(--sc-font-micro);
+  font-size: var(--sc-text-label-sm);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--sc-muted);
+}
+
+.sc-input {
+  position: relative;
+  font-family: var(--sc-font-body);
+  font-size: var(--sc-text-body-lg);
+  color: var(--sc-ink);
+  background-color: var(--sc-surface-sunken);
+  border: var(--sc-border-thin);
+  border-radius: var(--sc-radius-none);
+  padding: 10px 14px;
+  min-height: 44px;
+  width: 100%;
+  outline: none;
+  box-shadow: var(--sc-bevel-sunken);
+  caret-color: var(--sc-primary);
+  transition: box-shadow var(--sc-dur-fast) var(--sc-ease),
+              background-color var(--sc-dur-fast) var(--sc-ease);
+}
+
+.sc-input::placeholder {
+  color: var(--sc-muted);
+  opacity: 0.7;
+}
+
+.sc-input:hover {
+  background-color: var(--sc-surface);
+}
+
+.sc-input:focus,
+.sc-input:focus-visible {
+  background-color: var(--sc-surface);
+  box-shadow:
+    var(--sc-bevel-sunken),
+    0 0 0 3px var(--sc-focus);
+}
+
+.sc-input:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+textarea.sc-input {
+  min-height: 96px;
+  resize: vertical;
+  line-height: var(--sc-leading-normal);
+}
+
+/* ---------- Card ---------------------------------------------------- */
+.sc-card {
+  position: relative;
+  background-color: var(--sc-surface);
+  color: var(--sc-ink);
+  border: var(--sc-border-thick);
+  border-radius: var(--sc-radius-none);
+  padding: var(--sc-space-5);
+  box-shadow: var(--sc-bevel-light), var(--sc-drop-2);
+}
+
+/* Notched-corner scroll variant */
+.sc-card--scroll {
+  --notch: 12px;
+  clip-path: polygon(
+    var(--notch) 0,
+    calc(100% - var(--notch)) 0,
+    100% var(--notch),
+    100% calc(100% - var(--notch)),
+    calc(100% - var(--notch)) 100%,
+    var(--notch) 100%,
+    0 calc(100% - var(--notch)),
+    0 var(--notch)
+  );
+  border: 0;
+}
+
+.sc-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sc-space-3);
+  padding-bottom: var(--sc-space-3);
+  border-bottom: 2px dashed var(--sc-muted);
+  margin-bottom: var(--sc-space-4);
+}
+
+.sc-card__title {
+  font-family: var(--sc-font-display);
+  font-size: var(--sc-text-headline-md);
+  color: var(--sc-ink);
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.sc-card__body { font-family: var(--sc-font-body); font-size: var(--sc-text-body-md); }
+
+.sc-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--sc-space-3);
+  padding-top: var(--sc-space-4);
+  margin-top: var(--sc-space-4);
+  border-top: 2px dashed var(--sc-muted);
+}
+
+/* ---------- Checkbox ----------------------------------------------- */
+.sc-check {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sc-space-3);
+  font-family: var(--sc-font-body);
+  font-size: var(--sc-text-body-md);
+  color: var(--sc-ink);
+  cursor: pointer;
+  user-select: none;
+}
+
+.sc-check input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  background-color: var(--sc-surface-sunken);
+  border: var(--sc-border-thin);
+  border-radius: var(--sc-radius-none);
+  position: relative;
+  cursor: pointer;
+  box-shadow: var(--sc-bevel-sunken);
+  transition: background-color var(--sc-dur-fast) var(--sc-ease),
+              box-shadow var(--sc-dur-fast) var(--sc-ease);
+}
+
+.sc-check input[type="checkbox"]:hover {
+  background-color: var(--sc-surface);
+}
+
+.sc-check input[type="checkbox"]:checked {
+  background-color: var(--sc-primary);
+  box-shadow:
+    0 -4px var(--sc-primary-shadow) inset,
+    0 4px var(--sc-primary-highlight) inset,
+    -4px 0 rgba(253, 142, 118, 0.5) inset,
+    4px 0 rgba(122, 28, 18, 0.5) inset;
+}
+
+.sc-check input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 8px;
+  height: 14px;
+  border-right: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  transform: rotate(45deg);
+  filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.3));
+}
+
+.sc-check input[type="checkbox"]:focus-visible {
+  outline: 3px solid var(--sc-focus);
+  outline-offset: 3px;
+}
+
+/* ---------- Tabs ---------------------------------------------------- */
+.sc-tabs {
+  display: inline-flex;
+  background-color: var(--sc-surface-sunken);
+  border: var(--sc-border-thin);
+  padding: 4px;
+  gap: 4px;
+  box-shadow: var(--sc-bevel-sunken);
+}
+
+.sc-tabs__btn {
+  font-family: var(--sc-font-display);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--sc-muted);
+  background: transparent;
+  border: 0;
+  padding: 10px 14px;
+  cursor: pointer;
+  position: relative;
+  border-radius: var(--sc-radius-none);
+  transition: color var(--sc-dur-fast) var(--sc-ease);
+}
+
+.sc-tabs__btn:hover { color: var(--sc-ink); }
+
+.sc-tabs__btn[aria-selected="true"],
+.sc-tabs__btn.is-active {
+  color: var(--sc-on-primary);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--sc-primary);
+  box-shadow: var(--sc-bevel-primary), 0 4px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.sc-tabs__btn:focus-visible {
+  outline: 3px solid var(--sc-focus);
+  outline-offset: 2px;
+}
+
+/* ---------- Signature: Pixel Quest Bar ----------------------------- */
+.sc-questbar {
+  --cells: 12;
+  --filled: 7;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sc-space-2);
+  font-family: var(--sc-font-micro);
+  color: var(--sc-ink);
+}
+
+.sc-questbar__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--sc-text-label-sm);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--sc-muted);
+}
+
+.sc-questbar__track {
+  position: relative;
+  display: flex;
+  gap: 3px;
+  padding: 6px;
+  background-color: var(--sc-surface-sunken);
+  border: var(--sc-border-thin);
+  box-shadow: var(--sc-bevel-sunken);
+  overflow: hidden;
+}
+
+.sc-questbar__cells {
+  display: grid;
+  grid-template-columns: repeat(var(--cells), 1fr);
+  gap: 3px;
+  flex: 1;
+  min-height: 20px;
+}
+
+.sc-questbar__cell {
+  background-color: rgba(28, 28, 28, 0.08);
+  box-shadow: inset 0 -2px rgba(0, 0, 0, 0.15);
+}
+
+.sc-questbar__cell.is-filled {
+  background-color: var(--sc-primary);
+  box-shadow:
+    inset 0 2px var(--sc-primary-highlight),
+    inset 0 -2px var(--sc-primary-shadow);
+}
+
+.sc-questbar__cell.is-filled--gold {
+  background-color: var(--sc-secondary);
+  box-shadow:
+    inset 0 2px rgba(255, 210, 122, 0.95),
+    inset 0 -2px rgba(138, 85, 16, 0.7);
+}
+
+.sc-questbar__cell.is-filled--danger {
+  background-color: var(--sc-danger);
+  box-shadow:
+    inset 0 2px rgba(255, 138, 138, 0.95),
+    inset 0 -2px rgba(122, 20, 20, 0.7);
+}
+
+/* Scanline overlay on the questbar */
+.sc-questbar__track::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.08) 0,
+    rgba(0, 0, 0, 0.08) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+/* ---------- Badge / Chip ------------------------------------------- */
+.sc-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--sc-font-micro);
+  font-size: var(--sc-text-label-sm);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--sc-ink);
+  background-color: var(--sc-surface);
+  border: var(--sc-border-thin);
+  padding: 4px 8px;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.sc-chip--primary { background-color: var(--sc-primary); color: var(--sc-on-primary); }
+.sc-chip--gold  { background-color: var(--sc-secondary); color: var(--sc-ink); }
+.sc-chip--cyan  { background-color: var(--sc-tertiary); color: var(--sc-on-primary); }
+.sc-chip--red   { background-color: var(--sc-danger); color: var(--sc-on-primary); }
+
+/* ---------- Icons --------------------------------------------------- */
+.sc-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  line-height: 1;
+  color: currentColor;
+}
+
+/* ---------- Reduced motion ----------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .sc-btn,
+  .sc-btn::before,
+  .sc-btn::after,
+  .sc-input,
+  .sc-tabs__btn,
+  .sc-check input[type="checkbox"] {
+    transition-duration: 1ms !important;
+  }
+}

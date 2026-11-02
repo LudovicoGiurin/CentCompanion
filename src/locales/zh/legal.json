@@ -1,0 +1,118 @@
+{
+  "updated": "最后更新：2026年7月4日",
+  "home": "首页",
+  "privacy": {
+    "title": "隐私政策",
+    "intro": "{{siteName}}（{{siteUrl}}）是面向 Centurion Commander 锦标赛的非官方粉丝 Companion。本政策说明我们如何根据欧盟《通用数据保护条例》（GDPR）及类似法律处理个人数据。",
+    "h": {
+      "controller": "数据控制者",
+      "collect": "我们收集的内容",
+      "bases": "使用原因（法律依据）",
+      "processors": "处理者与跨境传输",
+      "retention": "保存期限",
+      "rights": "你的权利",
+      "children": "儿童",
+      "cookies": "Cookie 与本地存储",
+      "changes": "变更"
+    },
+    "controller": {
+      "body": "{{siteName}} 的运营者是数据控制者。隐私相关请求请联系：{{email}}。"
+    },
+    "collect": {
+      "accountLabel": "账户数据：",
+      "account": "邮箱、用户名、密码（哈希存储）、姓名、可选店铺名称与本地联赛城市。",
+      "eventLabel": "赛事数据：",
+      "event": "报名、可选的 Moxfield 牌组 URL、与账户关联的锦标赛配对与结果。",
+      "guestLabel": "访客预约：",
+      "guest": "无账户时的姓名（及可选牌组信息）。",
+      "coordinatorLabel": "协调员申请：",
+      "coordinator": "你提交的留言与联系方式。",
+      "technicalLabel": "技术数据：",
+      "technical": "浏览器存储中的会话令牌；若你允许则可选的大致位置（用于「附近」赛事）；Cloudflare Turnstile 反滥用信号。"
+    },
+    "bases": {
+      "contractLabel": "合同：",
+      "contract": "创建与管理账户、为你报名赛事并运行锦标赛。",
+      "legitimateLabel": "合法利益：",
+      "legitimate": "安全（Turnstile）、欺诈防范、显示你参加赛事的选手名单，以及改进服务。",
+      "consentLabel": "同意：",
+      "consent": "可选的浏览器位置以查找附近赛事；你可以拒绝并仍可使用本站。",
+      "legalLabel": "法律义务：",
+      "legal": "在法律要求时遵守。"
+    },
+    "processors": {
+      "intro": "我们使用代表我们处理数据的可信提供商：",
+      "cloudflare": "Cloudflare（托管、Turnstile）— 可能在适当保障措施下于美国处理数据。",
+      "neon": "Neon（数据库）— 视项目区域为欧盟/美国。",
+      "resend": "Resend（事务性邮件）。",
+      "osm": "OpenStreetMap Nominatim（位置搜索，仅在你搜索或使用位置功能时）。",
+      "noSell": "我们不出售你的个人数据。我们不使用广告追踪器。"
+    },
+    "retention": {
+      "account": "账户数据：直至你删除账户或要求我们删除。",
+      "guest": "访客预约：直至赛事结束，之后在 12 个月内删除或匿名化。",
+      "tournament": "锦标赛记录：账户删除后，姓名可能显示为 \"Former Player\" / \"Deleted User\"，以保持过往结果完整。",
+      "verify": "邮箱验证令牌：24 小时。",
+      "reset": "密码重置令牌：1 小时。"
+    },
+    "rights": {
+      "intro": "若你位于欧洲经济区/英国，你有权：",
+      "access": "访问你的数据（设置 → 下载我的数据）。",
+      "rectify": "更正不准确数据（设置 → 个人资料）。",
+      "erase": "删除你的数据（设置 → 删除账户）。",
+      "restrict": "限制或反对某些处理——请联系我们。",
+      "portability": "数据可携——使用导出功能。",
+      "withdraw": "撤回可选位置的同意——拒绝浏览器权限或清除站点数据。",
+      "complaint": "向当地监管机构投诉。"
+    },
+    "children": {
+      "body": "本服务不面向 16 岁以下儿童。若你认为儿童提供了数据，请联系我们，我们将删除。"
+    },
+    "cookies": {
+      "body": "我们使用浏览器本地存储保存登录会话与偏好，并使用会话存储保存可选位置偏向与访客预约提示。首次访问时会说明。另请参阅我们的服务条款。",
+      "termsLink": "服务条款"
+    },
+    "changes": {
+      "body": "我们可能更新本政策。重大变更将在本页以新的「最后更新」日期注明。"
+    }
+  },
+  "terms": {
+    "title": "服务条款",
+    "intro": "使用位于 {{siteUrl}} 的 {{siteName}}，即表示你同意本条款。本站为非官方粉丝项目，与 Centurion Commander 或其发行方无关联、未获其背书。",
+    "h": {
+      "accounts": "账户",
+      "events": "赛事与报名",
+      "acceptable": "可接受使用",
+      "disclaimer": "免责声明",
+      "privacy": "隐私",
+      "contact": "联系"
+    },
+    "accounts": {
+      "accurate": "你必须提供准确信息并妥善保管密码。",
+      "verify": "使用账户功能前必须验证邮箱。",
+      "onePerson": "每人一个账户。请勿冒充他人。",
+      "suspend": "我们可能暂停滥用服务或违反赛事规则的账户。"
+    },
+    "events": {
+      "organizers": "主办方对其赛事负责；我们仅提供工具。",
+      "names": "选手姓名可能出现在公开赛事页面与配对中。",
+      "guests": "访客预约可能进入候补名单；名额有限时账户持有者优先。"
+    },
+    "acceptable": {
+      "intro": "你同意不：",
+      "attack": "攻击、抓取或使服务过载。",
+      "upload": "上传非法、骚扰或误导性内容。",
+      "circumvent": "规避安全措施（包括 Turnstile）。"
+    },
+    "disclaimer": {
+      "body": "服务按「现状」提供，不作保证。我们对锦标赛争议、超出合理注意的数据丢失或第三方服务（Moxfield、店铺等）不承担责任。"
+    },
+    "privacy": {
+      "body": "我们的隐私政策说明如何处理个人数据，并构成本条款的一部分。",
+      "link": "隐私政策"
+    },
+    "contact": {
+      "body": "问题：{{email}}"
+    }
+  }
+}

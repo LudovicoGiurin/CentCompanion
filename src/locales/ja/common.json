@@ -1,0 +1,205 @@
+﻿{
+    "nav":  {
+                "home":  "ホーム",
+                "events":  "イベント",
+                "joinEvent":  "イベント参加",
+                "joinShort":  "参加",
+                "rules":  "ルール",
+                "banlist":  "禁止リスト",
+                "leaderboard":  "順位表",
+                "admin":  "管理",
+                "organizer":  "主催",
+                "menu":  "メニュー",
+                "closeMenu":  "メニューを閉じる",
+                "openMenu":  "メニューを開く",
+                "mainMenu":  "メインメニュー",
+                "mobile":  "モバイル",
+                "primary":  "メイン",
+                "skipToContent":  "本文へスキップ",
+                "logIn":  "ログイン",
+                "logOut":  "ログアウト",
+                "joinCta":  "参加",
+                "profile":  "プロフィール"
+            },
+    "theme":  {
+                  "lightMode":  "ライトモード",
+                  "darkMode":  "ダークモード",
+                  "light":  "ライト",
+                  "dark":  "ダーク",
+                  "switchToLight":  "ライトモードに切替",
+                  "switchToDark":  "ダークモードに切替"
+              },
+    "language":  {
+                     "label":  "言語"
+                 },
+    "brand":  {
+                  "full":  "CENT//COMP",
+                  "short":  "C//C",
+                  "name":  "Cent Companion"
+              },
+    "footer":  {
+                   "copyright":  "© Cent Companion — Centurion Commander の非公式ファン Companion",
+                   "privacy":  "プライバシー",
+                   "terms":  "利用規約",
+                   "contact":  "お問い合わせ",
+                   "officialSite":  "公式サイト"
+               },
+    "actions":  {
+                    "back":  "戻る",
+                    "next":  "次へ",
+                    "cancel":  "キャンセル",
+                    "confirm":  "確認",
+                    "save":  "保存",
+                    "loading":  "読み込み中…",
+                    "dismiss":  "閉じる",
+                    "browseEvents":  "イベントを見る"
+                },
+    "breadcrumb":  {
+                       "aria":  "パンくず"
+                   },
+    "meta":  {
+                 "defaultTitle":  "Cent Companion — Centurion Commander",
+                 "defaultDescription":  "Centurion Commander の大会・リーダーボード・メタゲーム向け非公式 Companion。"
+             },
+    "securityCheck":  {
+                          "label":  "セキュリティチェックを完了してください",
+                          "aria":  "セキュリティチェック"
+                      },
+    "errors":  {
+                   "generic":  "リクエストに失敗しました",
+                   "failedToLoad":  "読み込みに失敗しました"
+               },
+    "privacy":  {
+                    "banner":  {
+                                   "aria":  "プライバシーのお知らせ",
+                                   "body":  "ログイン用の必須ローカルストレージと、近くのイベント向けの任意の位置情報（許可時）を使用します。GDPR 上の権利については\u003cprivacyLink\u003eプライバシーポリシー\u003c/privacyLink\u003eをご覧ください。",
+                                   "accept":  "了解"
+                               },
+                    "consent":  "\u003ctermsLink\u003e利用規約\u003c/termsLink\u003eと\u003cprivacyLink\u003eプライバシーポリシー\u003c/privacyLink\u003eに同意します。"
+                },
+    "location":  {
+                     "placeholder":  "大会会場を検索",
+                     "placeholderVenue":  "店舗・会場・住所を検索",
+                     "searching":  "検索中…",
+                     "city":  "都市: {{city}}",
+                     "searchingNear":  "付近を検索中（{{country}}）",
+                     "unknownPlace":  "不明な場所",
+                     "noMatches":  "まだ一致なし — 店舗名＋都市を試してください（例：Mr Magic Savona）。"
+                 },
+    "eventType":  {
+                      "casual":  "カジュアル",
+                      "localLeague":  "ローカルリーグ",
+                      "lv1":  "LV1",
+                      "lv2":  "LV2"
+                  },
+    "eventStatus":  {
+                        "live":  "ライブ",
+                        "completed":  "終了",
+                        "cancelled":  "中止",
+                        "upcoming":  "開催予定"
+                    },
+    "rules":  {
+                  "title":  "ルール",
+                  "lastSynced":  "最終同期 {{date}}",
+                  "footer":  "内容は総合ルールから毎日同期されます。管理者は管理パネルから手動同期できます。",
+                  "linkLabel":  "総合ルール"
+              },
+    "banlist":  {
+                    "title":  "禁止リスト",
+                    "footer":  "内容は禁止リストから毎日同期されます。管理者は管理パネルから手動同期できます。",
+                    "linkLabel":  "禁止リスト"
+                },
+    "leaderboard":  {
+                        "fallbackTitle":  "イタリア順位表 2026",
+                        "yourRank":  "あなたの順位: #{{rank}} — {{points}} PTS",
+                        "officialSheet":  "公式シート",
+                        "comingSoon":  "近日公開",
+                        "pts":  "{{n}} PTS",
+                        "col":  {
+                                    "rank":  "#",
+                                    "player":  "プレイヤー",
+                                    "total":  "合計",
+                                    "achievements":  "実績"
+                                },
+                        "empty":  "順位データがありません。",
+                        "synced":  "同期 {{date}} · Google Sheets のデータ"
+                    },
+    "metagame":  {
+                     "title":  "メタゲーム概況",
+                     "empty":  "大会結果が記録されるとメタゲームデータが表示されます。",
+                     "tier":  "TIER {{tier}}",
+                     "winRate":  "{{n}}% WR"
+                 },
+    "home":  {
+                 "eyebrow":  "コミュニティフォーマット",
+                 "headline":  {
+                                  "line1":  "Centurion Commander",
+                                  "line2":  "Companion"
+                              },
+                 "cta":  {
+                             "events":  "今後のイベント",
+                             "leaderboard":  "順位表"
+                         },
+                 "hud":  {
+                             "title":  "PLAYER.HUD",
+                             "rankPts":  "国際 RANK PTS",
+                             "eventsPlayed":  "参加イベント",
+                             "record":  "W {{w}} / L {{l}}",
+                             "guest":  "ログインして国際・国内ランクの確認、イベント登録、デッキリスト提出を。",
+                             "profile":  "プロフィール"
+                         },
+                 "phone":  {
+                               "you":  "YOU",
+                               "pts":  "pts",
+                               "events":  "イベント",
+                               "guest":  "ログインしてランク追跡、登録、デッキリスト提出を。",
+                               "openProfile":  "プロフィールを開く"
+                           },
+                 "section":  {
+                                 "events":  "イベント",
+                                 "news":  "ニュース"
+                             },
+                 "upcoming":  {
+                                  "desktop":  "今後の大会",
+                                  "phone":  "今後"
+                              },
+                 "viewAll":  "すべて見る",
+                 "noEvents":  "まだ予定されたイベントはありません。コーディネーターは主催パネルから作成できます。",
+                 "noEventsShort":  "まだ予定されたイベントはありません。",
+                 "details":  "詳細",
+                 "open":  "開く",
+                 "rail":  {
+                              "aria":  "今後のイベント"
+                          },
+                 "news":  {
+                              "desktop":  "最新情報",
+                              "phone":  "ニュース",
+                              "empty":  "管理者が公開するとニュースがここに表示されます。",
+                              "emptyShort":  "まだニュースはありません。",
+                              "staff":  "スタッフ"
+                          }
+             },
+    "organizerProfile":  {
+                             "notFound":  "主催者が見つかりません",
+                             "notPublic":  "このプロフィールは公開されていません。",
+                             "localLeague":  "ローカルリーグ: {{city}}",
+                             "events":  "イベント",
+                             "noEvents":  "公開イベントはまだありません。"
+                         },
+    "calendar":  {
+                     "formatPrefix":  "フォーマット: {{format}}",
+                     "defaultDescription":  "Cent Companion 経由の Centurion Commander イベント"
+                 },
+    "locale":  {
+                   "label":  "言語",
+                   "en":  "English",
+                   "it":  "Italiano",
+                   "es":  "Español",
+                   "fr":  "Français",
+                   "de":  "Deutsch",
+                   "pt":  "Português",
+                   "cs":  "Čeština",
+                   "ja":  "日本語",
+                   "zh":  "中文"
+               }
+}

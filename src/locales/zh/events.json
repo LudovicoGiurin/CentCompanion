@@ -1,0 +1,526 @@
+﻿{
+  "list": {
+    "title": "赛事",
+    "calendarTitle": "赛事日历",
+    "haveJoinCode": "有加入码？",
+    "filter": "筛选",
+    "sort": "排序",
+    "filterAria": "筛选与排序",
+    "filterAriaShort": "筛选赛事",
+    "filterAriaPanel": "赛事筛选",
+    "sortAria": "排序赛事",
+    "locationDenied": "位置被拒绝：请选择其他筛选或允许位置访问。",
+    "showingNearest": "显示最近的本地联赛：{{city}}。",
+    "findingLeague": "正在根据你的位置查找最近的本地联赛...",
+    "findingLeagueShort": "正在查找最近的本地联赛...",
+    "nearMeDenied": "「附近」需要位置权限。请在浏览器设置中启用。",
+    "findingNear": "正在查找你附近的赛事...",
+    "withinKm": "距你 {{km}} 公里内。",
+    "count_one": "{{n}} 场赛事",
+    "count_other": "{{n}} 场赛事",
+    "empty": "当前没有符合此筛选的赛事。",
+    "waitingLocation": "正在等待你的位置...",
+    "registered": "已报名 {{n}}",
+    "registeredOf": "已报名 {{n}} / {{max}}",
+    "prev": "上页",
+    "next": "下页",
+    "weekdays": "日,一,二,三,四,五,六",
+    "dayEvents_one": "{{date}} - {{n}} 场",
+    "dayEvents_other": "{{date}} - {{n}} 场",
+    "dayLocked": "（锁定）",
+    "noEventsDay": "当天无赛事。",
+    "detailsSignup": "详情 / 报名",
+    "comingUp": "即将开始",
+    "sidebarAria": "即将开始的赛事",
+    "noUpcoming": "当前没有即将开始的赛事。"
+  },
+  "filter": {
+    "all": "全部",
+    "allShort": "全部",
+    "competitive": "仅 LV1 和 LV2",
+    "competitiveShort": "LV1/LV2",
+    "league": "我的本地联赛",
+    "leagueShort": "联赛",
+    "casual": "休闲",
+    "nearMe": "附近"
+  },
+  "sort": {
+    "soonest": "最早",
+    "latest": "最晚",
+    "type": "类型（LV2 优先）",
+    "name": "名称 A–Z",
+    "nearest": "最近"
+  },
+  "join": {
+    "metaTitle": "加入赛事 — Cent Companion",
+    "metaDesc": "输入赛事代码，直接进入锦标赛。",
+    "eyebrow": "在现场",
+    "title": "加入赛事",
+    "codeLabel": "赛事代码",
+    "codePlaceholder": "ABC123",
+    "submit": "加入赛事",
+    "lookingUp": "查询中…",
+    "browse": "浏览即将开始的赛事",
+    "footer": "浏览即将开始的赛事，或向主办方索取代码。",
+    "invalidCode": "请输入主办方提供的 6 位赛事代码。",
+    "notFound": "未找到赛事"
+  },
+  "detail": {
+    "tabs": {
+      "overview": "概览",
+      "info": "信息",
+      "registration": "报名",
+      "yourSpot": "你的名额",
+      "signUp": "报名",
+      "register": "注册",
+      "tournament": "锦标赛",
+      "live": "进行中",
+      "manage": "管理",
+      "aria": "赛事分区"
+    },
+    "loadFailed": "加载赛事失败",
+    "notFound": {
+      "title": "未找到赛事",
+      "body": "此赛事可能已删除，或链接不正确。",
+      "hint": "浏览所有即将开始的赛事，或在赛事页按店名搜索。"
+    }
+  },
+  "hero": {
+    "pendingApproval": "待审批",
+    "players_one": "{{n}} 名选手",
+    "players_other": "{{n}} 名选手",
+    "playersOf": "{{n}} / {{max}} 名选手",
+    "directions": "路线",
+    "googleCalendar": "Google Calendar",
+    "downloadIcs": "下载 .ics",
+    "register": "报名",
+    "yourRegistration": "你的报名",
+    "livePairings": "实时配对",
+    "results": "结果",
+    "manage": "管理",
+    "share": "分享",
+    "stat": {
+      "players": "选手",
+      "confirmed": "已确认",
+      "format": "赛制"
+    },
+    "capacity": "容量"
+  },
+  "overview": {
+    "youreRegistered": "你已报名",
+    "youreWaitlisted": "你在候补名单",
+    "guestClaim": "访客预约 — 登录以获得优先权",
+    "noDeck": "尚未提交牌组",
+    "editDecklist": "编辑牌表",
+    "viewReservation": "查看预约",
+    "leave": "退出赛事",
+    "companion": {
+      "title": "在 Magic Companion 中加入",
+      "body": "此赛事使用 Wizards Companion / EventLink。在 Magic Companion 应用中输入此代码：",
+      "tease": "此赛事使用 Wizards Companion / EventLink。在 Cent Companion 报名后可查看 Magic Companion 应用的赛事代码。",
+      "register": "报名以查看代码"
+    },
+    "about": "关于此赛事",
+    "noDescription": "主办方尚未添加描述。",
+    "details": "赛事详情",
+    "moreDetails": "更多详情",
+    "tile": {
+      "date": "日期",
+      "store": "店铺",
+      "location": "地点",
+      "organizer": "主办方",
+      "format": "赛制",
+      "closes": "报名截止",
+      "guest": "访客报名",
+      "allowed": "允许",
+      "guestHint": "满员时账户持有者优先"
+    },
+    "reg": {
+      "title": "报名",
+      "confirmed": "已确认",
+      "members": "账户用户",
+      "guests": "访客",
+      "waitlisted": "候补",
+      "signUp": "报名"
+    },
+    "players": "选手（{{n}}）",
+    "guestChip": "访客",
+    "viewDeck": "查看牌组",
+    "more": "+ 另有 {{n}} 人",
+    "closed": "此赛事报名已关闭。"
+  },
+  "signup": {
+    "eyebrow": "你正在报名",
+    "spots_one": "{{n}} 个名额",
+    "spots_other": "{{n}} 个名额",
+    "spotsOf": "{{n}} / {{max}} 个名额",
+    "claimFound": "我们找到了 {{name}} 在此赛事的访客预约。",
+    "claim": "认领预约",
+    "registerAs": "以 {{name}} 报名",
+    "registerNow": "立即报名",
+    "registering": "报名中…",
+    "holdRegister": "长按报名",
+    "holdContinue": "长按继续",
+    "holdDecklistNext": "长按蓄力攻击 — 接下来需添加必填牌表。",
+    "holdOptional": "长按蓄力攻击并加入。报名后牌表可选。",
+    "continueGuest": "以访客继续",
+    "createAccount": "创建账户",
+    "holdCreate": "长按创建账户",
+    "holdHint": "长按按钮以蓄力攻击。",
+    "priorityHint": "满员时已登录选手优先。",
+    "accountRequired": "此赛事需要账户。",
+    "or": "或",
+    "choice": {
+      "priority": "赛事满员时，已登录选手优先。"
+    }
+  },
+  "sticky": {
+    "aria": "快捷操作",
+    "pairings": "配对"
+  },
+  "reg": {
+    "decklist": {
+      "title": "添加你的牌表",
+      "lede": "此赛事要求提交牌表才能以 {{name}} 完成报名。",
+      "required": "此赛事报名需要牌表。"
+    },
+    "moxfield": "Moxfield 牌组 URL",
+    "moxfieldHint": "粘贴你的 Moxfield 分享链接（moxfield.com/decks/…）",
+    "moxfieldPlaceholder": "https://www.moxfield.com/decks/...",
+    "deckName": "牌组名称",
+    "paste": "或粘贴牌表",
+    "pasteShort": "粘贴牌表",
+    "pasteHint": "Commanders / Deck 分区，或数量 + 卡名行",
+    "complete": "完成报名",
+    "guest": {
+      "title": "访客预约",
+      "ledeRequired": "姓名与牌表必填。满员时已登录选手优先。",
+      "ledeOptional": "仅姓名 — 牌表可选。满员时已登录选手优先。",
+      "optionalDeck": "添加牌表（可选）",
+      "reserve": "预约名额",
+      "saving": "保存中…"
+    },
+    "details": "赛事详情",
+    "hideDetails": "隐藏详情",
+    "viewMoxfield": "在 Moxfield 查看牌组",
+    "logInToClaim": "登录以认领",
+    "updateDeckOptional": "添加或更新牌表（可选）",
+    "saveDecklist": "保存牌表",
+    "deckClosed": "你已报名。牌表更改已关闭 — 赛事已开始。",
+    "oneTap": "一键操作 — 牌表可选。",
+    "addDeckFirst": "先添加牌表（可选）",
+    "withDeck": "带牌组报名",
+    "phoneHint": "使用登录或以访客继续报名此赛事。",
+    "backToSignup": "返回报名",
+    "signUpTitle": "报名"
+  },
+  "waitlist": {
+    "position": "你在候补名单第 #{{pos}} 位。",
+    "emailNote": "你在候补名单。有名额空出时我们会发邮件（需验证账户邮箱）。"
+  },
+  "errors": {
+    "deckRequired": "需要牌表 — 添加 Moxfield 链接或粘贴列表",
+    "moxfieldInvalid": "必须是有效的 Moxfield 牌组 URL（moxfield.com）"
+  },
+  "toasts": {
+    "left": "你已退出赛事。",
+    "leaveFailed": "无法退出赛事",
+    "deckUpdated": "牌表已更新！",
+    "registered": "报名成功！",
+    "guestSaved": "访客预约已保存！",
+    "claimed": "预约已认领！",
+    "claimFailed": "无法认领预约",
+    "updated": "赛事已更新。",
+    "updateFailed": "更新赛事失败",
+    "linkCopied": "赛事嵌入链接已复制！",
+    "codeCopied": "赛事代码已复制！",
+    "resultRecorded": "结果已记录。",
+    "resultFailed": "更新结果失败",
+    "playerDropped": "选手已剔除。",
+    "pairingsSaved": "配对已保存。",
+    "pairingsFailed": "保存配对失败",
+    "timerFailed": "更新计时器失败",
+    "cancelled": "赛事已取消。",
+    "started": "锦标赛已开始 — 第 1 轮配对已就绪。",
+    "swissTopCut": "Swiss 完成 — top cut 已开始！",
+    "completedBang": "锦标赛已完成！",
+    "completed": "锦标赛已完成。",
+    "actionFailed": "操作失败",
+    "moxfieldUpdated": "Moxfield 链接已更新",
+    "linkedPlayers_one": "已关联 {{n}} 名选手",
+    "linkedPlayers_other": "已关联 {{n}} 名选手",
+    "regenerated": "配对已重新生成。",
+    "regenFailed": "重新生成失败",
+    "staffAdded": "已添加工作人员",
+    "exportFailed": "导出失败",
+    "registrationFailed": "报名失败",
+    "failed": "失败"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "取消赛事？",
+      "body": "此操作不可撤销。已报名选手将不再看到此赛事。",
+      "label": "取消赛事"
+    },
+    "start": {
+      "title": "开始锦标赛？",
+      "body": "报名将关闭并生成第 1 轮配对。",
+      "label": "开始锦标赛"
+    },
+    "endRound": {
+      "title": "结束第 {{n}} 轮？",
+      "body": "将自动生成第 {{next}} 轮配对。",
+      "label": "结束本轮"
+    },
+    "complete": {
+      "title": "完成锦标赛？",
+      "body": "最终积分榜将锁定。赛事将标记为已结束。",
+      "label": "完成"
+    },
+    "leave": {
+      "title": "退出此赛事？",
+      "label": "退出赛事",
+      "body": "你的报名将被取消。",
+      "bodyWaitlist": "你的报名将被取消。若赛事已满，下一位候补选手可能占用你的名额。"
+    }
+  },
+  "live": {
+    "banner": "正在进行",
+    "table": "第 {{n}} 桌",
+    "vs": "vs {{name}}",
+    "viewPairings": "查看配对",
+    "yourTableRound": "你的桌次 · 第 {{n}} 轮",
+    "roundN": "第 {{n}} 轮"
+  },
+  "manage": {
+    "joinCode": {
+      "title": "Cent Companion 代码",
+      "body": "选手可打开 centcomp.net/join，在现场输入此代码。",
+      "copy": "复制代码",
+      "aria": "赛事加入码"
+    },
+    "start": {
+      "title": "开始锦标赛",
+      "ready_one": "{{n}} 名账户持有者可配对",
+      "ready_other": "{{n}} 名账户持有者可配对",
+      "guests_one": "· {{n}} 个访客预约（须认领账户才能配对）",
+      "guests_other": "· {{n}} 个访客预约（须认领账户才能配对）",
+      "needOne": "至少需要 1 名已报名的账户持有者。"
+    },
+    "edit": {
+      "title": "编辑赛事",
+      "eventTitle": "标题",
+      "store": "店铺名称",
+      "location": "锦标赛地点",
+      "starts": "开始日期与时间",
+      "description": "描述",
+      "allowGuest": "允许访客预约（无需账户）",
+      "opsMode": "运营模式",
+      "native": "原生配对",
+      "companion": "Companion 关联",
+      "companionCode": "WotC Companion 赛事代码",
+      "structure": "结构",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "单败淘汰",
+      "swissRounds": "Swiss 轮数（留空 = 自动）",
+      "topCut": "Top cut",
+      "lateEnroll": "允许 Swiss 期间迟到报名",
+      "requireDeck": "要求牌表",
+      "save": "保存更改"
+    },
+    "staff": {
+      "title": "工作人员",
+      "login": "用户名或邮箱",
+      "role": "角色",
+      "coOrganizer": "联合主办",
+      "judge": "裁判",
+      "scorekeeper": "记分员",
+      "add": "添加工作人员",
+      "remove": "移除"
+    },
+    "exportDecklists": "导出 CSV",
+    "danger": "危险区域"
+  },
+  "companion": {
+    "pull": {
+      "title": "拉取 MTG Companion 结果",
+      "body": "使用能看到此 Companion 赛事的 Wizards 账户登录。凭据仅用于一次性获取积分榜，绝不存储。",
+      "code": "Companion 赛事代码",
+      "codePh": "例如 EZJE84",
+      "email": "Wizards 邮箱",
+      "password": "Wizards 密码",
+      "markDone": "导入后将赛事标为已完成",
+      "submit": "拉取结果",
+      "repull": "重新拉取结果",
+      "pulling": "拉取中…",
+      "failed": "拉取失败",
+      "summary": "已拉取 {{n}} 名选手 · {{m}} 已匹配 · {{u}} 未匹配"
+    },
+    "results": {
+      "title": "Companion 结果",
+      "emptyOrg": "尚未拉取积分榜。Companion 锦标赛结束后，使用管理 → 拉取 MTG Companion 结果。",
+      "emptyPlayer": "尚未拉取积分榜。主办方将在锦标赛结束后公布。",
+      "final": "最终积分榜",
+      "imported": "从 MTG Companion 导入",
+      "export": "导出 CSV",
+      "remap": "重新映射选手",
+      "unmatched": "未匹配的报名",
+      "edit": "编辑",
+      "remapTitle": "重新映射 Companion 选手",
+      "remapBody": "将每个 Companion 排名关联到 Cent Companion 报名。链接按 Companion 队伍 id 保存，以便后续拉取保留映射。",
+      "unmatchedOpt": "— 未匹配 —",
+      "saveLinks": "保存关联",
+      "dupLink": "每个报名只能关联一次。",
+      "saveFailed": "保存关联失败",
+      "saveGenericFailed": "保存失败",
+      "guestSuffix": "访客",
+      "linkedSuffix": "已关联",
+      "team": "队伍 {{id}}",
+      "moxfieldFallback": "Moxfield"
+    }
+  },
+  "organizer": {
+    "denied": "需要协调员权限。",
+    "apply": "在设置中申请",
+    "chip": "主办",
+    "hub": {
+      "title": "赛事主办中心"
+    },
+    "stats": {
+      "total": "赛事总数",
+      "upcoming": "即将开始",
+      "live": "正在进行"
+    },
+    "statsShort": {
+      "total": "总计",
+      "upcoming": "即将",
+      "live": "进行中"
+    },
+    "statsAria": "赛事计数",
+    "totalChip": "共 {{n}}",
+    "tabs": {
+      "events": "我的赛事",
+      "eventsShort": "赛事",
+      "create": "创建赛事",
+      "createShort": "创建",
+      "help": "帮助",
+      "aria": "主办分区"
+    },
+    "empty": "创建你的第一场赛事以开始。",
+    "openEvent": "打开赛事",
+    "liveTournament": "进行中的锦标赛",
+    "pending": "待审",
+    "pendingBadge": "待审",
+    "loadFailed": "加载你的赛事失败",
+    "wizard": {
+      "builder": "赛事构建器",
+      "step": "步骤 {{n}} / 4",
+      "steps": {
+        "type": "类型",
+        "schedule": "日程",
+        "details": "详情",
+        "done": "完成"
+      }
+    },
+    "type": {
+      "question": "什么类型的赛事？",
+      "casual": {
+        "label": "休闲",
+        "desc": "友好的店内赛事。立即发布。"
+      },
+      "league": {
+        "label": "本地联赛",
+        "desc": "每周或多日联赛。城市由场馆设定。"
+      },
+      "lv1": {
+        "label": "Lv 1",
+        "desc": "竞技地区赛事。需管理员批准。"
+      },
+      "lv2": {
+        "label": "Lv 2",
+        "desc": "大型竞技赛事。需管理员批准。"
+      }
+    },
+    "form": {
+      "title": "赛事标题",
+      "store": "店铺名称",
+      "location": "锦标赛地点",
+      "cityHint": "本地联赛城市将从此地点自动设定。",
+      "scheduleMode": "排期模式",
+      "single": "单日",
+      "weekly": "每周滚动",
+      "manual": "选择多个日期",
+      "addDates": "添加日期",
+      "add": "添加",
+      "weeklyPlanner": "每周规划",
+      "startingFrom": "起始于",
+      "weekday": "星期",
+      "weekdays": {
+        "0": "星期日",
+        "1": "星期一",
+        "2": "星期二",
+        "3": "星期三",
+        "4": "星期四",
+        "5": "星期五",
+        "6": "星期六"
+      },
+      "time": "时间",
+      "occurrences": "次数",
+      "preview": "预览：",
+      "applyDates": "应用日期",
+      "planned": "计划日期",
+      "description": "描述",
+      "descPh": "奖品支持、报名费、特殊规则…",
+      "opsMode": "运营模式",
+      "opsNative": "原生（Cent Companion 配对）",
+      "opsCompanion": "Companion 关联（WotC Companion / EventLink）",
+      "companionCode": "WotC Companion 赛事代码",
+      "structure": "锦标赛结构",
+      "swiss": "Swiss",
+      "swissTop": "Swiss + Top Cut",
+      "singleElim": "单败淘汰",
+      "swissRounds": "Swiss 轮数（留空 = 自动）",
+      "swissAuto": "自动",
+      "topCutSize": "Top cut 规模",
+      "top8": "Top 8",
+      "top4": "Top 4",
+      "top2": "Top 2",
+      "lateEnroll": "允许 Swiss 期间迟到报名",
+      "requireDeck": "要求牌表（Moxfield 或粘贴）",
+      "starts": "开始日期与时间",
+      "review": "核对",
+      "noLocation": "无地点",
+      "datesCount_one": "{{n}} 个日期",
+      "datesCount_other": "{{n}} 个日期",
+      "creating": "创建中…",
+      "create": "创建赛事"
+    },
+    "success": {
+      "title": "赛事已创建！",
+      "pending": "你的赛事待管理员审批。批准后将出现在「我的赛事」。",
+      "live": "你的赛事已上线。与选手分享链接，或准备好后开始锦标赛。",
+      "view": "查看赛事",
+      "another": "再创建一场"
+    },
+    "help": {
+      "1": "休闲赛事立即发布。选手可有无账户报名。",
+      "2": "本地联赛支持每周或多日安排。选择场馆以便自动检测城市。",
+      "3": "Lv1 / Lv2 需管理员批准后才会出现在公开日历。",
+      "4": "比赛日打开赛事，使用「开始锦标赛」生成 Swiss 配对。",
+      "5": "录入对局结果，全部桌次结束后「结束本轮」。未出结果会阻止下一轮。",
+      "title": "主办方指南",
+      "1Strong": "休闲赛事",
+      "2Strong": "本地联赛",
+      "3Strong": "Lv1 / Lv2",
+      "4Strong": "开始锦标赛",
+      "5Strong": "结束本轮"
+    },
+    "toasts": {
+      "cityRequired": "请选择锦标赛地点以便确定城市。",
+      "submitted": "赛事已提交管理员审批",
+      "created": "赛事已创建！",
+      "createFailed": "创建赛事失败"
+    }
+  }
+}

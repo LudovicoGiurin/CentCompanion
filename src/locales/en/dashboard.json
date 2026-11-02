@@ -1,0 +1,156 @@
+﻿{
+    "guest":  {
+                  "title":  "Profile",
+                  "create":  "Create account"
+              },
+    "phone":  {
+                  "eyebrow":  "Your hub"
+              },
+    "settings":  {
+                     "link":  "Settings",
+                     "title":  "Account settings",
+                     "email":  "Email:",
+                     "username":  "Username:",
+                     "role":  "Role:",
+                     "cityLabel":  "Default local league city",
+                     "cityNotSet":  "Not set",
+                     "cityPh":  "e.g. Milan",
+                     "profile":  "Profile",
+                     "saveProfile":  "Save profile",
+                     "profileUpdated":  "Profile updated.",
+                     "profileFailed":  "Failed to update preferences",
+                     "changePassword":  "Change password",
+                     "currentPassword":  "Current password",
+                     "newPassword":  "New password",
+                     "confirmNew":  "Confirm new password",
+                     "updatePassword":  "Update password",
+                     "saving":  "Saving…",
+                     "passwordMismatch":  "New passwords do not match",
+                     "passwordFailed":  "Failed to update password",
+                     "resetViaEmail":  "Forgot your password? Reset via email",
+                     "help":  "Help",
+                     "gibboHelp":  "Gibbo is your profile guide — a little jester who explains standings, events, and settings.",
+                     "meetGibbo":  "Meet Gibbo again",
+                     "privacy":  "Privacy \u0026 data",
+                     "privacyBody":  "Under GDPR you can access, export, or delete your personal data. See our Privacy Policy or contact {{email}}.",
+                     "download":  "Download my data",
+                     "preparing":  "Preparing…",
+                     "exportDone":  "Your data export has downloaded.",
+                     "exportFailed":  "Export failed",
+                     "delete":  {
+                                    "title":  "Delete my account",
+                                    "body":  "Permanently remove your login, email, and profile. Upcoming event registrations are cancelled; past tournament records may show as \"Former Player\". This cannot be undone.",
+                                    "confirmTitle":  "Delete your account?",
+                                    "confirmLabel":  "Delete account",
+                                    "confirmBody":  "This removes your email, profile, and login access. Tournament history may show a generic \"Former Player\" label. This cannot be undone.",
+                                    "password":  "Confirm with your password",
+                                    "failed":  "Could not delete account"
+                                },
+                     "coordinator":  {
+                                         "title":  "Apply for coordinator",
+                                         "lede":  "Coordinators can create events for their store after admin approval.",
+                                         "why":  "Why do you want to become a coordinator?",
+                                         "contact":  "Contact info (store, phone, etc.)",
+                                         "submit":  "Submit application",
+                                         "success":  "Application submitted! An admin will review your request.",
+                                         "failed":  "Failed to submit"
+                                     }
+                 },
+    "liveNow":  "Live now",
+    "pairings":  "Pairings",
+    "nudge":  {
+                  "city":  "Set your league city to see nearby events",
+                  "cityDesktop":  "Set your local league city in settings to see nearby league events on the calendar."
+              },
+    "standing":  {
+                     "title":  "Standing",
+                     "national":  "National standing",
+                     "points":  "points",
+                     "pointsUpper":  "POINTS",
+                     "events":  "events",
+                     "fullLb":  "Full leaderboard"
+                 },
+    "myEvents":  "My events",
+    "myEventsDesktop":  "My registered events",
+    "browse":  "Browse",
+    "noRegs":  "No registrations yet. Find an event",
+    "noRegsDesktop":  "No upcoming registrations. Browse events",
+    "running":  "Running",
+    "runningDesktop":  "Events I\u0027m running",
+    "hub":  "Hub",
+    "hubDesktop":  "Organizer hub",
+    "createOne":  "Create one",
+    "noEventsYet":  "No events yet.",
+    "upcoming":  "Upcoming",
+    "upcomingDesktop":  "Upcoming events",
+    "all":  "All",
+    "allDesktop":  "All events",
+    "welcome":  "Welcome, {{name}}",
+    "liveTournament":  "Live tournament",
+    "manage":  "Manage",
+    "profile":  {
+                    "changePhoto":  "Change profile picture",
+                    "removePhoto":  "Restore default artwork",
+                    "avatarUpdated":  "Profile picture updated.",
+                    "avatarRemoved":  "Default artwork restored.",
+                    "avatarFailed":  "Could not update the picture",
+                    "frameFailed":  "Could not change the frame",
+                    "medals":  "Medals",
+                    "medalHint":  "Earn achievements to unlock medals — tap one to equip its frame.",
+                    "locked":  "Locked",
+                    "achievements":  {
+                                         "welcome":  {
+                                                         "name":  "Welcome",
+                                                         "desc":  "Join Cent Companion"
+                                                     },
+                                         "contender":  {
+                                                           "name":  "Contender",
+                                                           "desc":  "Register for your first event"
+                                                       },
+                                         "first_blood":  {
+                                                             "name":  "First Blood",
+                                                             "desc":  "Win your first match"
+                                                         },
+                                         "veteran":  {
+                                                         "name":  "Veteran",
+                                                         "desc":  "Register for 5 events"
+                                                     },
+                                         "slayer":  {
+                                                        "name":  "Slayer",
+                                                        "desc":  "Win 10 matches"
+                                                    }
+                                     },
+                    "memberSince":  "On Cent Companion since {{date}}",
+                    "organizerBadge":  "Organizer",
+                    "stats":  {
+                                  "points":  "Points",
+                                  "wins":  "Wins",
+                                  "losses":  "Losses",
+                                  "draws":  "Draws",
+                                  "events":  "Events"
+                              },
+                    "nextEvents":  "Your upcoming events",
+                    "noEvents":  "No events on the calendar yet.",
+                    "discover":  "Discover events",
+                    "organizing_one":  "You\u0027re organizing {{count}} event",
+                    "organizing_other":  "You\u0027re organizing {{count}} events",
+                    "changeCover":  "Change cover",
+                    "removeCover":  "Restore default cover",
+                    "coverUpdated":  "Cover updated.",
+                    "coverRemoved":  "Default cover restored.",
+                    "coverFailed":  "Could not update the cover",
+                    "crop":  {
+                                 "avatarTitle":  "Adjust profile picture",
+                                 "coverTitle":  "Adjust cover photo",
+                                 "zoom":  "Zoom",
+                                 "apply":  "Apply",
+                                 "hintAvatar":  "Drag to reposition, use the slider to zoom. The frame shows how your avatar will look.",
+                                 "hintCover":  "Drag to reposition, use the slider to zoom the cover banner."
+                             },
+                    "achievementsTitle":  "Achievements",
+    "publicNotFound": "Profile not found.",
+                    "achievementsEquipHint":  "Tap an unlocked medal to equip its frame on your avatar.",
+    "achievementsViewHint": "Browse unlocked medals on this profile.",
+                    "frameEquipped":  "Equipped"
+                }
+}
